@@ -1,0 +1,49 @@
+/* TOP SECTION */
+
+.navbar-brand {
+    padding-right: 70%;
+}
+
+.nav-top {
+    font-family: "monospace-light";
+    color: white;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#background-slideshow {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 30s linear infinite;
+    background-image: url("assets/Amazon-head.jpg");
+}
+
+@keyframes slideBg {
+    0% {
+        background-image: url("assets/Amazon-head.jpg");
+    }
+    25% {
+        background-image: url("assets/Microsoft-head.jpg");
+    }
+    50% {
+        background-image: url("assets/Google-head.jpg");
+    }
+    75% {
+        background-image: url("assets/Facebook-head.jpg");
+    }
+    100% {
+        background-image: url("assets/apple-head.jpg");
+    }
+}
+
+.search {
+    position: absolute;
+    z-index: 1;
+    margin: 20% 40%;
+    width: 30%;
+}
