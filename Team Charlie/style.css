@@ -15,7 +15,7 @@
 #background-slideshow {
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     backface-visibility: hidden;
@@ -46,4 +46,10 @@
     z-index: 1;
     margin: 20% 40%;
     width: 30%;
+}
+
+@media(max-width:560px) {
+    .navbar-brand {
+        padding: 0%;
+    }
 }
