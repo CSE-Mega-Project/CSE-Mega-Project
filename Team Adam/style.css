@@ -283,7 +283,7 @@ header .logo
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('cardback.jpg');
+    background-image: url('./public/cardback.jpg');
   }
   .card .details .content {
     display: flex;
