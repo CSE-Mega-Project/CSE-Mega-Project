@@ -37,7 +37,7 @@ let currentsec = currentdate.getSeconds();
 let changedsec= currentsec;
 let random =1;
 let value=changedsec;
-setInterval(()=>value=value+1,200)
+setInterval(()=>value=value+600)
 setInterval(()=>{
     changedsec++;
     if(Math.abs(changedsec-currentsec)%8==0)
@@ -88,7 +88,7 @@ let currentsecs = currentdates.getSeconds();
 let changedsecs= currentsecs;
 let randoms =1;
 let values=changedsecs;
-setInterval(()=>values=values+1,200)
+setInterval(()=>values=values+600)
 setInterval(()=>{
     changedsecs++;
     if(Math.abs(changedsecs-currentsecs)%8==0)
