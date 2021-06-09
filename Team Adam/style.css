@@ -99,7 +99,7 @@ header .logo
 }
 .showcase.active
 {
-  right: 300px;
+  right: 250px;
 }
 
 .showcase video
@@ -240,6 +240,7 @@ header .logo
     transition: 1s;
     margin: auto;
     margin-bottom: 10px;
+    border: 0;
   }
   .card:hover {
     transform: translateX(50%);
