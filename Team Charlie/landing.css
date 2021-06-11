@@ -1,0 +1,228 @@
+/* Navigation Bar */
+
+.navbar-brand {
+    padding-right: 70%;
+}
+
+.nav-top {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Search-Box */
+
+.search {
+    margin: 0;
+    position: absolute;
+    top: 49%;
+    z-index: 1;
+    left: 30%;
+    width: 40%;
+}
+
+
+/* Carousel */
+
+.carousel-item {
+    padding-top: 0;
+    height: 15%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: none;
+}
+
+
+/* Motivational Quote */
+
+* {
+    box-sizing: border-box;
+}
+
+#motivational-quote {
+    padding: 10% 15%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote-box {
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+@supports(background-clip:text) {
+    .text {
+        padding-top: 100px;
+        transition: 0.5s;
+        transition-timing-function: ease-in;
+        color: transparent;
+        font-family: adobe-garamond-pro, serif;
+    }
+}
+
+.text {
+    background-image: linear-gradient(to right bottom, #fcecdd, #ff6701);
+    position: relative;
+    margin-top: 10%;
+    font-weight: 700;
+    font-style: italic;
+    font-family: adobe-garamond-pro, serif;
+    font-size: 30px;
+}
+
+.quote {
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.new-quote:hover {
+    opacity: 0.6;
+}
+
+@supports(background-clip: text) {
+    .author {
+        font-size: 20px;
+        transition: 0.5s;
+        transition-timing-function: ease-in;
+        font-family: 'Open Sans Condensed', sans-serif;
+        background-image: linear-gradient(to right bottom, #c0fefc, #29bb89);
+        color: transparent;
+    }
+}
+
+.author {
+    margin-left: 50%;
+    margin-top: 1%;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    background-image: linear-gradient(to right bottom, #c0fefc, #29bb89);
+}
+
+p {
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 21.5%;
+}
+
+.Area {
+    perspective: 150rem;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.mainArea {
+    text-align: center;
+    height: 28vh;
+    width: 70vw;
+    position: absolute;
+    transition: all .8s ease;
+    backface-visibility: hidden;
+    box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+.backA {
+    transform: rotateY(180deg);
+}
+
+.rotateFront {
+    transform: rotateY(-180deg);
+}
+
+.rotateBack {
+    transform: rotate(0deg);
+}
+
+@media (max-width:800px) {
+    .navbar-brand {
+        padding: 0%;
+    }
+    .search {
+        top: 25%;
+    }
+    #motivational-quote {
+        padding: 2% 15%;
+    }
+    .Area {
+        padding-bottom: 45%;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .author {
+        font-size: 14px;
+    }
+}
+
+
+/* Cards */
+
+.card-company {
+    text-align: center;
+}
+
+.baseBlock {
+    margin: 0px 0px 35px 0px;
+    padding: 0 0 15px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 250px;
+    width: 85%;
+    background: #fff;
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.baseBlock:hover {
+    -webkit-transform: translate(0, -8px);
+    -moz-transform: translate(0, -8px);
+    -ms-transform: translate(0, -8px);
+    -o-transform: translate(0, -8px);
+    transform: translate(0, -8px);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Help-Sites */
+
+.Reference-Sites {
+    color: #fff;
+}
+
+#help_sites {
+    padding: 4%;
+    text-align: center;
+}
+
+.help-img {
+    width: 80%;
+    height: 80%;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 5%;
+    text-align: center;
+}
+
+.media-icon {
+    margin: 10px 20px;
+}
