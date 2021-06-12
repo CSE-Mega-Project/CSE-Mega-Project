@@ -1,0 +1,13 @@
+.nav_main{
+    justify-content: space-between;
+}
+
+.nav_list{
+    display: none;
+}
+
+.nav_list_mob{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}

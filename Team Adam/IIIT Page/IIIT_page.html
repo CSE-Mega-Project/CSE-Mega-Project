@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIIT</title>
+    <link rel="stylesheet" href="IIIT.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./media1.css">
+    <link rel="stylesheet" media="screen and (max-width: 520px)" href="./media2.css">
+    <link rel="stylesheet" media="screen and (max-width: 390px)" href="./media3.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav_main">
+            <div class="nav_logo">
+                <div class="nav_logo_img">
+                    <img src="./Images/Logo_Icon.svg" alt="">
+                </div>
+                <div class="nav_logo_name">
+                    <a href="#">ClgMania</a>
+                </div>
+            </div>
+            <div class="nav_list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Colleges</a></li>
+                    <li><a href="#">Ranking</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav_list_mob">
+                <div class="nav_list_mob_logo">
+                    <button id="menu" onclick="show()"><img src="./Images/menu_black_24dp.svg" alt="menu"></button>
+                </div>
+            </div>
+            <div class="nav_list_mob_list" id="mob_list">
+                <div class="cross">
+                    <button id="close" onclick="cross()"><img src="./Images/close_black_24dp.svg" alt="close"></button>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Colleges</a></li>
+                    <li><a href="#">Ranking</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header_explore">
+            <p>IITs with extra I...</p>
+            <button><a href="#college">Explore</a></button>
+        </div>
+        <div class="arrow">
+            <button><a href="#college"><img src="./Images/Scroll_down.svg" alt=""></a></button>
+        </div>
+    </header>
+
+    <div class="colleges" id="college">
+        <div class="college_heading">
+            <h1>Hover your dream IIIT</h1>
+            <div class="search">
+
+                <div class="dropdown"><button onclick="search_open()"> College
+                    <span class="search_img"><img src="./Images/Scroll_down.svg" alt=""></span></button>
+                </div>
+
+                <div class="select_bar" id="search_bar">
+                    <!-- <label for="searching">Search...</label>
+                    <input type="text" id="searching"> -->
+                    <a href="#card-1">IIIT Sonepat</a>
+                    <a href="#card-2">IIIT Lucknow</a>
+                    <a href="#card-3">IIIT Sri City</a>
+                    <a href="#card-4">IIIT Guwahati</a>
+                    <a href="#card-5">IIIT Kota</a>
+                    <a href="#card-6">IIIT Guwalior</a>
+                    <a href="#card-7">IIIT Allahabad</a>
+                    <a href="#card-8">IIIT Kancheepuram</a>
+                    <a href="#card-9">IIIT Pune</a>
+                    <a href="#card-10">IIIT Jabalpur</a>
+                    <a href="#card-11">IIIT Banglore</a>
+                    <a href="#card-12">IIIT Vadodara</a>
+                    <a href="#card-13">IIIT Nagpur</a>
+                    <a href="#card-14">IIIT Kalyani</a>
+                    <a href="#card-15">IIIT Hyderabad</a>
+                    <a href="#card-16">IIIT Dharwad</a>
+                    <a href="#card-17">IIIT Bhagalpur</a>
+                    <a href="#card-18">IIIT Bhopal</a>
+                    <a href="#card-19">IIIT Kottayam</a>
+                    <a href="#card-20">IIIT Ranchi</a>
+                    <a href="#card-21">IIIT Una</a>
+                    <a href="#card-22">IIIT Surat</a>
+                    <a href="#card-23">IIIT Manipur</a>
+                    <a href="#card-24">IIITDM Kurnool </a>
+                    <a href="#card-25">IIIT Tiruchirapalli</a>
+                    <a href="#card-25">IIIT Agartala</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-1">
+            <div class="card" id="card-1">
+                <div class="front">
+                    <img src="./Images/IIIT Sonepat.jpg" alt="IIIT Sonepat">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Sonepat</h4>
+                    <p>Most prestigious and emerging College</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Sonepat</h2>
+                </div>
+            </div>
+            <div class="card" id="card-2">
+                <div class="front">
+                    <img src="./Images/IIIT Lucknow.jpg" alt="IIIT Lucknow">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Lucknow</h4>
+                    <p>Esbd. 2015</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Lucknow</h2>
+                </div>
+            </div>
+            <div class="card" id="card-3">
+                <div class="front">
+                    <img src="./Images/IIIT Sri City.jpg" alt="IIIT Sri City">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Sri City</h4>
+                    <p>Esbd. 2013</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Sri City</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-2">
+            <div class="card" id="card-4">
+                <div class="front">
+                    <img src="./Images/IIIT Guwahati.jpg" alt="IIIT Guwahati">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Guwahati</h4>
+                    <p>Estd. 2013</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Guwahati</h2>
+                </div>
+            </div>
+            <div class="card" id="card-5">
+                <div class="front">
+                    <img src="./Images/IIIT Kota.jpeg" alt="IIIT Kota">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Kota</h4>
+                    <p>Esbd. 2013</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Kota</h2>
+                </div>
+            </div>
+            <div class="card" id="card-6">
+                <div class="front">
+                    <img src="./Images/IIIT Guwalior.jpg" alt="IIIT Gwalior">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Gwalior</h4>
+                    <p>Estd. 1997</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Gwalior</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-3">
+            <div class="card" id="card-7">
+                <div class="front">
+                    <img src="./Images/IIIT Allahbad.jpg" alt="IIIT Allahabad">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Allahabad</h4>
+                    <p>Esbd. 1999</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Allahabad</h2>
+                </div>
+            </div>
+            <div class="card" id="card-8">
+                <div class="front">
+                    <img src="./Images/IIITDM Kancheepuram.jfif" alt="IIITDM Kancheepuram">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIITDM Kancheepuram</h4>
+                    <p>Esbd. 2007</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIITDM Kancheepuram</h2>
+                </div>
+            </div>
+            <div class="card" id="card-9">
+                <div class="front">
+                    <img src="./Images/IIIT Pune.jpg" alt="IIIT Pune">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Pune</h4>
+                    <p>Esbd. 2016</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Pune</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-4">
+            <div class="card" id="card-10">
+                <div class="front">
+                    <img src="./Images/IIITDM Jabalpur.jpg" alt="IIITDM Jabalpur">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIITDM Jabalpur</h4>
+                    <p>Estd. 2005</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIITDM Jabalpur</h2>
+                </div>
+            </div>
+            <div class="card" id="card-11">
+                <div class="front">
+                    <img src="./Images/IIIT Banglore.jpg" alt="IIIT Banglore">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Banglore</h4>
+                    <p>Estd. 1999</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Banglore</h2>
+                </div>
+            </div>
+            <div class="card" id="card-12">
+                <div class="front">
+                    <img src="./Images/IIIT Vadodara.jpg" alt="IIIT Vadodara">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Vadodara</h4>
+                    <p>Esbd. 2013</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Vadodara</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-5">
+            <div class="card" id="card-13">
+                <div class="front">
+                    <img src="./Images//IIIT Nagpur.jpeg" alt="IIIT Nagpur">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Nagpur</h4>
+                    <p>Esbd. 2016</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Nagpur</h2>
+                </div>
+            </div>
+            <div class="card" id="card-14">
+                <div class="front">
+                    <img src="./Images/IIIT Kalyani.jpg" alt="IIIT Kalyani">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Kalyani</h4>
+                    <p>Esbd. 2014</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Kalyani</h2>
+                </div>
+            </div>
+            <div class="card" id="card-15">
+                <div class="front">
+                    <img src="./Images/IIIT Hyderabad.jfif" alt="IIIT Hyderabad">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Hyderabad</h4>
+                    <p>Ebsd. 1998</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Hyderabad</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-6">
+            <div class="card" id="card-16">
+                <div class="front">
+                    <img src="./Images//IIIT Dharwad.jfif" alt="IIIT Dharwad">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Dharwad</h4>
+                    <p>Esbd. 2015</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Dharwad</h2>
+                </div>
+            </div>
+            <div class="card" id="card-17">
+                <div class="front">
+                    <img src="./Images/IIIT BHagalpur.jfif" alt="IIIT Bhagalpur">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Bhagalpur</h4>
+                    <p>Esbd. 2017</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Bhagalpur</h2>
+                </div>
+            </div>
+            <div class="card" id="card-18">
+                <div class="front">
+                    <img src="./Images/IIIT Bhopal.jfif" alt="IIIT Bhopal">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Bhopal</h4>
+                    <p>Esbd. 2017</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Bhopal</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-7">
+            <div class="card" id="card-19">
+                <div class="front">
+                    <img src="./Images/IIIT Kottayam.jpg" alt="IIIT Kottayam">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Kottayam</h4>
+                    <p>Esbd. 2015</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Kottayam</h2>
+                </div>
+            </div>
+            <div class="card" id="card-20">
+                <div class="front">
+                    <img src="./Images/IIIT Ranchi.jpg" alt="IIIT Ranchi">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Ranchi</h4>
+                    <p>Esbd. 2016</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Ranchi</h2>
+                </div>
+            </div>
+            <div class="card" id="card-21">
+                <div class="front">
+                    <img src="./Images/IIIT Una.jpg" alt="IIIT Una">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Una</h4>
+                    <p>Esbd. 2014</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Una</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-8">
+            <div class="card" id="card-22">
+                <div class="front">
+                    <img src="./Images/IIIT Surat.jpg" alt="IIIT Surat">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Surat</h4>
+                    <p>Esbd. 2017</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Surat</h2>
+                </div>
+            </div>
+            <div class="card" id="card-23">
+                <div class="front">
+                    <img src="./Images/IIIT MAnipur.jpg" alt="IIIT Manipur">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Manipur</h4>
+                    <p>Esbd. 2015</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Manipur</h2>
+                </div>
+            </div>
+            <div class="card" id="card-24">
+                <div class="front">
+                    <img src="./Images/IIIT Kurnool.jpg" alt="IIITDM Kurnool">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIITDM Kurnool</h4>
+                    <p>Esbd. 2015</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIITDM Kurnool</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-9">
+            <div class="card" id="card-25">
+                <div class="front">
+                    <img src="./Images/IIIT Trichy.jpg" alt="IIIT Tiruchirapalli">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Tiruchirapalli</h4>
+                    <p>Esbd. 2013</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Tiruchirapalli</h2>
+                </div>
+            </div>
+            <div class="card" id="card-26">
+                <div class="front">
+                    <img src="./Images/IIIT Agartala.jpg" alt="IIIT Agartala">
+                </div>
+                <div class="back">
+                    <h4 class="name">IIIT Agartala</h4>
+                    <p>Esbd. 2018</p>
+
+                    <h4 class="nirf">NIRF-1</h4>
+                    <button>Read More</button>
+                </div>
+                <div class="card-name">
+                    <h2>IIIT Agartala</h2>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row" id="row-10"></div> -->
+    </div>
+
+    <script>
+
+        function show() {
+
+            let mob = document.getElementById('mob_list');
+            if (mob.style.display == 'flex') {
+                mob.style.display = 'none';
+            }
+            else {
+                mob.style.display = 'flex';
+                mob.style.flexDirection = 'column';
+                mob.style.alignItems = 'center';
+            }
+        }
+
+        function cross() {
+            let close = document.getElementById('mob_list');
+            close.style.display = 'none';
+        }
+
+        function search_open()
+        {
+            let temp = document.getElementById('search_bar')
+            if(temp.style.display == 'block')
+            {
+                temp.style.display = 'none';
+            }
+            else
+            {
+                temp.style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+
+</html>
