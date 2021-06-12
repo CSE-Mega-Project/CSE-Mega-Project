@@ -28,6 +28,5 @@ Welcome aboard, we are excited to have you. Please keep the following steps in m
     - If the code works well after the review, you will have a **Successful Contribution**
 
                                 ---
-    
-                    #### Open Source Developers, 
-                         #### IIIT Sonepat
+#### Open Source Developers, 
+#### IIIT Sonepat
