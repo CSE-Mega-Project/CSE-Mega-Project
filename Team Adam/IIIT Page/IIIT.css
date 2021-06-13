@@ -268,6 +268,12 @@ header::before{
     animation: display 0.4s;
 }
 
+#search_bar button{
+    background: none;
+    border: none;
+    width: 100%;
+}
+
 .select_bar a{
     padding: 5px 0px;
     border: 1px dotted black;
