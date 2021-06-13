@@ -77,32 +77,32 @@
                 <div class="select_bar" id="search_bar">
                     <!-- <label for="searching">Search...</label>
                     <input type="text" id="searching"> -->
-                    <a href="#card-1">IIIT Sonepat</a>
-                    <a href="#card-2">IIIT Lucknow</a>
-                    <a href="#card-3">IIIT Sri City</a>
-                    <a href="#card-4">IIIT Guwahati</a>
-                    <a href="#card-5">IIIT Kota</a>
-                    <a href="#card-6">IIIT Guwalior</a>
-                    <a href="#card-7">IIIT Allahabad</a>
-                    <a href="#card-8">IIIT Kancheepuram</a>
-                    <a href="#card-9">IIIT Pune</a>
-                    <a href="#card-10">IIIT Jabalpur</a>
-                    <a href="#card-11">IIIT Banglore</a>
-                    <a href="#card-12">IIIT Vadodara</a>
-                    <a href="#card-13">IIIT Nagpur</a>
-                    <a href="#card-14">IIIT Kalyani</a>
-                    <a href="#card-15">IIIT Hyderabad</a>
-                    <a href="#card-16">IIIT Dharwad</a>
-                    <a href="#card-17">IIIT Bhagalpur</a>
-                    <a href="#card-18">IIIT Bhopal</a>
-                    <a href="#card-19">IIIT Kottayam</a>
-                    <a href="#card-20">IIIT Ranchi</a>
-                    <a href="#card-21">IIIT Una</a>
-                    <a href="#card-22">IIIT Surat</a>
-                    <a href="#card-23">IIIT Manipur</a>
-                    <a href="#card-24">IIITDM Kurnool </a>
-                    <a href="#card-25">IIIT Tiruchirapalli</a>
-                    <a href="#card-25">IIIT Agartala</a>
+                    <button onclick="close_search_bar()"><a href="#card-1">IIIT Sonepat</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-2">IIIT Lucknow</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-3">IIIT Sri City</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-4">IIIT Guwahati</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-5">IIIT Kota</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-6">IIIT Guwalior</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-7">IIIT Allahabad</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-8">IIIT Kancheepuram</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-9">IIIT Pune</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-10">IIIT Jabalpur</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-11">IIIT Banglore</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-12">IIIT Vadodara</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-13">IIIT Nagpur</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-14">IIIT Kalyani</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-15">IIIT Hyderabad</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-16">IIIT Dharwad</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-17">IIIT Bhagalpur</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-18">IIIT Bhopal</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-19">IIIT Kottayam</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-20">IIIT Ranchi</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-21">IIIT Una</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-22">IIIT Surat</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-23">IIIT Manipur</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-24">IIITDM Kurnool </a></button>
+                    <button onclick="close_search_bar()"><a href="#card-25">IIIT Tiruchirapalli</a></button>
+                    <button onclick="close_search_bar()"><a href="#card-25">IIIT Agartala</a></button>
                 </div>
             </div>
         </div>
@@ -547,6 +547,15 @@
             else
             {
                 temp.style.display = 'block';
+            }
+        }
+
+        function close_search_bar()
+        {
+            let temp = document.getElementById('search_bar')
+            if(temp.style.display != 'none')
+            {
+                temp.style.display = 'none';
             }
         }
     </script>
