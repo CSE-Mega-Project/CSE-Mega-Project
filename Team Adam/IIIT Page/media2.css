@@ -1,0 +1,19 @@
+.college_heading{
+    flex-direction: column;
+    align-items: center;
+}
+
+.search{
+    width: 143px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.header_explore p{
+    font-size: 3rem;
+}
+
+.header_explore button{
+    padding: 5px 0px;
+    width: 100px;
+}
