@@ -84,36 +84,21 @@ header::before{
 }
 
 .nav_list_mob_list{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
     position: absolute;
     background: darkgray;
     top: 100%;
-    width: calc(100% + 15px);
+    /* width: calc(100% + 15px); */
+    width: 0px;
     height: calc(100vh - 43px);
+    /* height: 0px; */
     left: -15px;
     z-index: 100;
-    animation: hiddenshow;
-    animation-duration: 0.4s;
+    transition: all 0.3s;
 }
-
-@keyframes hiddenshow {
-    0%{
-        left: -100vw;
-    }
-    100%{
-        left: -15px;
-    }
-}
-
-/* @keyframes hiddenshow {
-    0%{
-
-        transform: translateY(-1000px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-} */
 
 .cross{
     display: flex;
@@ -138,6 +123,7 @@ header::before{
 .nav_list_mob_list ul li a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.3rem;
+    font-weight: 550;
 }
 
 .header_explore{
@@ -276,17 +262,18 @@ header::before{
 }
 
 .select_bar{
-    display: none;
+    overflow: hidden;
     top: 96%;
     position: absolute;
     width: 140px;
+    height: 0px;
     background: #158076;
     z-index: 100;
-    border: 1px solid black;
-    border-top: none;
+    /* border: 1px solid black; */
+    /* border-top: none; */
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    animation: display 0.4s;
+    transition: all 0.6s;
 }
 
 #search_bar button{
@@ -302,24 +289,6 @@ header::before{
     border-top: none;
     justify-content: center;
     color: white;
-}
-
-.search:hover{
-    border-bottom: none;
-}
-
-/* .search:hover .select_bar{
-    display: block;
-    animation: display 0.4s;
-} */
-
-@keyframes display {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 
 .row{
