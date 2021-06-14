@@ -390,7 +390,7 @@ p {
 }
 
 #help_sites {
-    padding: 4%;
+    padding: 3%;
     text-align: center;
 }
 
@@ -398,6 +398,28 @@ p {
     width: 80%;
     height: 80%;
 }
+@media screen and (min-width:767px){
+    
+    .carouselreferencelinks{
+        height: auto ;
+        min-height: auto ;
+    } 
+    }
+    @media screen and (max-width: 767px) and (min-width:576px){
+    
+        .carouselreferencelinks{
+            height: 350px ;
+            min-height: 350px ;
+        } 
+        }
+        @media screen and (max-width: 576px){
+    
+            .carouselreferencelinks{
+                height: auto ;
+                min-height: auto ;
+            } 
+            }
+
 
 
 /* Footer */
