@@ -22,9 +22,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="preloader.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <section class="preloader">
+  <svg>
+    <g>
+      <path d="M 50,100 A 1,1 0 0 1 50,0"/>
+    </g>
+    <g>
+      <path d="M 50,75 A 1,1 0 0 0 50,-25"/>
+    </g>
+    <defs>
+      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#FF56A1;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#FF9350;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+  </svg>
+</section>
   <div class="bgimg-1">
   <section class="showcase">
       <header>
@@ -195,9 +212,13 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="index.js"></script>
-    <script src="pace.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha512-2cbsQGdowNDPcKuoBd2bCcsJky87Mv0LEtD/nunJUgk6MOYTgVMGihS/xCEghNf04DPhNiJ4DZw5BxDd1uyOdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script>
+      setTimeout(function(){
+          $(".preloader").fadeToggle()
+      },3500)
+    </script>
 </body>
 </html>
