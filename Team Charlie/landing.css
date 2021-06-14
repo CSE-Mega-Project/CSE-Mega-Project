@@ -390,16 +390,21 @@ p {
 }
 
 #help_sites {
-    padding: 4%;
+    padding: 3%;
     text-align: center;
 }
 
 .help-img {
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 128px;
+    padding: 10px;
+    
 }
-
-
+    .carouselreferencelinks{
+        height: auto ;
+        min-height: auto ;
+    } 
+    
 /* Footer */
 
 #footer {
