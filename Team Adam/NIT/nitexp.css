@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Londrina Solid', cursive;
+    box-sizing: border-box;
+}
+
+.banner{
+    background: rgb(73, 37, 129) url('collegeimage.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height:100vh;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.banner .content{
+    color: #ffff;
+    max-width: 1080px;
+    text-align: center;
+}
+.btn{
+    font-size: 1.3em;
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(226, 43, 98);
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all 1.5s;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    letter-spacing: 4px;
+}
+header{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.363);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    top:0px;
+    left: 0px;
+    position:fixed;
+    width: 100%;
+}
+header.fixed{
+    background-color: rgb(0, 0, 0);
+}
+header .left{
+    font-size: 3rem;
+    color:#fff;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 700;
+    padding-left:5px ;
+}
+header .middle ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    padding:10px 25px;
+    font-size: 1.8rem;
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+li a:hover{
+    letter-spacing: 2px;
+    /* color: rgb(226, 43, 98); */
+    color: rgb(0, 0, 0);
+    /* background-color: rgba(0, 0, 0, 0.568); */
+    background-color: rgb(255, 255, 255);
+}
+header .right{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top:4px;
+    font-weight: 700;
+}
+header .right a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+header .right a:hover{
+    color: rgb(226, 43, 98);
+    border-color: rgb(226, 43, 98);
+}
+header .left .bar span{
+    color: #fff;   
+    padding: 0px 8px;
+    border-radius: 8px;
+}
+header .bar span:hover{
+    cursor: pointer;
+    background-color: rgba(92, 92, 92, 0.548);
+}
+h1{
+    font-size: 5.5em;
+    color: #ffff;
+    text-shadow: 3px 3px 4px rgb(49, 49, 49);
+    }
+
+.nit{
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+    background-color: #fff;
+    position: sticky;
+    left: 0;
+    top:76px;
+    z-index: 2;
+}
+body{
+    background: url("back1.jpg") no-repeat center fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.219);
+    margin: 10px 200px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.coll{
+    margin: 20px 25px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+}
+.coll img{
+    /* float: right; */
+    position: relative;
+    top:4px;
+    left: 19px;
+    /* border-radius: 8px; */
+}
+.coll .face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 2s ease-in-out;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(0deg);
+    border-radius: 8px;
+}
+.coll .face.front{
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    /* box-shadow: 1px 1px 3px 3px rgb(0, 0, 0); */
+}
+.coll .front p{
+    text-align: center;
+}
+.coll p,.coll .face.back span{
+    transform: translateZ(50px);
+}
+.coll .face.back{
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189, 58, 97);
+    color: #fff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.coll .face.back a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff;
+    color:rgb(226, 43, 98) ;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+.coll .face.back a:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.coll:hover .face.front{
+    transform: perspective(600px) rotateY(180deg);
+}
+.coll:hover .face.back{
+    transform: perspective(600px) rotateY(360deg);
+}
+hr{
+    border-top: 1px dotted rgb(121, 115, 115);
+}
+
+.coll h2{
+    display: inline-block;
+    width:40%;
+}
+.coll span{
+    float: right;
+    font-size: 24px;
+    color: rgb(226, 43, 98);
+    font-weight: 400;
+}
+@media (min-width:1461px){
+    header .bar{
+        display: none;
+    }
+    header .middle{
+        display: block;
+    }
+}
+@media (max-width:1460px){
+    header .right{
+        display: none;
+    }
+    /* header ul li{
+        display: none;
+    } */
+    .container{
+        margin: 0px;
+    }
+    .banner h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    
+    header .middle ul{
+        display: block;
+    }
+    header .middle{
+        display: none;
+    }
+    header .middle ul li a{
+        width: 100%;
+        display: block;
+    }
+    /* header .middle ul li:hover{
+        background-color: #fff;
+    } */
+    header{
+        display: block;
+    }
+    header .left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width:755px){
+    .nit{
+        display: none;
+    }
+    .content p{
+        display: none;
+    }
+
+}
