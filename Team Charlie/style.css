@@ -25,7 +25,7 @@
 
 .carousel-item{
     padding-top: 0;
-    height: 678px;
+    height: 100vh;
     min-height: 250px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
