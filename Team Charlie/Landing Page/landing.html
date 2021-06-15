@@ -10,6 +10,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="./landing.css" />
+    <link rel="stylesheet" href="./landing-pre.css" />
+
     <!-- Font Awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <!-- Loading Roboto Font from Google Fonts -->
@@ -25,6 +27,38 @@
 </head>
 
 <body>
+    <!-- Preloader -->
+    <section id="pre-loader">
+        <div class="loader">
+            <div class="box box0">
+                <div></div>
+            </div>
+            <div class="box box1">
+                <div></div>
+            </div>
+            <div class="box box2">
+                <div></div>
+            </div>
+            <div class="box box3">
+                <div></div>
+            </div>
+            <div class="box box4">
+                <div></div>
+            </div>
+            <div class="box box5">
+                <div></div>
+            </div>
+            <div class="box box6">
+                <div></div>
+            </div>
+            <div class="box box7">
+                <div></div>
+            </div>
+            <div class="ground">
+                <div></div>
+            </div>
+        </div>
+    </section>
     <!-- Navigation -->
     <div class="nav-top container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark navbar-darkbg-transparent">
@@ -64,19 +98,19 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="./assets/Amazon-head.jpg" class="d-block w-100" alt="..." />
+                    <img src="./assets/Amazon-head.jpg" class="d-block h-25 w-100" alt="..." />
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
-                    <img src="./assets/Microsoft-head.jpg" class="d-block w-100" alt="..." />
+                    <img src="./assets/Microsoft-head.jpg" class="d-block h-25 w-100" alt="..." />
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
-                    <img src="./assets/Apple-head.jpg" class="d-block w-100" alt="..." />
+                    <img src="./assets/Apple-head.jpg" class="d-block h-25 w-100" alt="..." />
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
-                    <img src="./assets/Facebook-head.jpg" class="d-block w-100" alt="..." />
+                    <img src="./assets/Facebook-head.jpg" class="d-block h-25 w-100" alt="..." />
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
-                    <img src="./assets/Netflix-head.jpg" class="d-block w-100" alt="..." />
+                    <img src="./assets/Netflix-head.jpg" class="d-block h-25 w-100" alt="..." />
                 </div>
             </div>
         </div>
@@ -121,7 +155,7 @@
                     <div class="comp">
                         <div class="index">1</div>
                         <div class="front-view">
-                            <a href="https://www.amazon.in/"><img class="thumbnail" src="./assets/Amazon_card.webp" alt=""></a>
+                            <a href="https://www.amazon.in/" class="disabled"><img class="thumbnail" src="./assets/Amazon_card.webp" alt=""></a>
                             <h3 class="name">AMAZON</h3>
                         </div>
                         <div class="back-view">
@@ -142,17 +176,17 @@
                             <div class="link">For More Information</div>
                             <div class="Stage">
                                 <div class="Space">
-                                    <a href="https://www.geeksforgeeks.org/"><img src="./assets/gfg.png" alt=""></a>
+                                    <a href="https://www.geeksforgeeks.org/" target="blank"><img src="./assets/gfg.png" alt=""></a>
 
 
                                 </div>
                                 <div class="Space">
-                                    <a href="https://www.glassdoor.co.in/index.htm"><img src="./assets/glass-door.png" alt=""></a>
+                                    <a href="https://www.glassdoor.co.in/index.htm" target="blank"><img src="./assets/glass-door.png" alt=""></a>
 
                                 </div>
                                 <div class="Space">
                                     <div class="icon">
-                                        <a href="https://www.ambitionbox.com/"><img src="./assets/ambition-box.png" alt=""></a>
+                                        <a href="https://www.ambitionbox.com/" target="blank"><img src="./assets/ambition-box.png" alt=""></a>
                                     </div>
 
                                 </div>
@@ -168,7 +202,7 @@
                     <div class="comp">
                         <div class="index">2</div>
                         <div class="front-view">
-                            <a href="https://about.facebook.com/company-info/"><img class="thumbnail" src="./assets/facebook_card.png" alt=""></a>
+                            <a href="https://about.facebook.com/company-info/" class="disabled"><img class="thumbnail" src="./assets/facebook_card.png" alt=""></a>
                             <h3 class="name">FACEBOOK</h3>
                         </div>
                         <div class="back-view">
@@ -189,17 +223,17 @@
                             <div class="link">For More Information</div>
                             <div class="Stage">
                                 <div class="Space">
-                                    <a href="https://www.geeksforgeeks.org/"><img src="./assets/gfg.png" alt=""></a>
+                                    <a href="https://www.geeksforgeeks.org/" target="blank"><img src="./assets/gfg.png" alt=""></a>
 
 
                                 </div>
                                 <div class="Space">
-                                    <a href="https://www.glassdoor.co.in/index.htm"><img src="./assets/glass-door.png" alt=""></a>
+                                    <a href="https://www.glassdoor.co.in/index.htm" target="blank"><img src="./assets/glass-door.png" alt=""></a>
 
                                 </div>
                                 <div class="Space">
                                     <div class="icon">
-                                        <a href="https://www.ambitionbox.com/"><img src="./assets/ambition-box.png" alt=""></a>
+                                        <a href="https://www.ambitionbox.com/" target="blank"><img src="./assets/ambition-box.png" alt=""></a>
                                     </div>
 
                                 </div>
@@ -215,7 +249,7 @@
                     <div class="comp">
                         <div class="index">3</div>
                         <div class="front-view">
-                            <a href="https://www.google.com/"><img class="thumbnail" src="./assets/google_card.jpg" alt=""></a>
+                            <a href="https://www.google.com/" class="disabled"><img class="thumbnail" src="./assets/google_card.jpg" alt=""></a>
                             <h3 class="name">GOOGLE</h3>
                         </div>
                         <div class="back-view">
@@ -236,17 +270,17 @@
                             <div class="link">For More Information</div>
                             <div class="Stage">
                                 <div class="Space">
-                                    <a href="https://www.geeksforgeeks.org/"><img src="./assets/gfg.png" alt=""></a>
+                                    <a href="https://www.geeksforgeeks.org/" target="blank"><img src="./assets/gfg.png" alt=""></a>
 
 
                                 </div>
                                 <div class="Space">
-                                    <a href="https://www.glassdoor.co.in/index.htm"><img src="./assets/glass-door.png" alt=""></a>
+                                    <a href="https://www.glassdoor.co.in/index.htm" target="blank"><img src="./assets/glass-door.png" alt=""></a>
 
                                 </div>
                                 <div class="Space">
                                     <div class="icon">
-                                        <a href="https://www.ambitionbox.com/"><img src="./assets/ambition-box.png" alt=""></a>
+                                        <a href="https://www.ambitionbox.com/" target="blank"><img src="./assets/ambition-box.png" alt=""></a>
                                     </div>
 
                                 </div>
@@ -262,7 +296,7 @@
                     <div class="comp">
                         <div class="index">4</div>
                         <div class="front-view">
-                            <a href="https://www.microsoft.com/en-in"><img class="thumbnail" src="./assets/microsoft_card.png" alt=""></a>
+                            <a href="https://www.microsoft.com/en-in" class="disabled"><img class="thumbnail" src="./assets/microsoft_card.png" alt=""></a>
                             <h3 class="name">MICROSOFT</h3>
                         </div>
                         <div class="back-view">
@@ -283,17 +317,17 @@
                             <div class="link">For More Information</div>
                             <div class="Stage">
                                 <div class="Space">
-                                    <a href="https://www.geeksforgeeks.org/"><img src="./assets/gfg.png" alt=""></a>
+                                    <a href="https://www.geeksforgeeks.org/" target="blank"><img src="./assets/gfg.png" alt=""></a>
 
 
                                 </div>
                                 <div class="Space">
-                                    <a href="https://www.glassdoor.co.in/index.htm"><img src="./assets/glass-door.png" alt=""></a>
+                                    <a href="https://www.glassdoor.co.in/index.htm" target="blank"><img src="./assets/glass-door.png" alt=""></a>
 
                                 </div>
                                 <div class="Space">
                                     <div class="icon">
-                                        <a href="https://www.ambitionbox.com/"><img src="./assets/ambition-box.png" alt=""></a>
+                                        <a href="https://www.ambitionbox.com/" target="blank"><img src="./assets/ambition-box.png" alt=""></a>
                                     </div>
 
                                 </div>
@@ -309,7 +343,7 @@
                     <div class="comp">
                         <div class="index">5</div>
                         <div class="front-view">
-                            <a href="https://www.apple.com/in/"><img class="thumbnail" src="./assets/Apple_card.jpg" alt=""></a>
+                            <a href="https://www.apple.com/in/" class="disabled"><img class="thumbnail" src="./assets/Apple_card.jpg" alt=""></a>
                             <h3 class="name">APPLE</h3>
                         </div>
                         <div class="back-view">
@@ -330,17 +364,17 @@
                             <div class="link">For More Information</div>
                             <div class="Stage">
                                 <div class="Space">
-                                    <a href="https://www.geeksforgeeks.org/"><img src="./assets/gfg.png" alt=""></a>
+                                    <a href="https://www.geeksforgeeks.org/" target="blank"><img src="./assets/gfg.png" alt=""></a>
 
 
                                 </div>
                                 <div class="Space">
-                                    <a href="https://www.glassdoor.co.in/index.htm"><img src="./assets/glass-door.png" alt=""></a>
+                                    <a href="https://www.glassdoor.co.in/index.htm" target="blank"><img src="./assets/glass-door.png" alt=""></a>
 
                                 </div>
                                 <div class="Space">
                                     <div class="icon">
-                                        <a href="https://www.ambitionbox.com/"><img src="./assets/ambition-box.png" alt=""></a>
+                                        <a href="https://www.ambitionbox.com/" target="blank"><img src="./assets/ambition-box.png" alt=""></a>
                                     </div>
 
                                 </div>
@@ -356,7 +390,7 @@
                     <div class="comp">
                         <div class="index">6</div>
                         <div class="front-view">
-                            <a href="https://www.netflix.com/"><img class="thumbnail" src="./assets/netflix-logo.png" alt=""></a>
+                            <a href="https://www.netflix.com/" class="disabled"><img class="thumbnail" src="./assets/netflix-logo.png" alt=""></a>
                             <h3 class="name">NETFLIX</h3>
                         </div>
                         <div class="back-view">
@@ -377,17 +411,17 @@
                             <div class="link">For More Information</div>
                             <div class="Stage">
                                 <div class="Space">
-                                    <a href="https://www.geeksforgeeks.org/"><img src="./assets/gfg.png" alt=""></a>
+                                    <a href="https://www.geeksforgeeks.org/" target="blank"><img src="./assets/gfg.png" alt=""></a>
 
 
                                 </div>
                                 <div class="Space">
-                                    <a href="https://www.glassdoor.co.in/index.htm"><img src="./assets/glass-door.png" alt=""></a>
+                                    <a href="https://www.glassdoor.co.in/index.htm" target="blank"><img src="./assets/glass-door.png" alt=""></a>
 
                                 </div>
                                 <div class="Space">
                                     <div class="icon">
-                                        <a href="https://www.ambitionbox.com/"><img src="./assets/ambition-box.png" alt=""></a>
+                                        <a href="https://www.ambitionbox.com/" target="blank"><img src="./assets/ambition-box.png" alt=""></a>
                                     </div>
 
                                 </div>
@@ -404,238 +438,119 @@
     <!-- Helping Sites -->
     <section id="help_sites" class="bg-success">
         <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="mb-3 Reference-Sites">Reference Sites</h3>
-            </div>
-            
-            <div class="col-12">
-              <div
-                id="carouselExampleslide"
-                class="carousel slide"
-                data-bs-touch="false" data-bs-interval="false"
-               >
-                <div class="carousel-inner">
-                  <div
-                    class="carousel-item active carouselreferencelinks"
-                    data-bs-interval="1000"
-                  >
-                    <div class="row">
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.geeksforgeeks.org/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/gfg.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://prepinsta.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Prepinsta.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.faceprep.in/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/FacePrep.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.ambitionbox.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/ambition-box.png"
-                            alt=""
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-    
-                  <div
-                    class="carousel-item carouselreferencelinks"
-                    data-bs-interval="1000"
-                   >
-                    <div class="row">
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.payscale.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/PayScale-1.jpg"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.guru99.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Guru99.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://in.indeed.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/indeed.png"
-                            alt=""
-                        /></a>
-                      </div>
-    
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.conduiraonline.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Conduira.png"
-                            alt=""
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="carousel-item carouselreferencelinks"
-                    data-bs-interval="1000"
-                   >
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 ">
-                            <a href="https://www.freshersnow.com/"
-                              ><img
-                                class="help-img img-fluid"
-                                src="./assets/Freshersnow.png"
-                                alt=""
-                            /></a>
-                          </div>
-                      
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.freshersvoice.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Freshersvoice.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.javatpoint.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/javatpoint.png"
-                            alt=""
-                        /></a>
-                      </div>
-    
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.hitbullseye.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/hitbullseye.png"
-                            alt=""
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="carousel-item carouselreferencelinks"
-                    data-bs-interval="1000"
-                   >
-                    <div class="row">
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.glassdoor.co.in/index.htm"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/glass-door.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.tutorialspoint.com/index.htm"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Tutorialspoint.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.mockquestions.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Mockquestions.png"
-                            alt=""
-                        /></a>
-                      </div>
-    
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.quora.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Quora.png"
-                            alt=""
-                        /></a>
-                      </div>
-    
-                    </div>
-                  </div>
-                  <div
-                    class="carousel-item carouselreferencelinks"
-                    data-bs-interval="1000"
-                   >
-                    <div class="row">
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.themuse.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/Themuse.png"
-                            alt=""
-                        /></a>
-                      </div>
-    
-                      <div class="col-md-3 col-sm-6">
-                        <a href="https://www.thebalancecareers.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/ThebalanceCareers.png"
-                            alt=""
-                        /></a>
-                      </div>
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.interviewbit.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/InterviewBit.png"
-                            alt=""
-                        /></a>
-                      </div>
-                     
-    
-                      <div class="col-md-3 col-sm-6 ">
-                        <a href="https://www.xamnation.com/"
-                          ><img
-                            class="help-img img-fluid"
-                            src="./assets/xamnation.png"
-                            alt=""
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                  
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mb-3 Reference-Sites">Reference Sites</h3>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleslide" data-bs-slide="prev">
+
+                <div class="col-12">
+                    <div id="carouselExampleslide" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active carouselreferencelinks" data-bs-interval="1000">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.geeksforgeeks.org/" target="blank"><img class="help-img img-fluid" src="./assets/gfg.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://prepinsta.com/" target="blank"><img class="help-img img-fluid" src="./assets/Prepinsta.png" alt="" /></a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.faceprep.in/" target="blank"><img class="help-img img-fluid" src="./assets/FacePrep.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.ambitionbox.com/" target="blank"><img class="help-img img-fluid" src="./assets/ambition-box.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item carouselreferencelinks" data-bs-interval="1000">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.payscale.com/" target="blank"><img class="help-img img-fluid" src="./assets/PayScale-1.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.guru99.com/" target="blank"><img class="help-img img-fluid" src="./assets/Guru99.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://in.indeed.com/" target="blank"><img class="help-img img-fluid" src="./assets/indeed.png" alt="" /></a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.conduiraonline.com/" target="blank"><img class="help-img img-fluid" src="./assets/Conduira.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item carouselreferencelinks" data-bs-interval="1000">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.freshersnow.com/" target="blank"><img class="help-img img-fluid" src="./assets/Freshersnow.png" alt="" /></a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.freshersvoice.com/" target="blank"><img class="help-img img-fluid" src="./assets/Freshersvoice.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.javatpoint.com/" target="blank"><img class="help-img img-fluid" src="./assets/javatpoint.png" alt="" /></a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.hitbullseye.com/" target="blank"><img class="help-img img-fluid" src="./assets/hitbullseye.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item carouselreferencelinks" data-bs-interval="1000">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.glassdoor.co.in/index.htm" target="blank"><img class="help-img img-fluid" src="./assets/glass-door.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.tutorialspoint.com/index.htm" target="blank"><img class="help-img img-fluid" src="./assets/Tutorialspoint.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.mockquestions.com/" target="blank"><img class="help-img img-fluid" src="./assets/Mockquestions.png" alt="" /></a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.quora.com/" target="blank"><img class="help-img img-fluid" src="./assets/Quora.png" alt="" /></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item carouselreferencelinks" data-bs-interval="1000">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.themuse.com/" target="blank"><img class="help-img img-fluid" src="./assets/Themuse.png" alt="" /></a>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-6">
+                                        <a href="https://www.thebalancecareers.com/" target="blank"><img class="help-img img-fluid" src="./assets/ThebalanceCareers.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.interviewbit.com/" target="blank"><img class="help-img img-fluid" src="./assets/InterviewBit.png" alt="" /></a>
+                                    </div>
+
+
+                                    <div class="col-md-3 col-sm-6 ">
+                                        <a href="https://www.xamnation.com/" target="blank"><img class="help-img img-fluid" src="./assets/xamnation.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleslide" data-bs-slide="prev">
                   <span class="fa fa-arrow-left btn btn-primary" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleslide" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleslide" data-bs-slide="next">
                   <span class="fa fa-arrow-right btn btn-primary" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
     <!--Footer-->
     <section id="footer">

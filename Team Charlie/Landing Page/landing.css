@@ -1,4 +1,14 @@
+html {
+    margin-right: 0;
+}
+
+
 /* Navigation Bar */
+
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
 
 .navbar-brand {
     padding-right: 70%;
@@ -28,13 +38,12 @@
 
 #title .carousel-item {
     padding-top: 0;
-    height: 15%;
     background: no-repeat center center scroll;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
-    box-sizing: none;
+    height: 20%;
 }
 
 
@@ -174,6 +183,13 @@
     }
     .comp {
         margin-bottom: 3.0rem;
+    }
+    a.disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+    .mainArea {
+        height: 20vh;
     }
 }
 
@@ -398,13 +414,14 @@ p {
     width: 200px;
     height: 128px;
     padding: 10px;
-    
 }
-    .carouselreferencelinks{
-        height: auto ;
-        min-height: auto ;
-    } 
-    
+
+.carouselreferencelinks {
+    height: auto;
+    min-height: auto;
+}
+
+
 /* Footer */
 
 #footer {

@@ -1,3 +1,8 @@
+function Preloader() {
+    document.querySelector("#pre-loader").style.opacity = 0;
+    document.querySelector("#pre-loader").style.zIndex = -1;
+}
+setInterval(Preloader, 6000);
 var data;
 let front = true;
 const authors = document.querySelectorAll(".author");
