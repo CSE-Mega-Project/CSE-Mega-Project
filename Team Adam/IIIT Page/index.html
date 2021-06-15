@@ -519,44 +519,59 @@
 
     <script>
 
-        function show() {
+        // function show() {
+        //     let mob = document.getElementById('mob_list');
+        //     if (mob.style.height == 'calc(100vh - 43px)') {
+        //         mob.style.height = "0px";
+        //         mob.style.borderTop = "none";
+        //     }
+        //     else {
+        //         mob.style.height = "calc(100vh - 43px)";
+        //         mob.style.borderTop = "1px solid black"
+        //     }
+        // }
 
+        // function cross() {
+        //     let close = document.getElementById('mob_list');
+        //     close.style.height = "0px";
+        //     close.style.borderTop = "none";
+        // }
+
+        function show() {
             let mob = document.getElementById('mob_list');
-            if (mob.style.display == 'flex') {
-                mob.style.display = 'none';
+            if (mob.style.width == 'calc(100% + 15px)') {
+                mob.style.width = "0px";
+                mob.style.borderTop = "none";
             }
             else {
-                mob.style.display = 'flex';
-                mob.style.flexDirection = 'column';
-                mob.style.alignItems = 'center';
+                mob.style.width = "calc(100% + 15px)";
+                mob.style.borderTop = "1px solid black"
             }
         }
 
         function cross() {
             let close = document.getElementById('mob_list');
-            close.style.display = 'none';
+            close.style.width = "0px";
+            close.style.borderTop = "none";
         }
 
-        function search_open()
-        {
-            let temp = document.getElementById('search_bar')
-            if(temp.style.display == 'block')
-            {
-                temp.style.display = 'none';
+        function search_open() {
+            let mob = document.getElementById('search_bar');
+            if (mob.style.height == '687px') {
+                mob.style.height = "0px";
+                mob.style.border = "none";
             }
-            else
-            {
-                temp.style.display = 'block';
+            else {
+                mob.style.height = "687px";
+                mob.style.border = "1px solid black";
+                mob.style.borderTop = "none";
             }
         }
 
-        function close_search_bar()
-        {
+        function close_search_bar() {
             let temp = document.getElementById('search_bar')
-            if(temp.style.display != 'none')
-            {
-                temp.style.display = 'none';
-            }
+            temp.style.height = "0px";
+            temp.style.border = "none";
         }
     </script>
 
