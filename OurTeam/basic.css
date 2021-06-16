@@ -1,0 +1,217 @@
+/* ONLY SECTIONS CSS HERE */
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  transition: 1s ease-out;
+  transition-delay: 570ms;
+  font-family: "Poiret One", "Josefin Sans" "Architects Daughter", cursive;
+  color: rgb(255, 255, 255);
+  width: 100vw;
+  overflow-x: hidden;
+  /* height: 200vh; */
+  background-color: white;
+}
+
+:root {
+  --maincolor: #020202;
+}
+
+html::-webkit-scrollbar {
+  width: .5rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--maincolor);
+}
+html{
+  margin-top: 0;
+
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+header .logo
+{
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle
+{
+  position: relative;
+  width: 50px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url('./headerback.jpg');
+  transition: 0.5s;
+  z-index: 20;
+}
+.showcase.active
+{
+  right: 250px;
+}
+
+.showcase img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.5;
+  /* padding-top: 20px; */
+  border-bottom: 2px solid black;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: #177dac; */
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 4em;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #03a9f4; 
+}
+.menu ul li a.active
+{
+  color: red; 
+}
+
+@media only screen and (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+}
+/* body */
+
+.sec-1 {
+  background: url('./whitesection.jpg');
+
+  padding-top: 118vh;
+  height: 220vh;
+  width: 100%;
+  /* margin-top: 9vh; */
+  /* padding-top: 16vh; */
+  overflow: hidden;
+  /* margin-top: 23vh; */
+}
+.sec-2 {
+  /* margin-left: -1vw; */
+  background-color: black;
+  /* background: url('./blacksection.jpg'); */
+  height: 120vh;
+  width: 100%;
+  overflow: hidden;
+}
+.sec-3 {
+  background: url('./whitesection.jpg');
+
+  height: 120vh;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+}
+
+
+
+   
