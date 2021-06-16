@@ -40,6 +40,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
+    
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
     <!-- Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/cij5uet.css" />
@@ -115,35 +117,8 @@
         </div>
       </nav>
     </div>
-    <!-- SEARCH BOX -->
-    <div class="search">
-      <form class="d-flex">
-        <input
-          class="form-control me-2"
-          id="myInput"
-          onkeyup="filterFunction()"
-          onclick="myFunction()"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <div class="dropdown">
-          <button onclick="myFunction()" class="btn btn-primary">
-            Search
-          </button>
-          <div id="myDropdown" class="dropdown-content">
-              <a href="../companyPage/Company_page.html" target="_blank"> <i class="fab fa-amazon"></i> Amazon</a>
-              <a href=""> <i class="fab fa-apple"></i>Apple</a>
-              <a href=""> Flipkart</a>
-            <a href=""><i class="fab fa-google"></i> Google</a>
-            <a href=""><i class="fab fa-windows"></i> Microsoft</a>
-            <a href="">Netflix</a>
-          </div>
-        </div>
-      </form>
-    </div>
 
-    <!-- The Title and navigation bar -->
+       <!-- The Title and navigation bar -->
     <section id="title">
       <div
         id="carouselExampleSlidesOnly"
@@ -189,6 +164,37 @@
         </div>
       </div>
     </section>
+
+
+    <!-- SEARCH BOX -->
+    <div class="searchArea">
+      <div class="serachBar">
+        <input
+          type="search"
+          class="search"
+          id="myInput"
+          autocomplete="off"
+          onfocusout="showlist()"
+          onclick="showlist()"
+          onkeyup="filterFunction()"
+          placeholder="Find your dream work place"
+          title="company"
+        />
+      </div>
+      <div>
+        <ul id="myUL" class="dropdown">
+    <li><a href="../companyPage/Company_page.html" target="_blank"> <i class="fab fa-amazon"></i> Amazon</a></li>
+    <li><a href=""> <i class="fab fa-apple"></i>Apple</a></li>
+    <li><a href=""> Flipkart</a></li>
+    <li><a href=""><i class="fab fa-google"></i> Google</a></li>
+    <li><a href=""><i class="fab fa-windows"></i> Microsoft</a></li>
+    <li><a href="">Netflix</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+ 
     <section id="motivational-quote">
       <div>
         <!-- Quote Box -->
