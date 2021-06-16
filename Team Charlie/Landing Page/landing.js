@@ -49,22 +49,23 @@ setInterval(newQuote, 4500);
 
 // ***************Search Bar
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+function showlist() {
+    document.getElementById("myUL").classList.toggle("show");
   }
-  
+
   function filterFunction() {
-    var input, filter, ul, li, a, i;
+    var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
-    div = document.getElementById("myDropdown");
-    a = div.getElementsByTagName("a");
-    for (i = 0; i < a.length; i++) {
-      txtValue = a[i].textContent || a[i].innerText;
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        a[i].style.display = "";
+        li[i].style.display = "";
       } else {
-        a[i].style.display = "none";
+        li[i].style.display = "none";
       }
     }
   }

@@ -24,15 +24,67 @@ html {
 
 /* Search-Box */
 
-.search {
-    margin: 0;
-    position: absolute;
-    top: 49%;
-    z-index: 1;
-    left: 30%;
-    width: 40%;
-}
+li {
+    display: block;
+  }
 
+  a {
+    text-decoration: none;
+  }
+
+  .dropdown {
+    margin-top: 2%;
+    display: none;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .show {
+    display: block;
+    border-radius: 19px;
+    transform: scale(1.1);
+    box-shadow: 1px 2px 10px rgb(0, 102, 255);
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .dropdown a {
+    color: black;
+    display: block;
+  }
+
+  .searchArea{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+  }
+
+  .searchBar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 50%;
+  }
+
+  .search {
+    padding: 0.7rem 2rem;
+    border: 0;
+    box-shadow: 1px 2px 10px #84596c;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+    color: #4c333e;
+    border-radius: 19px;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+  }
+  .search:focus {
+	transform: scale(1.1);
+    border: 0;
+    outline: none;
+    box-shadow: 1px 2px 10px rgb(0, 102, 255);
+}
 
 /* Carousel */
 
