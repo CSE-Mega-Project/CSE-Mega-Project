@@ -1,1 +1,1 @@
-This folder is for Team Charlie(Placement Section)
+This folder is for Charlie Team(Placement Section)
