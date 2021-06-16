@@ -36,7 +36,7 @@ nav{
     z-index: 12;
     width: 30%;
     height: 40%;
-    background-color: #03556e;
+    background-color: #116b86;
     color: white;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ nav{
     height: 80%;
     padding-left: 15%;
     padding-right: 5%;
-    background-color:#0cacdd;
+    background-color:#1ec4f7;
     color: white;
     display: flex;
     align-items: center;
@@ -66,10 +66,10 @@ section{
 .headings{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
     width:25vw;
     padding: 5px;
-    border-radius: 5px;
-    margin: auto;
+    border-radius: 10px;
     color: white;
 }
 .box{
@@ -79,12 +79,12 @@ section{
 }
 .left{
     width:50%;
-    height: 120vh;
+    height: 130vh;
     border-right: 3px dashed #0dcaf0;
 }
 .right{
     width:50%;
-    height: 120vh;
+    height: 130vh;
 }
 .dock-container{
     height:65vh;
@@ -151,8 +151,8 @@ section{
     color:#0dcaf0;
 }
 .card-image{
-    width:20%;
-    height:20%;
+    width:25%;
+    height:25%;
     display: none;
     padding: 5px;
     transition:all 1s ease-in-out;
@@ -211,7 +211,9 @@ No media query for `xs` since this is the default in Bootstrap */
         font-size: 10px;
     }
 }
-
+.cards-mobile{
+    display: none;
+}
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
     .visionBox{
@@ -245,7 +247,13 @@ No media query for `xs` since this is the default in Bootstrap */
         color: white;
         align-items: center;
         border-radius: 20px;
-        font-size: 1.4rem;
+        font-size: 25px;
+    }
+    .cards-tree , .svg-container{
+        display:none;
+    }
+    .cards-mobile{
+        display: inline-flex;
     }
 }
 
