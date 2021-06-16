@@ -1,4 +1,7 @@
-
+*{
+    margin:0;
+    padding:0;
+}
 nav{
     margin-left: 5rem;
     margin-right: 5rem;
@@ -33,7 +36,7 @@ nav{
     z-index: 12;
     width: 30%;
     height: 40%;
-    background-color: #05465a;
+    background-color: #03556e;
     color: white;
     display: flex;
     align-items: center;
@@ -47,7 +50,7 @@ nav{
     height: 80%;
     padding-left: 15%;
     padding-right: 5%;
-    background-color:#0c9bc7;
+    background-color:#0cacdd;
     color: white;
     display: flex;
     align-items: center;
@@ -55,6 +58,109 @@ nav{
     border-radius: 20px;
     font-size: 1.2rem;
 }
+
+/*tree section css*/
+section{
+    margin: 3rem;
+}
+.headings{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width:25vw;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+}
+.left{
+    width:50%;
+    height: 120vh;
+    border-right: 3px dashed #0dcaf0;
+}
+.right{
+    width:50%;
+    height: 120vh;
+}
+.dock-container{
+    height:65vh;
+}
+.dock{
+    display: flex;
+    height:auto;
+    width: 100%;
+    text-align: center;
+}
+.hrContainer{
+    width: 30%;
+    height: 2px;
+    margin-top:17.5vh;
+}
+.connecter{
+    width:100%;
+    align-self: flex-end;
+    border-color: #0dcaf0;
+    border-width: 3px;
+    border-style: solid none none none;
+}
+.cards{
+    width:50%;
+    height:10vh;
+    margin-top: 15vh;
+    padding:15px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    transition:all 1s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    display:none;
+    transition:all 2s linear;
+    transition-delay: 2s;
+}
+.cards:hover{
+    height:100%;
+    margin: 0;
+    text-align: left;
+}
+.cards:hover .content{
+   display:inline-block;
+}
+.left_top{
+
+    justify-content: flex-end;
+}
+.left_bottom{
+    justify-content: flex-end;
+}
+.right_one{
+    padding-top:30vh;
+    justify-content: flex-start;
+}
+.far{
+    margin-top: 19vh;
+    color:#0dcaf0;
+}
+.card-image{
+    width:20%;
+    height:20%;
+    display: none;
+    padding: 5px;
+    transition:all 1s ease-in-out;
+}
+.cards:hover .card-image{
+    display: inline;
+}
+/*tree section css end*/
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
