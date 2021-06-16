@@ -292,7 +292,13 @@ header::before {
 }
 
 .select_bar {
+<<<<<<< HEAD
+  /* overflow: hidden; */
+  overflow: scroll;
+  overflow-x: hidden;
+=======
   overflow: hidden;
+>>>>>>> 636e583f8d0768f6b654893e81c214240ab30a6a
   top: 96%;
   position: absolute;
   width: 140px;
@@ -306,6 +312,23 @@ header::before {
   transition: all 0.6s;
 }
 
+<<<<<<< HEAD
+.select_bar::-webkit-scrollbar{
+  width: 10px;
+}
+
+.select_bar::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, #8bf2d5);
+  border-radius: 10px;
+  /* transition: all 0.6s; */
+}
+
+.select_bar::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent, #f4f2a8);
+}
+
+=======
+>>>>>>> 636e583f8d0768f6b654893e81c214240ab30a6a
 #search_bar button {
   background: none;
   border: none;
@@ -317,6 +340,10 @@ header::before {
   border: 1px dotted black;
   display: flex;
   border-top: none;
+<<<<<<< HEAD
+  border-right: none;
+=======
+>>>>>>> 636e583f8d0768f6b654893e81c214240ab30a6a
   justify-content: center;
   color: white;
 }
