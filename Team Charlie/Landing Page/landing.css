@@ -433,103 +433,109 @@ p {
     margin: 10px 20px;
 }
 
+
 /* Mock Interview Section */
-#mock_interviews{
+
+#mock_interviews {
     background-color: #12a4d9;
     text-align: center;
 }
 
-
-.mock_interview_heading{
+.mock_interview_heading {
     font-size: 2.5rem;
     color: #fff;
 }
 
-.row{
-    padding:5% 12%;
+.row {
+    padding: 5% 12%;
 }
 
-@media (max-width:329px){
-    .iframe{
+@media (max-width:329px) {
+    .iframe {
         width: 210px;
         height: 150px;
     }
 }
 
-@media (min-width:330px) and (max-width:389px){
-    .iframe{
+@media (min-width:330px) and (max-width:389px) {
+    .iframe {
         width: 270px;
         height: 150px;
     }
 }
 
-@media (min-width:390px) and (max-width:450px){
-    .iframe{
+@media (min-width:390px) and (max-width:450px) {
+    .iframe {
         width: 300px;
         height: 150px;
     }
 }
 
-@media (min-width:450px) and (max-width:574px){
-    .iframe{
+@media (min-width:450px) and (max-width:574px) {
+    .iframe {
         width: 350px;
         height: 150px;
     }
 }
 
-@media (min-width:575px) and (max-width:767px){
-    .iframe{
+@media (min-width:575px) and (max-width:767px) {
+    .iframe {
         width: 200px;
         height: 150px;
     }
 }
-@media (min-width:768px) and (max-width:840px){
-    .iframe{
+
+@media (min-width:768px) and (max-width:840px) {
+    .iframe {
         width: 150px;
         height: 140px;
     }
 }
-@media (min-width:841px) and (max-width:939px){
-    .iframe{
+
+@media (min-width:841px) and (max-width:939px) {
+    .iframe {
         width: 160px;
         height: 150px;
     }
 }
-@media (min-width:940px) and (max-width:1025px){
-    .iframe{
+
+@media (min-width:940px) and (max-width:1025px) {
+    .iframe {
         width: 180px;
         height: 150px;
     }
 }
-@media (min-width:1025px) and (max-width:1089px){
-    .iframe{
+
+@media (min-width:1025px) and (max-width:1089px) {
+    .iframe {
         width: 200px;
         height: 150px;
     }
 }
-@media (min-width:1090px) and (max-width:1189px){
-    .iframe{
+
+@media (min-width:1090px) and (max-width:1189px) {
+    .iframe {
         width: 210px;
         height: 150px;
     }
 }
 
-@media (min-width:1190px) and (max-width:1390px){
-    .iframe{
+@media (min-width:1190px) and (max-width:1390px) {
+    .iframe {
         width: 230px;
         height: 150px;
     }
 }
 
-@media (min-width:1391px) and (max-width:1674px){
-    .iframe{
+@media (min-width:1391px) and (max-width:1674px) {
+    .iframe {
         width: 270px;
         height: 190px;
     }
 }
 
-@media (min-width:1675px){
-    .iframe{
+@media (min-width:1675px) {
+    .iframe {
         width: 320px;
         height: 190px;
     }
