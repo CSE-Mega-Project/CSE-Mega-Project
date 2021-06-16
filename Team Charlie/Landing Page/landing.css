@@ -90,18 +90,24 @@ li {
 
 #title .carousel-item {
     padding-top: 0;
-<<<<<<< HEAD:Team Charlie/landing.css
     /* height: 15%; */
     width: 100%;
-    height: 100vh;
-=======
->>>>>>> 636e583f8d0768f6b654893e81c214240ab30a6a:Team Charlie/Landing Page/landing.css
+    /* height: 100vh; */
     background: no-repeat center center scroll;
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover;
     background-size: cover;
-    height: 20%;
+    /* height: 20%; */
+}
+
+.carousel-inner
+{
+    height: 100vh;
+}
+
+.h-100{
+    width: 100%;
 }
 
 
