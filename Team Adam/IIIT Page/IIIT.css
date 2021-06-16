@@ -292,7 +292,9 @@ header::before {
 }
 
 .select_bar {
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: scroll;
+  overflow-x: hidden;
   top: 96%;
   position: absolute;
   width: 140px;
@@ -306,6 +308,20 @@ header::before {
   transition: all 0.6s;
 }
 
+.select_bar::-webkit-scrollbar{
+  width: 10px;
+}
+
+.select_bar::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, #8bf2d5);
+  border-radius: 10px;
+  /* transition: all 0.6s; */
+}
+
+.select_bar::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent, #f4f2a8);
+}
+
 #search_bar button {
   background: none;
   border: none;
@@ -317,6 +333,7 @@ header::before {
   border: 1px dotted black;
   display: flex;
   border-top: none;
+  border-right: none;
   justify-content: center;
   color: white;
 }
