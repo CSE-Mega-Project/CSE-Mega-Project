@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.introBox{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.sideIlliustration{
+    width:450px;
+    height: 450px;
+    
+}
+#Слой_1{
+    width:100%;
+    height:70vh;
+}
+.visionBox{
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding:30px;
+    text-align: center;
+    width:auto;
+    height:60vh;
+}
+.headingBox{
+    position: absolute;
+    top:100px;
+    z-index: 12;
+    width: 30%;
+    height: 40%;
+    background-color: #116b86;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.contentBox{
+    position: absolute;
+    right: 0%;
+    width:80%;
+    height: 80%;
+    padding-left: 15%;
+    padding-right: 5%;
+    background-color:#1ec4f7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+/*tree section css*/
+section{
+    margin: 3rem;
+}
+.headings{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    width:25vw;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+}
+.left{
+    width:50%;
+    height: 130vh;
+    border-right: 3px dashed #0dcaf0;
+}
+.right{
+    width:50%;
+    height: 130vh;
+}
+.dock-container{
+    height:65vh;
+}
+.dock{
+    display: flex;
+    height:auto;
+    width: 100%;
+    text-align: center;
+}
+.hrContainer{
+    width: 30%;
+    height: 2px;
+    margin-top:17.5vh;
+}
+.connecter{
+    width:100%;
+    align-self: flex-end;
+    border-color: #0dcaf0;
+    border-width: 3px;
+    border-style: solid none none none;
+}
+.cards{
+    width:50%;
+    height:10vh;
+    margin-top: 15vh;
+    padding:15px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    transition:all 1s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    display:none;
+    transition:all 2s linear;
+    transition-delay: 2s;
+}
+.cards:hover{
+    height:100%;
+    margin: 0;
+    text-align: left;
+}
+.cards:hover .content{
+   display:inline-block;
+}
+.left_top{
+
+    justify-content: flex-end;
+}
+.left_bottom{
+    justify-content: flex-end;
+}
+.right_one{
+    padding-top:30vh;
+    justify-content: flex-start;
+}
+.far{
+    margin-top: 19vh;
+    color:#0dcaf0;
+}
+.card-image{
+    width:25%;
+    height:25%;
+    display: none;
+    padding: 5px;
+    transition:all 1s ease-in-out;
+}
+.cards:hover .card-image{
+    display: inline;
+}
+/*tree section css end*/
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    nav{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .introBox{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .visionBox{
+        position: relative;
+        margin:3rem;
+        padding:10px;
+        text-align: center;
+        align-items: center;
+        width:auto;
+        height:100vh;
+    }
+    .headingBox{
+        position: absolute;
+        top:30px;
+        z-index: 12;
+        width: 70%;
+        height: 10%;
+        background-color: #05465a;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    .contentBox{
+        width:100%;
+        height: 100%;
+        padding:5%;
+        padding-top: 15%;
+        background-color:#0c9bc7;
+        color: white;
+        align-items: center;
+
+        border-radius: 20px;
+        font-size: 10px;
+    }
+}
+.cards-mobile{
+    display: none;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .visionBox{
+        position: relative;
+        margin:3rem;
+        padding:10px;
+        text-align: center;
+        align-items: center;
+        width:auto;
+        height:80vh;
+    }
+    .headingBox{
+        position: absolute;
+        top:30px;
+        z-index: 12;
+        width: 70%;
+        height: 100px;
+        background-color: #05465a;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    .contentBox{
+        width:100%;
+        height: 100%;
+        padding:5%;
+        padding-top: 40%;
+        background-color:#0c9bc7;
+        color: white;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+    .cards-tree , .svg-container{
+        display:none;
+    }
+    .cards-mobile{
+        display: inline-flex;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
