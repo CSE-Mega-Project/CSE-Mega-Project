@@ -50,7 +50,7 @@ setInterval(newQuote, 4500);
 // ***************Search Bar
 
 function showlist() {
-    document.getElementById("myUL").classList.toggle("show");
+    document.getElementById("myUL").classList.toggle("showsearch");
   }
 
   function filterFunction() {
