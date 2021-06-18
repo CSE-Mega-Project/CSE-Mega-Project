@@ -480,8 +480,8 @@ p {
 }
 
 .help-img {
-    width: 200px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
     padding: 10px;
 }
 
@@ -515,7 +515,7 @@ p {
     color: #fff;
 }
 
-.row {
+.mock-section {
     padding: 5% 12%;
 }
 
