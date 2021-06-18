@@ -1,10 +1,12 @@
 html {
     margin-right: 0;
 }
-*{
+
+* {
     margin: 0%;
     padding: 0%;
 }
+
 
 /* Navigation Bar */
 
@@ -110,11 +112,12 @@ a {
     height: 100vh;
 }
 
-.carousel-inner .carousel-item img{
+#title .carousel-inner .carousel-item img {
     height: 100vh;
     width: 100%;
     /* object-fit: cover; */
 }
+
 
 /* Motivational Quote */
 
@@ -480,9 +483,9 @@ p {
 }
 
 .help-img {
-    width: 200px;
-    height: 128px;
-    padding: 10px;
+    width: 9.375rem;
+    height: 6.75rem;
+    padding: 0.625rem;
 }
 
 .carouselreferencelinks {
@@ -515,7 +518,7 @@ p {
     color: #fff;
 }
 
-.row {
+.mock-section {
     padding: 5% 12%;
 }
 
