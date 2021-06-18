@@ -1,7 +1,10 @@
 html {
     margin-right: 0;
 }
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
 /* Navigation Bar */
 
@@ -11,7 +14,7 @@ html {
 }
 
 .navbar-brand {
-    padding-right: 70%;
+    padding-right: 60%;
 }
 
 .nav-top {
@@ -39,7 +42,7 @@ a {
     background-color: #fff;
 }
 
-.show {
+.showsearch {
     display: block;
     border-radius: 19px;
     transform: scale(1.1);
@@ -107,10 +110,11 @@ a {
     height: 100vh;
 }
 
-#title .h-100 {
+.carousel-inner .carousel-item img{
+    height: 100vh;
     width: 100%;
+    /* object-fit: cover; */
 }
-
 
 /* Motivational Quote */
 
