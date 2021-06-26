@@ -77,7 +77,7 @@ ul{
 }
 
 .nav-item{
-    padding: 6px 15px;
+    padding: 6px 10px;
     margin: 20px 0px;
     color: #0f9b0f;
     justify-content: center;
@@ -99,7 +99,7 @@ ul{
 }
 
 .navbar-toggler{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 /* section - 1 */
@@ -133,8 +133,8 @@ section:nth-of-type(1){
     font-family: 'Poppins', sans-serif;
     letter-spacing: 4px;
     
-    transform: skewY(10deg);
-    border-top: 10px snow solid;
+    /* transform: skewY(10deg); */
+    /* border-top: 10px snow solid; */
     border-top-left-radius: 5px;
     line-height: 50%;
 }
@@ -143,7 +143,7 @@ section:nth-of-type(1){
     margin-top: 30px;
     margin-left: 20px;
     text-align: center;
-    transform: skewY(-10deg);
+    /* transform: skewY(-10deg); */
     z-index: 2;
 }
 
@@ -161,6 +161,10 @@ section:nth-of-type(2)
     width: 100vw;
     
     z-index: 1;
+}
+
+.second .row{
+    width: 100vw;
 }
 
 .h2{
@@ -216,17 +220,18 @@ section:nth-of-type(2)
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .second{
     padding: 20px 0px;
     margin: 0px 0px;
-    transform: skewY(-16deg);
+    /* transform: skewY(-16deg); */
     border-top: 10px white solid;
     border-bottom: 10px white solid;
 }
-.second .cont{
+/* .second .cont{
     transform: skewY(16deg);
-}
+} */
 
 .second p{
     border: 2px blueviolet solid;
@@ -255,6 +260,7 @@ section:nth-of-type(3){
 .third .row{
     /* padding: 20px; */
     margin-bottom: 0px;
+    width: 100vw;
 }
 
 
