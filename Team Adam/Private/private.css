@@ -1,0 +1,317 @@
+*{box-sizing: border-box;
+}
+body{
+  margin:0;
+    transition: 1s ease-out;
+    transition-delay: 570ms;
+    font-family: 'Poiret One', 'Josefin Sans''Architects Daughter', cursive;
+width: 100vw;
+overflow-x: hidden;
+}
+
+:root{
+  --maincolor:#f9ca24;
+}
+  /*----------------------Header Below-----------------------*/
+.homepage{
+  display:grid;
+grid-template-columns: repeat(20,5vw);
+grid-template-rows: repeat(18,4vh);
+width:100%;
+overflow-x: hidden;
+opacity: 0.8;
+}
+.navi{
+  z-index: 4;
+}
+.navbar{
+  background: transparent;
+}
+.nav-link{
+  color:black !important;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 9px;
+}
+.navbar-toggler{
+  background:white !important;
+}
+.active{
+  background: black;
+  color: white !important;
+}
+.nav-link:hover , .nav-link:focus, .nav-link:active{
+  background: black;
+  color: white !important;
+}
+.header{
+  float:left;
+  grid-column-start: 1;
+  grid-column-end: 25;
+  grid-row-start:1;
+  grid-row-end:30;
+  width:100%;
+  height: 100vh;
+  position: absolute;
+  box-shadow:8px rgba(0, 0, 0, 0.24);
+  background: black;
+  background: url('./images/privateback.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.logo{
+  z-index: 5;
+  padding:25px;
+  margin-left:calc(2vh + 5px);
+  background:url("../logo.jpeg");
+  background-repeat: no-repeat;
+  float:top;
+  background-size: cover;
+  box-sizing: border-box;
+  position: fixed;
+  width:calc(50px + 3vw);
+  height:calc(50px + 3vw);
+  top:3%;
+  left:0;
+  transform: translate(-1vw,-2vh);
+  clip-path: circle(50.0% at 50% 50%);
+  cursor: pointer;
+}
+
+.heading{
+  font-size: 100px;
+  font-family: 'Slabo 27px', serif;
+  position: absolute;
+  top:35%;
+  margin-left:17vw;
+  margin-right:17vw;
+  font-weight: 600;
+  letter-spacing: calc(1vh);
+  color:rgb(255, 255, 255);
+  opacity:100;
+  /* transform: scale(1.05); */
+  text-align: center;
+  
+}
+
+
+.cardsec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 37vh ;
+    padding-bottom: 20px;
+  }
+
+  .cardsec h1{
+    font-size: 3.7rem;
+    padding-bottom: 20px;
+  }
+  
+  @media only screen and (max-width:410px) {
+    .cardsec h1{
+      font-size: 3.2rem;
+    }
+  }
+  
+  .card img {
+    transition: filter 1s;
+  }
+  
+  .cover {
+    object-fit: cover;
+    height: 400px;
+  }
+  
+  .card .icon {
+    position: absolute;
+    right: 30px;
+    bottom: 36px;
+    z-index: 1;
+    padding: 10px;
+    background: rgb(241, 70, 70);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 16px rgb(199, 45, 45);
+  }
+  
+  .card .icon span {
+    transition: 1s;
+    align-items: center;
+    justify-self: center;
+  }
+  
+  .card .icon:active span {
+    transform: scale(0);
+  }
+  
+  .card {
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 8px 14px #030303;
+    margin: 30px;
+  }
+  .card .body h3{
+      padding: 5px;
+      padding-top: 14px;
+      /* font-size: 1.52rem; */
+      text-decoration: underline;
+  }
+  .card .body {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    width: 100%;
+    background: #e9d3d3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: top 1s;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card .body button {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 36px;
+    border-radius: 20px;
+    color: #fff;
+    background: #000000;
+  }
+  
+  button.icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .card .body button:hover {
+    background: #d8e2e9;
+    color: black;
+  }
+  
+  .card .body .description {
+    padding: 15px;
+    overflow: hidden;
+  }
+  
+  .card .body .description .p {
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.4rem;
+  }
+  
+  .card .body.visible {
+    top: 40px;
+  }
+
+  @media only screen and (max-width:410px) {
+    .card .body.visible{
+      top: 20px;
+    }
+  }
+  
+  
+  .card img.visible {
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+  }
+  
+
+  .search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background: #000000;
+    width: 150px;
+    height: 50px;
+  }
+  
+  .dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdown button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search_img {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+  }
+  
+  .select_bar a{
+      text-decoration: none;
+  }
+
+  .select_bar {
+    /* overflow: hidden; */
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 96%;
+    position: absolute;
+    width: 140px;
+    height: 0px;
+    background: #0c0c0c;
+    z-index: 100;
+    /* border: 1px solid black; */
+    /* border-top: none; */
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: all 0.6s;
+  }
+  
+  .select_bar::-webkit-scrollbar{
+    width: 10px;
+  }
+  
+  .select_bar::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #faf5f5);
+    border-radius: 10px;
+    /* transition: all 0.6s; */
+  }
+  
+  .select_bar::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #bebeb7);
+  }
+  
+  #search_bar button {
+    background: none;
+    border: none;
+    width: 100%;
+  }
+  
+  .select_bar a {
+    padding: 5px 0px;
+    border: 1px dotted black;
+    display: flex;
+    border-top: none;
+    border-right: none;
+    justify-content: center;
+    color: white;
+  } 
