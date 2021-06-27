@@ -13,9 +13,11 @@
     <!-- icons linking-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- favicon -->
+    <link rel="icon" href="C:\Users\dell\Downloads\favicon (1).ico">
     <!-- External CSS link -->
     <link rel="stylesheet" href="./style1.css">
     <!-- google fonts -->
@@ -25,6 +27,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap"
+        rel="stylesheet">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -38,6 +43,11 @@
         <div class="spinner"></div>
     </div>
 
+    <!-- scroll to top -->
+
+    <button id="scrollTop">
+        <i class="fa fa-angle-double-up"></i>
+    </button>
 
     <!-- Section - 1 -->
 
@@ -56,16 +66,20 @@
                     <ul class="navbar-nav nav-pills">
                         <!-- Nav options -->
                         <li class="nav-item"><a href="#" class="nav-link">HOME </a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">ABOUT </a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">GJA </a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">HBH</a></li>
+                        <li class="nav-item"><a href="#sect2" class="nav-link">ABOUT </a></li>
+                        <li class="nav-item"><a href="#sect3" class="nav-link">EXPLORE </a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">COMPANIES</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- company name -->
         <div class="title">
-            <h1>AMAZON</h1>
+            <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank"
+                style="text-decoration: none;color: black;">
+                <h1>AMAZON<br>WEB <br>SERVICES</h1>
+            </a>
+            <i class="fab fa-aws"></i>
         </div>
     </section>
 
@@ -74,7 +88,9 @@
         <div class="trans">
             <div class="cont">
                 <div class="h2">
-                    <h2 class="text-uppercase">About</h2>
+                    <a id="sect2">
+                        <h2 class="text-uppercase">About</h2>
+                    </a>
                 </div>
                 <div class="row" id="main1">
                     <!-- first div -->
@@ -96,6 +112,9 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 image1">
                         <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
                             alt="ceo-amazon" class="float-right">
+                        <div class="txtoverlay">
+                            <div class="text">JEFF BEZOS</div>
+                        </div>
                     </div>
                 </div>
                 <!-- second div -->
@@ -103,6 +122,9 @@
                     <div class="col-lg-3 col2 col-md-6 col-sm-6 image2">
                         <img src="https://i0.wp.com/listofceo.com/wp-content/uploads/2018/05/Amit-Agarwal-Amazon-India-CEO.jpg?fit=450%2C450&ssl=1"
                             alt="ceo-amazon-india" class="float-left">
+                        <div class="txtoverlay1">
+                            <div class="text">JEFF BEZOS</div>
+                        </div>
                     </div>
                     <div class="col-lg-9 col-md-6 col-sm-6 p2">
                         <p class="about">Lorem
@@ -141,6 +163,9 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 image3">
                         <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
                             alt="ceo-amazon" class="float-right">
+                        <div class="txtoverlay">
+                            <div class="text">JEFF BEZOS</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -150,7 +175,9 @@
     <!-- section 3 -->
     <section class="third">
         <div class="head2">
-            <h2 class="text-uppercase">EXPLORE MORE...</h2>
+            <a id="sect3">
+                <h2 class="text-uppercase">EXPLORE MORE...</h2>
+            </a>
         </div>
         <!-- card 1 -->
 
@@ -165,14 +192,17 @@
                         </div>
                         <div class="content">
                             <div class="card-body">
-                                <h5 class="card-title">Profile</h5>
-                                <p class="card-text">INFORMATION</p>
-                                <span><a href="#" class="card-link"><img
-                                            src="https://media.glassdoor.com/sqll/1605105/interviewbit-squarelogo-1492428049653.png"
-                                            alt="interviewBit"></a></span>
-                                <span><a href="#" class="card-link"><img
-                                            src="https://images.ctfassets.net/3cttzl4i3k1h/6TLCoy2pHdX93Qt9YZdPiE/29ecae55d6bb70d3fa418188d7dc4002/glassdoor-socialicon-rgb-01.svg?w=45&h=45&q=80&fm=&f=&fit=fill"
-                                            alt="Glassdoor"></a></span>
+                                <h5 class="card-title" style="font-weight: bolder;">Profile</h5>
+                                <a href="https://www.facebook.com/amazonwebservices/"
+                                    class="fa fa-facebook mr-3 text-white prof1" target="_blank"></a>
+                                <a href="https://www.linkedin.com/company/amazon-web-services"
+                                    class="fa fa-linkedin mr-3 text-white prof2" target="_blank"></a>
+                                <a href="https://twitter.com/aws?lang=en" target="_blank"
+                                    class="fa fa-twitter mr-3 text-white prof3"></a>
+                                <a href="https://www.instagram.com/amazonwebservices/?hl=en"
+                                    class="fa fa-instagram mr-3 text-white prof4" target="_blank"></a>
+                                <a href="https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg"
+                                    class="fa fa-youtube-play mr-3 text-white prof5" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -186,20 +216,26 @@
                     <div class="card" style="width: 18rem;">
                         <div class="image">
                             <!-- <h2 class="h2">SALARY</h2> -->
-                            <img src="https://static.thenounproject.com/png/175990-200.png" class="card-img-top"
-                                alt="CTC">
+                            <img src="https://i.pinimg.com/originals/ef/44/68/ef44683b4ed9bbabed05349c6b95b990.png"
+                                class="card-img-top" alt="CTC">
                         </div>
                         <div class="content">
                             <div class="card-body">
-                                <h5 class="card-title">Salary</h5>
-                                <p class="card-text">Highest CTC:<br>
-                                    Lowest CTC:</p>
-                                <span><a href="#" class="card-link"><img
-                                            src="https://media.glassdoor.com/sqll/1605105/interviewbit-squarelogo-1492428049653.png"
-                                            alt="interviewBit"></a></span>
-                                <span><a href="#" class="card-link"><img
-                                            src="https://images.ctfassets.net/3cttzl4i3k1h/6TLCoy2pHdX93Qt9YZdPiE/29ecae55d6bb70d3fa418188d7dc4002/glassdoor-socialicon-rgb-01.svg?w=45&h=45&q=80&fm=&f=&fit=fill"
-                                            alt="Glassdoor"></a></span>
+                                <h5 class="card-title" style="font-weight: bolder;">Salary</h5>
+                                <!-- <p class="card-text">Highest CTC:<br>
+                                    Lowest CTC:</p> -->
+                                <a href="#" class="card-link"><img
+                                        src="https://media.glassdoor.com/sqll/1605105/interviewbit-squarelogo-1492428049653.png"
+                                        alt="interviewBit"></a>
+                                <a href="#" class="card-link"><img
+                                        src="https://apksshare.com/wp-content/uploads/2021/06/Naukri.com-Job-Search-App-Search-jobs-on-the-go-APK-MOD-Download-16.0.png"
+                                        alt="naukri.com"></a>
+                                <a href="#" class="card-link"><img
+                                        src="https://images.ctfassets.net/3cttzl4i3k1h/6TLCoy2pHdX93Qt9YZdPiE/29ecae55d6bb70d3fa418188d7dc4002/glassdoor-socialicon-rgb-01.svg?w=45&h=45&q=80&fm=&f=&fit=fill"
+                                        alt="Glassdoor"></a>
+                                <a href="#" class="card-link"><img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/1200px-GeeksforGeeks.svg.png"
+                                        alt="geeks for geeks"></a>
                             </div>
                         </div>
                     </div>
@@ -213,21 +249,22 @@
                     <div class="card" style="width: 18rem;">
                         <div class="image">
                             <!-- <h2 class="h2" style="color: black;">INTERVIEW</h2> -->
-                            <img src="https://www.clipartkey.com/mpngs/m/104-1046035_job-interview-icon.png"
+                            <img src="https://static.thenounproject.com/png/585378-200.png"
                                 class="card-img-top text-center" alt="interview">
                         </div>
                         <div class="content">
                             <div class="card-body">
-                                <div class="card-title">INTERVIEW</div>
-
-                                <p class="card-text">INFORMATION</p>
-                                <div class="card-body"> -->
-                                    <span><a href="#" class="card-link"><img
-                                                src="https://media.glassdoor.com/sqll/1605105/interviewbit-squarelogo-1492428049653.png"
-                                                alt="interviewBit"></a></span>
-                                    <span><a href="#" class="card-link"><img
-                                                src="https://images.ctfassets.net/3cttzl4i3k1h/6TLCoy2pHdX93Qt9YZdPiE/29ecae55d6bb70d3fa418188d7dc4002/glassdoor-socialicon-rgb-01.svg?w=45&h=45&q=80&fm=&f=&fit=fill"
-                                                alt="Glassdoor"></a></span>
+                                <div class="card-title" style="font-weight: bolder;">INTERVIEW</div>
+                                <div class="card-body">
+                                    <a href="#" class="card-link"><img
+                                            src="https://media.glassdoor.com/sqll/1605105/interviewbit-squarelogo-1492428049653.png"
+                                            alt="interviewBit"></a>
+                                    <a href="#" class="card-link"><img
+                                            src="https://images.ctfassets.net/3cttzl4i3k1h/6TLCoy2pHdX93Qt9YZdPiE/29ecae55d6bb70d3fa418188d7dc4002/glassdoor-socialicon-rgb-01.svg?w=45&h=45&q=80&fm=&f=&fit=fill"
+                                            alt="Glassdoor"></a>
+                                    <a href="#" class="card-link"><img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/1200px-GeeksforGeeks.svg.png"
+                                            alt="geeks for geeks"></a>
                                 </div>
                             </div>
                         </div>
@@ -241,28 +278,35 @@
     <section>
         <footer class="text-white pt-3 pb-4">
             <div class="container text-center">
-                <div class="row text-center text-md-left">
+                <div class="row text-center text-md-left foot">
                     <div class="col-md-4 col-lg-4 mx-auto mt-4">
-                        <h5 class="foot-link">Useful Links</h5>
-                        <p>
-                            <a href="#">abcd</a><br>
-                            <a href="#">abcd</a><br>
-                            <a href="#">abcd</a>
+                        <h5 class="foot-link" style="text-align: left;">COLLEGE INFO</h5>
+                        <hr size="6">
+                        <p style="text-align: justify;">
+                            <a href="#">Home</a><br>
+                            <a href="#">College Rankings</a><br>
+                            <a href="#">IITs</a><br>
+                            <a href="#">NITs</a><br>
+                            <a href="#">IIITs</a><br>
+                            <a href="#">GFTIs</a><br>
+                            <a href="#">Private Institutions</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-4 mx-auto mt-4">
-                        <h5 class="foot-link">Others</h5>
-                        <p>
-                            <a href="#">abcd</a><br>
-                            <a href="#">abcd</a><br>
-                            <a href="#">abcd</a>
+                        <h5 class="foot-link" style="text-align: center;">OTHERS</h5>
+                        <hr size="6">
+                        <p style="text-align: start;">
+                            <a href="#">Home</a><br>
+                            <a href="#"></a><br>
+                            <a href="#"></a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-4 mx-auto mt-4">
-                        <h5 class="foot-link">Contact Us</h5>
+                        <h5 class="foot-link">CONTACT US</h5>
+                        <hr size="6">
                         <p>
-                            <i class="fas fa-home mr-3"> address</i><br>
-                            <i class="fas fa-envelope mr-3"> email</i><br>
+                            <i class="fas fa-home mr-3"> address</i><br><br>
+                            <i class="fas fa-envelope mr-3"> email</i><br><br>
                             <i class="fas fa-phone mr-3"> phone</i><br>
                         </p>
                     </div>
@@ -272,27 +316,36 @@
                 <div class="row text-center text-md-left icons">
                     <div class="col-md-3 col-lg-2 col-sm-2 mx-3 mt-3 icon1">
 
-                        <a href="#" class="fa fa-facebook mr-3 text-white"></a>
+                        <a href="https://www.facebook.com/amazonwebservices/" class="fa fa-facebook mr-3 text-white"
+                            target="_blank"></a>
 
                     </div>
                     <div class="col-md-3 col-lg-2 col-sm-2 mx-3 mt-4 icon2">
-                        <a href="#" class="fa fa-linkedin mr-3 text-white"></a>
+                        <a href="https://www.linkedin.com/company/amazon-web-services"
+                            class="fa fa-linkedin mr-3 text-white" target="_blank"></a>
                     </div>
                     <div class="col-md-3 col-lg-2 col-sm-2 mx-3 mt-4 icon3">
 
-                        <a href="#" class="fa fa-twitter mr-3 text-white"></a>
+                        <a href="https://twitter.com/aws?lang=en" target="_blank"
+                            class="fa fa-twitter mr-3 text-white"></a>
 
                     </div>
                     <div class="col-md-3 col-lg-2 col-sm-2 mx-3 mt-4 icon4">
 
-                        <a href="#" class="fa fa-instagram mr-3 text-white"></a>
+                        <a href="https://www.instagram.com/amazonwebservices/?hl=en"
+                            class="fa fa-instagram mr-3 text-white" target="_blank"></a>
 
                     </div>
                     <div class="col-md-3 col-lg-2 col-sm-2 mx-3 mt-4 icon5">
 
-                        <a href="#" class="fa fa-pinterest mr-3 text-white"></a>
+                        <a href="https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg"
+                            class="fa fa-youtube-play mr-3 text-white" target="_blank"></a>
 
                     </div>
+                </div>
+                <hr>
+                <div style="background-color: slategray; color: black; font-weight: bolder;letter-spacing: 5px;">
+                    © 2021 • CLGMANIA
                 </div>
             </div>
 
@@ -304,6 +357,19 @@
         window.addEventListener('load', function () {
             overlay.style.display = 'none';
         })
+
+        const scrollbtn = document.getElementById('scrollTop');
+        scrollbtn.addEventListener('click', function () {
+            window.scrollTo({
+                left: 0,
+                top: 0,
+                behavior: "smooth"
+            })
+
+            // $("html, body").animate({ scrollTop: 0 }, "slow");
+        })
+
+
     </script>
 
 </body>
