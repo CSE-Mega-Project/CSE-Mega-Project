@@ -16,14 +16,17 @@ html {
 }
 
 .navbar-brand {
-    padding-right: 60%;
+    padding:0 59% 0 2%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
 }
 
 .nav-top {
     color: white;
     position: absolute;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 
@@ -46,9 +49,9 @@ a {
 
 .showsearch {
     display: block;
-    border-radius: 19px;
+    border-radius: 10px;
     transform: scale(1.1);
-    box-shadow: 1px 2px 10px rgb(0, 102, 255);
+    /* box-shadow: 1px 2px 10px rgb(0, 102, 255); */
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -80,7 +83,7 @@ a {
     font-size: 0.9rem;
     transition: all 0.3s;
     color: #4c333e;
-    border-radius: 19px;
+    border-radius: 10px;
     width: 100%;
     font-family: 'Libre Baskerville', serif;
 }
@@ -89,7 +92,7 @@ a {
     transform: scale(1.1);
     border: 0;
     outline: none;
-    box-shadow: 1px 2px 10px rgb(0, 102, 255);
+    /* box-shadow: 1px 2px 10px rgb(0, 102, 255); */
 }
 
 
@@ -128,8 +131,8 @@ a {
 }
 
 #motivational-quote {
-    background-color: #fff;
-    padding: 6% 15% 7%;
+    background-color: #39424e;
+    padding: 6% 15% 9%;
     text-align: center;
     font-weight: bold;
     color:#39424e;
@@ -190,6 +193,7 @@ a {
     font-family: 'Mate SC', serif;
     font-size: 20px;
     background-image: linear-gradient(to right bottom, #fff, #fff);
+    color: #202938;
 }
 
 #motivational-quote p {
@@ -343,7 +347,7 @@ p {
     z-index: 2;
     font-weight: bold;
     font-size: 1.125rem;
-    background: #39424e;
+    background: #34495E;
     padding: .5em .5em .75em;
     clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
     transition: transform 200ms cubic-bezier(.21, 1.00, .81, 1.01);
@@ -412,6 +416,7 @@ p {
 
 .comp:hover .index {
     transform: translate(150%, -105%);
+    background-color: #29b35b;
 }
 
 .comp:hover .front-view {
@@ -489,7 +494,7 @@ p {
 }
 
 #help_sites {
-    padding: 3%;
+    padding: 2%;
     text-align: center;
 }
 
@@ -510,6 +515,7 @@ p {
 #mock_interviews {
     background-color: #F1C40F;
     text-align: center;
+    padding: 2% 0;
 }
 
 .mock_interview_heading {
