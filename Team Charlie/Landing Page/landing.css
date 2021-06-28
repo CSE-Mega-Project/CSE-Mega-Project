@@ -59,7 +59,7 @@ a {
 
 .searchArea {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 25%;
     width: 50%;
 }
@@ -75,7 +75,7 @@ a {
 .search {
     padding: 0.7rem 2rem;
     border: 0;
-    box-shadow: 1px 2px 10px #84596c;
+    box-shadow: 1px 2px 10px #202938;
     font-weight: bold;
     font-size: 0.9rem;
     transition: all 0.3s;
@@ -128,9 +128,11 @@ a {
 }
 
 #motivational-quote {
-    padding: 10% 15%;
+    background-color: #fff;
+    padding: 6% 15% 7%;
     text-align: center;
     font-weight: bold;
+    color:#39424e;
 }
 
 .quote-box {
@@ -149,7 +151,7 @@ a {
 }
 
 .text {
-    background-image: linear-gradient(to right bottom, #fcecdd, #ff6701);
+    background-image: linear-gradient(to right bottom, #fff, #fff);
     position: relative;
     margin-top: 10%;
     font-weight: 700;
@@ -177,7 +179,7 @@ a {
         transition: 0.5s;
         transition-timing-function: ease-in;
         font-family: 'Open Sans Condensed', sans-serif;
-        background-image: linear-gradient(to right bottom, #c0fefc, #29bb89);
+        background-image: linear-gradient(to right bottom, #fff, #fff);
         color: transparent;
     }
 }
@@ -187,7 +189,7 @@ a {
     margin-top: 1%;
     font-family: 'Mate SC', serif;
     font-size: 20px;
-    background-image: linear-gradient(to right bottom, #c0fefc, #29bb89);
+    background-image: linear-gradient(to right bottom, #fff, #fff);
 }
 
 #motivational-quote p {
@@ -201,7 +203,7 @@ a {
 .Area {
     perspective: 150rem;
     position: relative;
-    padding-bottom: 10%;
+    padding-bottom: 16%;
 }
 
 .mainArea {
@@ -291,7 +293,7 @@ p {
 }
 
 .name {
-    color: rgb(248, 7, 7)
+    color: #39424e;
 }
 
 .link {
@@ -341,7 +343,7 @@ p {
     z-index: 2;
     font-weight: bold;
     font-size: 1.125rem;
-    background: rgba(0, 0, 0, 0.65);
+    background: #39424e;
     padding: .5em .5em .75em;
     clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
     transition: transform 200ms cubic-bezier(.21, 1.00, .81, 1.01);
@@ -396,7 +398,7 @@ p {
 }
 
 .background {
-    background: #24232c;
+    background: #39424e;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -414,6 +416,10 @@ p {
 
 .comp:hover .front-view {
     transform: translateY(-50%) scale(0.8);
+}
+
+.comp:hover .name{
+    color: #29b35b;
 }
 
 .comp:hover .front-view .name {
@@ -475,6 +481,11 @@ p {
 
 .Reference-Sites {
     color: #fff;
+    font-size: 2rem;
+}
+
+.help{
+    background-color: #34495E;
 }
 
 #help_sites {
@@ -485,7 +496,7 @@ p {
 .help-img {
     width: 9.375rem;
     height: 6.75rem;
-    padding: 0.625rem;
+    padding: 0.125rem;
 }
 
 .carouselreferencelinks {
@@ -494,32 +505,20 @@ p {
 }
 
 
-/* Footer */
-
-#footer {
-    padding: 5%;
-    text-align: center;
-}
-
-.media-icon {
-    margin: 10px 20px;
-}
-
-
 /* Mock Interview Section */
 
 #mock_interviews {
-    background-color: #12a4d9;
+    background-color: #F1C40F;
     text-align: center;
 }
 
 .mock_interview_heading {
     font-size: 2.5rem;
-    color: #fff;
+    color:#ECF0F1;
 }
 
 .mock-section {
-    padding: 5% 12%;
+    padding: 4% 12%;
 }
 
 @media (max-width:329px) {
@@ -611,4 +610,27 @@ p {
         width: 320px;
         height: 190px;
     }
+}
+
+#end-quote{
+    margin: 3% 10%;
+}
+
+.end-quote{
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #39424e;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #202938;
+    color: rgba(255, 255, 255, 0.26);
+    padding: 2%;
+    text-align: center;
+}
+
+.media-icon {
+    margin: 10px 20px;
 }
