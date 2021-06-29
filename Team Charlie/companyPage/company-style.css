@@ -104,27 +104,7 @@ html {
   text-decoration: none;
   color: #39424e;
 }
-/* @media screen and (max-device-width: 1014px) and (min-device-width: 700px) {
-  #title {
-      height: 150px;
-      
-  }
-  #title img{
-      font-size: 150px;
-     
-}
-}
-@media screen and (max-device-width: 644px) and (min-device-width: 571px) {
-  #title h1{
-      font-size: 70px;
-      margin-top: 20px;
-      
-  }
-  #title  img{
-      font-size: 125px;
-     
-}
-}*/
+
 @media screen  and (min-device-width: 1055px) {
   #comp-name{
       font-size: 85px;
@@ -253,6 +233,7 @@ html {
 #second p {
   border-radius: 20px;
   background-color: #ecf0f1;
+  
 }
 
 .image1,
