@@ -14,7 +14,7 @@ header {
 header::before {
   content: "";
   position: absolute;
-  background: url(./Images/Header_background.jpg) center center/cover;
+  background: url(./Images/Header_background_2.jpg) center center/cover;
   height: 100vh;
   width: 100%;
   top: 0;
@@ -24,15 +24,16 @@ header::before {
 
 .nav_main {
   display: flex;
-  margin-left: 15px;
   position: relative;
   justify-content: space-between;
+  background-color: rgb(0 0 0 / 20%);
 }
 
 .nav_logo {
   display: flex;
   margin-right: 25px;
   margin-top: 3px;
+  margin-left: 15px;
 }
 
 .nav_logo_img {
@@ -74,31 +75,35 @@ header::before {
   /* color: white; */
 }
 
-.nav_list ul li a:hover{
-  background: #18786f;
+.visited{
   color: white;
-  border-radius: 10px;
 }
 
-.nav_list ul li a:hover img{
+.nav_list ul li a:hover {
+  /* background: #18786f; */
+  color: white;
+  /* border-radius: 10px; */
+}
+
+/* .nav_list ul li a:hover img {
   filter: invert(1);
-}
+} */
 
-#college_list_nav_bar{
+/* #college_list_nav_bar {
   position: relative;
-}
+} */
 
-#college_list_nav_bar a{
+/* #college_list_nav_bar a {
   display: flex;
-}
+} */
 
-#dropdown_logo{
+/* #dropdown_logo {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.sub_list{
+/* .sub_list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,11 +116,11 @@ header::before {
   height: 0px;
   overflow: hidden;
   transition: all 0.3s;
-}
+} */
 
-#college_list_nav_bar:hover .sub_list{
+/* #college_list_nav_bar:hover .sub_list {
   height: 170px;
-}
+} */
 
 .nav_list_mob {
   display: none;
@@ -146,7 +151,7 @@ header::before {
   transition: all 0.3s;
 }
 
-.nav_list_mob_list::before{
+.nav_list_mob_list::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -156,7 +161,7 @@ header::before {
   opacity: 0.87;
 }
 
-.nav_list_mob_list ul{
+.nav_list_mob_list ul {
   margin-bottom: 50%;
 }
 
@@ -174,7 +179,7 @@ header::before {
   cursor: pointer;
 }
 
-.cross img{
+.cross img {
   filter: invert(1);
 }
 
@@ -202,6 +207,9 @@ header::before {
   font-size: 3.3rem;
   color: white;
   margin-bottom: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 2px 2px 6px rgb(0 0 0);
 }
 
 .header_explore button {
@@ -352,17 +360,17 @@ header::before {
   transition: all 0.6s;
 }
 
-.select_bar::-webkit-scrollbar{
+.select_bar::-webkit-scrollbar {
   width: 10px;
 }
 
-.select_bar::-webkit-scrollbar-thumb{
+.select_bar::-webkit-scrollbar-thumb {
   background: linear-gradient(transparent, #8bf2d5);
   border-radius: 10px;
   /* transition: all 0.6s; */
 }
 
-.select_bar::-webkit-scrollbar-thumb:hover{
+.select_bar::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(transparent, #f4f2a8);
 }
 
