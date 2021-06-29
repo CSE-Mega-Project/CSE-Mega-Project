@@ -75,7 +75,7 @@ header::before {
   /* color: white; */
 }
 
-.visited{
+.visited {
   color: white;
 }
 
@@ -162,7 +162,10 @@ header::before {
 }
 
 .nav_list_mob_list ul {
-  margin-bottom: 50%;
+  margin-bottom: 44%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cross {
