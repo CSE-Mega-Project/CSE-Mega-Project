@@ -64,10 +64,20 @@ html {
 /* navbar css */
 
 .navbar-brand {
-  padding: 0 55% 0 2%;
+  /* padding: 0 55% 0 2%; */
   font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
+}
+@media screen and (min-device-width:484px) {
+  .navbar-brand{
+    padding: 0 55% 0 2%;
+  }
+}
+@media screen and (max-device-width:484px) {
+  .navbar-brand{
+    padding: 0 20% 0 2%;
+  }
 }
 
 .nav-top {
@@ -454,14 +464,28 @@ p {
   flex-direction: column;
   position: relative;
   height: 300px;
-  width: 300px;
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.2s ease-in-out;
+}
+@media screen and (min-device-width: 400px){
+  .card{
+    width: 300px;
+  }
+  .card:hover{
+    width: 350px;
+  }
+}
+@media screen and (max-device-width: 400px){
+  .card{
+    width: 240px;
+  }
+  .card:hover{
+    width: 260px;
+  }
 }
 
 .contain .card:hover {
   height: 400px;
-  width: 350px;
   transition: 0.2s ease;
   border-radius: 5%;
   background: #39424e;
@@ -552,11 +576,24 @@ p {
   align-items: center;
 }
 
-.h5 {
-  width: 26%;
+@media screen and (min-device-width:375px) {
+  .h5 {
+    width: 30%;
+  }
+  .icon{
+    width:14%;
+  }
+}
+@media screen and (max-device-width:375px) {
+  .h5 {
+    width: 100%;
+  }
+  .icon{
+    width:20%;
+  }
 }
 .icon {
-  width: 14.8%;
+  /* width: 14.8%; */
   color: rgba(255, 255, 255, 0.26);
   padding-left: 0;
 }
