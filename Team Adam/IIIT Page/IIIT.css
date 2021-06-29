@@ -70,7 +70,51 @@ header::before {
 .nav_list ul li a {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  padding: 5px 10px;
   /* color: white; */
+}
+
+.nav_list ul li a:hover{
+  background: #18786f;
+  color: white;
+  border-radius: 10px;
+}
+
+.nav_list ul li a:hover img{
+  filter: invert(1);
+}
+
+#college_list_nav_bar{
+  position: relative;
+}
+
+#college_list_nav_bar a{
+  display: flex;
+}
+
+#dropdown_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: #18786f;
+  border-radius: 10px;
+  position: absolute;
+  top: 89%;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+#college_list_nav_bar:hover .sub_list{
+  height: 170px;
 }
 
 .nav_list_mob {

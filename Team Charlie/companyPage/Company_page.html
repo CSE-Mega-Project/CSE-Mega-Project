@@ -38,69 +38,66 @@
 
 <body>
     <!-- Preloader -->
-
     <div id="overlay">
         <div class="spinner"></div>
     </div>
 
     <!-- scroll to top -->
-
     <button id="scrollTop">
         <i class="fa fa-angle-double-up"></i>
     </button>
 
-    <!-- Section - 1 -->
 
-    <section class="top">
+    <!-- Section - 1 -->
+    <section id="top">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark text-white navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- WEBSITE NAME -->
-                <a href="#" class="navbar-brand navbar-light-brand-color ">ClgMania</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav nav-pills">
-                        <!-- Nav options -->
-                        <li class="nav-item"><a href="#" class="nav-link">HOME </a></li>
-                        <li class="nav-item"><a href="#sect2" class="nav-link">ABOUT </a></li>
-                        <li class="nav-item"><a href="#sect3" class="nav-link">EXPLORE </a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">COMPANIES</a></li>
-                    </ul>
+        <div class="nav-top container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-darkbg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">ClgMania</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link">HOME </a></li>
+                            <li class="nav-item"><a href="#sect2" class="nav-link">ABOUT </a></li>
+                            <li class="nav-item"><a href="#sect3" class="nav-link">EXPLORE </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">COMPANIES</a></li>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
         <!-- company name -->
-        <div class="title" id="navbar_top">
-            <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank"
-                style="text-decoration: none;color: black;">
-                <h1>AMAZON WEB SERVICES</h1>
+        <div id="title">
+            <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank">
+                <h1 id="comp-name">AMAZON WEB SERVICES</h1>
             </a>
-            <i class="fab fa-aws"></i>
+            <img id="comp-img" src="https://pngimg.com/uploads/amazon/amazon_PNG24.png" alt="">
         </div>
     </section>
 
     <!-- section - 2 -->
-    <section class="second">
+    <section id="second">
         <div class="trans">
             <div class="cont">
                 <div class="h2">
-                    <a id="sect2">
+                    <a class="text-center text-decoration-none">
                         <h2 class="text-uppercase">About</h2>
                     </a>
                 </div>
                 <div class="row" id="main1">
                     <!-- first div -->
-                    <div class="col-lg-9 col-md-6 col-sm-6 p1">
+                    <div class="col-lg-9 col-md-6 col-sm-6 info">
                         <p class="ceo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
+                            pariatur.</p>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-6 image1">
@@ -120,13 +117,12 @@
                             <div class="text">JEFF BEZOS</div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-6 col-sm-6 p2">
+                    <div class="col-lg-9 col-md-6 col-sm-6 info">
                         <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
+                            pariatur.</p>
                     </div>
                 </div>
 
@@ -134,13 +130,12 @@
                 <!-- third div -->
 
                 <div class="row" id="main3">
-                    <div class="col-lg-9 col-md-6 col-sm-6 p3">
+                    <div class="col-lg-9 col-md-6 col-sm-6 info">
                         <p class="fact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
+                            pariatur.</p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 image3">
                         <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
@@ -155,7 +150,7 @@
     </section>
 
     <!-- section 3 -->
-    <section class="third">
+    <section id="third">
         <div class="head2">
             <a id="sect3">
                 <h2 class="text-uppercase">EXPLORE MORE...</h2>
@@ -166,7 +161,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 card1">
                 <div class="contain">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <div class="image">
                             <!-- <h2 class="h2" style="color: black; position: relative; top: 60px;">PROFILE</h2> -->
                             <img src="https://cdn0.iconfinder.com/data/icons/male-user-action-icon-set-4-ibrandify/512/25-512.png"
@@ -174,7 +169,7 @@
                         </div>
                         <div class="content">
                             <div class="card-body">
-                                <h5 class="card-title" style="font-weight: bolder;">Profile</h5>
+                                <h5 class="card-title">Profile</h5>
                                 <a href="https://www.facebook.com/amazonwebservices/"
                                     class="fa fa-facebook mr-3 text-white prof1" target="_blank"></a>
                                 <a href="https://www.linkedin.com/company/amazon-web-services"
@@ -195,7 +190,7 @@
 
             <div class="col-lg-4 col-md-6 card2">
                 <div class="contain">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <div class="image">
                             <!-- <h2 class="h2">SALARY</h2> -->
                             <img src="https://i.pinimg.com/originals/ef/44/68/ef44683b4ed9bbabed05349c6b95b990.png"
@@ -203,7 +198,7 @@
                         </div>
                         <div class="content">
                             <div class="card-body">
-                                <h5 class="card-title" style="font-weight: bolder;">Salary</h5>
+                                <h5 class="card-title">Salary</h5>
                                 <!-- <p class="card-text">Highest CTC:<br>
                                     Lowest CTC:</p> -->
                                 <a href="#" class="card-link"><img
@@ -228,7 +223,7 @@
 
             <div class="col-lg-4 col-md-6 card3">
                 <div class="contain">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <div class="image">
                             <!-- <h2 class="h2" style="color: black;">INTERVIEW</h2> -->
                             <img src="https://static.thenounproject.com/png/585378-200.png"
@@ -236,8 +231,8 @@
                         </div>
                         <div class="content">
                             <div class="card-body">
-                                <div class="card-title" style="font-weight: bolder;">INTERVIEW</div>
-                                <div class="card-body" style="display: flex;">
+                                <div class="card-title">INTERVIEW</div>
+                                <div class="card-body">
                                     <a href="#" class="card-link"><img
                                             src="https://media.glassdoor.com/sqll/1605105/interviewbit-squarelogo-1492428049653.png"
                                             alt="interviewBit"></a>
@@ -257,7 +252,7 @@
     </section>
     <!-- section 4 - FOOTER -->
 
-    <section>
+    <section id="last">
         <footer class=" text-white pt-3 pb-4">
             <div class="container text-center">
                 <div class="row text-center text-md-left foot">
@@ -291,46 +286,48 @@
                         <h5 class="foot-link" style="text-align: justify; margin-left: 30%;">CONTACT US</h5>
                         <hr size="6" class="line">
                         <p style="text-align: justify; margin-left: 30%;">
-                            <i class="fas fa-home mr-3"> address</i><br><br>
-                            <i class="fas fa-envelope mr-3"> email</i><br><br>
-                            <i class="fas fa-phone mr-3"> phone</i><br>
+                            <i class="fas fa-home mr-3"> Address</i><br><br>
+                            <i class="fas fa-envelope mr-3"> Mail</i><br><br>
+                            <i class="fas fa-phone mr-3"> Phone</i><br>
                         </p>
                     </div>
                 </div>
                 <hr class="mt-3 mb-3">
                 <!-- SOCIAL MEDIA ICONS -->
-                <div class="row text-center text-md-left icons">
+                <div class="row text-md-left icons">
                     <div class="h5" style="text-align: center;">
                         <h5>FOLLOW US AT:-</h5>
                     </div>
                     <div class="icon">
-                        <a href="https://www.facebook.com/amazonwebservices/" class="fa fa-facebook mr-3 text-white"
+                        <a href="https://www.facebook.com/amazonwebservices/" class="fa fa-facebook mr-1 text-white"
                             target="_blank"></a>
                     </div>
                     <div class="icon">
                         <a href="https://www.linkedin.com/company/amazon-web-services"
-                            class="fa fa-linkedin mr-3 text-white" target="_blank"></a>
+                            class="fa fa-linkedin mr-1 text-white" target="_blank"></a>
                     </div>
                     <div class="icon">
                         <a href="https://twitter.com/aws?lang=en" target="_blank"
-                            class="fa fa-twitter mr-3 text-white"></a>
+                            class="fa fa-twitter mr-1 text-white"></a>
                     </div>
                     <div class="icon">
                         <a href="https://www.instagram.com/amazonwebservices/?hl=en"
-                            class="fa fa-instagram mr-3 text-white" target="_blank"></a>
+                            class="fa fa-instagram mr-1 text-white" target="_blank"></a>
                     </div>
                     <div class="icon">
                         <a href="https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg"
-                            class="fa fa-youtube-play mr-3 text-white" target="_blank"></a>
+                            class="fa fa-youtube-play mr-1 text-white" target="_blank"></a>
                     </div>
                 </div>
-                <hr>
+                <!-- <hr>
                 <div style="background-color: slategray; color: black; font-weight: bolder;letter-spacing: 2px;">
                     © 2021 • CLGMANIA PLACEMENTS
-                </div>
+                </div> -->
             </div>
-
         </footer>
+    </section>
+    <section id="footer">
+        <h6>© 2021 • CLGMANIA PLACEMENTS</h6>
     </section>
     <!-- JS - Preloader -->
     <script>
