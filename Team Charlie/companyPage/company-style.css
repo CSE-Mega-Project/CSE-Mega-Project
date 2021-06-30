@@ -38,7 +38,7 @@ html {
   z-index: 9999;
 }
 
-/* #scrollTop {
+#scrollTop {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -50,17 +50,17 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   outline: none;
   cursor: pointer;
-  pointer-events: none;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color;
+  z-index: 1000;
 }
 
 
-#scrollTop:focus,#scrollTop:hover {
+#scrollTop:hover {
   background-color: salmon;
 }
 
@@ -93,7 +93,7 @@ html {
         opacity: 0;
         transform: scale3D(0.3, 0.3, 0.3);
     }
-} */
+}
 
 /* navbar css */
 
