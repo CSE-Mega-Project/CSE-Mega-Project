@@ -43,7 +43,7 @@
     </div>
 
     <!-- scroll to top -->
-    <button id="scrollTop">
+    <button class="scrollTop">
         <i class="fa fa-angle-double-up"></i>
     </button>
 
@@ -86,7 +86,7 @@
         <div class="trans">
             <div class="cont">
                 <div class="h2">
-                    <a class="text-center text-decoration-none">
+                    <a class="text-center text-decoration-none" id="sect2">
                         <h2 class="text-uppercase">About</h2>
                     </a>
                 </div>
@@ -101,7 +101,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-5 image1">
-                        <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
+                        <img src="https://pbs.twimg.com/profile_images/1399841195816144898/J0itvSWJ.jpg"
                             alt="ceo-amazon" class="float-right">
                         <div class="txtoverlay">
                             <div class="text">JEFF BEZOS</div>
@@ -111,7 +111,7 @@
                 <!-- second div -->
                 <div class="row div2" id="main2">
                     <div class="col-lg-3 col2 col-md-6 col-sm-5 image2">
-                        <img src="https://i0.wp.com/listofceo.com/wp-content/uploads/2018/05/Amit-Agarwal-Amazon-India-CEO.jpg?fit=450%2C450&ssl=1"
+                        <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
                             alt="ceo-amazon-india" class="float-left">
                         <div class="txtoverlay1">
                             <div class="text">JEFF BEZOS</div>
@@ -135,15 +135,17 @@
                             business during the interview process.
                             It means that recruiters test your technical skills with coding challenges and also evaluate
                             you in behavioural interviews.
-                            <br> <strong> Explore more...... </strong> to get the complete overview about the Amazon's
+                            <br> <a href="#sect3" style="text-decoration: none;"><strong> Explore more......
+                                </strong></a> to get the complete overview
+                            about the Amazon's
                             interview.
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-5 image3">
-                        <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
+                        <img src="https://i0.wp.com/listofceo.com/wp-content/uploads/2018/05/Amit-Agarwal-Amazon-India-CEO.jpg?fit=450%2C450&ssl=1"
                             alt="ceo-amazon" class="float-right">
                         <div class="txtoverlay">
-                            <div class="text">JEFF BEZOS</div>
+                            <div class="text">AMIT AGARWAL</div>
                         </div>
                     </div>
                 </div>
@@ -345,7 +347,7 @@
         })
 
 
-        const scrollbtn = document.getElementById('scrollTop');
+        const scrollbtn = document.querySelector('.scrollTop');
         // window.addEventListener("scroll", function () {
         //     if (window.pageYOffset > 300) {
         //         if (!scrollbtn.classList.contains('btn-entry')) {
@@ -362,10 +364,12 @@
         //         }
         //     }
 
-
-
-
         // })
+
+        window.addEventListener('scroll', function () {
+            var scroll = document.querySelector('.scrollTop');
+            scroll.classList.toggle("active", window.scrollY > 500);
+        })
 
         scrollbtn.addEventListener('click', function () {
             window.scrollTo({

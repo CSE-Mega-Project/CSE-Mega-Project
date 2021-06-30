@@ -1,6 +1,7 @@
 html {
   margin-right: 0px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Pre-Loader */
@@ -38,7 +39,7 @@ html {
   z-index: 9999;
 }
 
-#scrollTop {
+.scrollTop {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -53,14 +54,20 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-property: background-color;
+  transition-duration: 0.5s;
+  /* transition-timing-function: ease-in-out;
+  transition-property: background-color; */
+  visibility: hidden;
+  opacity: 0;
   z-index: 1000;
 }
 
+.scrollTop.active{
+  visibility: visible;
+  opacity: 1;
+}
 
-#scrollTop:hover {
+.scrollTop:hover {
   background-color: salmon;
 }
 
@@ -342,13 +349,13 @@ html {
   transition: 0.5s ease;
 }
 
-.image1:hover .txtoverlay {
+/* .image1:hover .txtoverlay {
   width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
   left: 70px;
-}
+} */
 
 .image2:hover .txtoverlay1 {
   width: 180px;
@@ -366,10 +373,10 @@ html {
   left: 70px;
 }
 
-.image1:hover img {
+/* .image1:hover img {
   filter: blur(5px);
   -webkit-filter: blur(5px);
-}
+} */
 
 .image2:hover img {
   filter: blur(5px);
@@ -382,8 +389,8 @@ html {
 }
 
 .text {
-  color: #39424e;
-  font-size: 25px;
+  color: #fff;
+  font-size: 23px;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
