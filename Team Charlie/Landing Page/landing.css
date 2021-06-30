@@ -16,7 +16,7 @@ html {
 }
 
 .navbar-brand {
-    padding:0 59% 0 2%;
+    padding: 0 59% 0 2%;
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -135,7 +135,7 @@ a {
     padding: 6% 15% 9%;
     text-align: center;
     font-weight: bold;
-    color:#39424e;
+    color: #39424e;
 }
 
 .quote-box {
@@ -303,12 +303,16 @@ p {
 .link {
     cursor: pointer;
     border: 0;
-    background: var(--clr-secondary);
+    /* background: var(--clr-secondary); */
     border-radius: 100vw;
     color: white;
     font-weight: bold;
     /* padding: .5em 1em; */
     font-size: 0.8rem;
+}
+
+.company-button {
+    color: rgba(255, 0, 0, 0.541);
 }
 
 .Companies {
@@ -423,7 +427,7 @@ p {
     transform: translateY(-50%) scale(0.8);
 }
 
-.comp:hover .name{
+.comp:hover .name {
     color: #29b35b;
 }
 
@@ -489,7 +493,7 @@ p {
     font-size: 2rem;
 }
 
-.help{
+.help {
     background-color: #34495E;
 }
 
@@ -520,7 +524,7 @@ p {
 
 .mock_interview_heading {
     font-size: 2.5rem;
-    color:#ECF0F1;
+    color: #ECF0F1;
 }
 
 .mock-section {
@@ -618,15 +622,16 @@ p {
     }
 }
 
-#end-quote{
+#end-quote {
     margin: 3% 10%;
 }
 
-.end-quote{
+.end-quote {
     font-weight: bold;
     font-family: 'Montserrat Alternates', sans-serif;
     color: #39424e;
 }
+
 
 /* Footer */
 
