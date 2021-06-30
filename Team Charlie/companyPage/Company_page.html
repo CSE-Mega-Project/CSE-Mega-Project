@@ -43,56 +43,61 @@
     </div>
 
     <!-- scroll to top -->
-    <button id="scrollTop">
+    <button class="scrollTop">
         <i class="fa fa-angle-double-up"></i>
     </button>
 
-
     <!-- Section - 1 -->
-    <section id="top">
-        <!-- NAVBAR -->
-        <div class="nav-top container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-darkbg-transparent">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">ClgMania</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="nav-link">HOME </a></li>
-                            <li class="nav-item"><a href="#sect2" class="nav-link">ABOUT </a></li>
-                            <li class="nav-item"><a href="#sect3" class="nav-link">EXPLORE </a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">COMPANIES</a></li>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- company name -->
-        <div id="title">
-            <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank">
-                <h1 id="comp-name">AMAZON WEB SERVICES</h1>
-            </a>
-            <img id="comp-img" src="https://pngimg.com/uploads/amazon/amazon_PNG24.png" alt="">
-        </div>
-    </section>
+    <section>
+        <nav class="fixed-top navbar navbar-expand-lg navbar-dark pe-5 ps-5" style="background-color: rgba(32, 32, 32, 0.5);">
+            <a class="navbar-brand ps-md-5" href="#">ClgMania</a>
+              <button class="navbar-toggler text-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse pe-md-5" id="navbarSupportedContent">
+              <ul class="navbar-nav text-light ms-auto">
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link"  aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" aria-current="page" href="#sect2">ABOUT</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" aria-current="page" href="#sect3">EXPLORE</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" aria-current="page" href="#s">COMPANIES</a>
+                </li >
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </section>
+
+    <!-- section for company name -->
+
+        <section>   
+            <!-- company name -->     
+            <div id="title">
+                <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank">
+                    <h1 id="comp-name">AMAZON WEB SERVICES</h1>
+                </a>
+                <img id="comp-img" src="https://pngimg.com/uploads/amazon/amazon_PNG24.png" alt="">
+            </div>
+        </section>
 
     <!-- section - 2 -->
     <section id="second">
         <div class="trans">
             <div class="cont">
                 <div class="h2">
-                    <a class="text-center text-decoration-none">
+                    <a class="text-center text-decoration-none" id="sect2">
                         <h2 class="text-uppercase">About</h2>
                     </a>
                 </div>
                 <div class="row div1" id="main1">
                     <!-- first div -->
-                    <div class="col-lg-9 col-md-6 col-sm-7 info">
+                    <div class="col-lg-9 col-md-6 col-sm-7 info p-4">
                         <p class="ceo">Amazon.com, Inc. is a multinational American company dedicated to e-commercial,
                             cloud-based, digital streaming and artificial intelligence.
                             He and Google, Apple, Microsoft, and Facebook are among the five big companies in the US
@@ -101,7 +106,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-5 image1">
-                        <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
+                        <img src="https://pbs.twimg.com/profile_images/1399841195816144898/J0itvSWJ.jpg"
                             alt="ceo-amazon" class="float-right">
                         <div class="txtoverlay">
                             <div class="text">JEFF BEZOS</div>
@@ -111,13 +116,13 @@
                 <!-- second div -->
                 <div class="row div2" id="main2">
                     <div class="col-lg-3 col2 col-md-6 col-sm-5 image2">
-                        <img src="https://i0.wp.com/listofceo.com/wp-content/uploads/2018/05/Amit-Agarwal-Amazon-India-CEO.jpg?fit=450%2C450&ssl=1"
+                        <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
                             alt="ceo-amazon-india" class="float-left">
                         <div class="txtoverlay1">
                             <div class="text">JEFF BEZOS</div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-6 col-sm-7 info">
+                    <div class="col-lg-9 col-md-6 col-sm-7 info p-4">
                         <p class="about">On July 5, 1994, Jeff Bezos established Amazon in its Bellevue garage,
                             Washington.
                             It began to be an online book market but was expanded to include electronics, software,
@@ -130,20 +135,22 @@
                 <!-- third div -->
 
                 <div class="row div3" id="main3">
-                    <div class="col-lg-9 col-md-6 col-sm-7 info">
+                    <div class="col-lg-9 col-md-6 col-sm-7 info p-4">
                         <p class="fact">Big Tech companies like Amazon want to determine whether they're fit for the
                             business during the interview process.
                             It means that recruiters test your technical skills with coding challenges and also evaluate
                             you in behavioural interviews.
-                            <br> <strong> Explore more...... </strong> to get the complete overview about the Amazon's
+                            <br> <a href="#sect3" style="text-decoration: none;"><strong> Explore more......
+                                </strong></a> to get the complete overview
+                            about the Amazon's
                             interview.
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-5 image3">
-                        <img src="https://s3-prod.modernhealthcare.com/s3fs-public/styles/width_375/public/3_Bezos_Jeff_WEB.jpg"
+                        <img src="https://i0.wp.com/listofceo.com/wp-content/uploads/2018/05/Amit-Agarwal-Amazon-India-CEO.jpg?fit=450%2C450&ssl=1"
                             alt="ceo-amazon" class="float-right">
                         <div class="txtoverlay">
-                            <div class="text">JEFF BEZOS</div>
+                            <div class="text">AMIT AGARWAL</div>
                         </div>
                     </div>
                 </div>
@@ -345,7 +352,7 @@
         })
 
 
-        const scrollbtn = document.getElementById('scrollTop');
+        const scrollbtn = document.querySelector('.scrollTop');
         // window.addEventListener("scroll", function () {
         //     if (window.pageYOffset > 300) {
         //         if (!scrollbtn.classList.contains('btn-entry')) {
@@ -362,10 +369,12 @@
         //         }
         //     }
 
-
-
-
         // })
+
+        window.addEventListener('scroll', function () {
+            var scroll = document.querySelector('.scrollTop');
+            scroll.classList.toggle("active", window.scrollY > 500);
+        })
 
         scrollbtn.addEventListener('click', function () {
             window.scrollTo({
