@@ -30,6 +30,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -48,43 +52,44 @@
     </button>
 
     <!-- Section - 1 -->
-    <section>
-        <nav class="fixed-top navbar navbar-expand-lg navbar-dark pe-5 ps-5" style="background-color: rgba(32, 32, 32, 0.5);">
-            <a class="navbar-brand ps-md-5" href="#">ClgMania</a>
-              <button class="navbar-toggler text-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse pe-md-5" id="navbarSupportedContent">
-              <ul class="navbar-nav text-light ms-auto">
-                <li class="nav-item d-flex justify-content-center">
-                  <a class="nav-link"  aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                  <a class="nav-link" aria-current="page" href="#sect2">ABOUT</a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                  <a class="nav-link" aria-current="page" href="#sect3">EXPLORE</a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                  <a class="nav-link" aria-current="page" href="#s">COMPANIES</a>
-                </li >
-              </ul>
+    <section id="top">
+        <div class="nav-top container-fluid" id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-darkbg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">ClgMania</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link">HOME </a></li>
+                            <li class="nav-item"><a href="#sect2" class="nav-link">ABOUT </a></li>
+                            <li class="nav-item"><a href="#sect3" class="nav-link">EXPLORE </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">COMPANIES</a></li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 id="comp-name">Amazon</h1>
+                    <h3 id="text">Kya Nahi Milega!</h3>
+                </div>
+                <div class="col-6">
+                    <img id="comp-logo" src="https://img.icons8.com/clouds/400/000000/amazon.png"/>
+                </div>
+                <div class="col-12 mt-3">
+                    <p id="quote">"A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well"</p>
+                    <p id="quote-author">- Jeff Bezos</p>
+                </div>
             </div>
-          </div>
-        </nav>
-        </section>
-
-    <!-- section for company name -->
-
-        <section>   
-            <!-- company name -->     
-            <div id="title">
-                <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services" target="_blank">
-                    <h1 id="comp-name">AMAZON WEB SERVICES</h1>
-                </a>
-                <img id="comp-img" src="https://pngimg.com/uploads/amazon/amazon_PNG24.png" alt="">
-            </div>
-        </section>
+        </div>
+    </section>
 
     <!-- section - 2 -->
     <section id="second">
