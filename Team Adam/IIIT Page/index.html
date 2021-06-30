@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IIIT</title>
     <link rel="stylesheet" href="IIIT.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./media1.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="./media1.css">
     <link rel="stylesheet" media="screen and (max-width: 520px)" href="./media2.css">
     <link rel="stylesheet" media="screen and (max-width: 390px)" href="./media3.css">
 
@@ -32,11 +32,12 @@
             </div>
             <div class="nav_list">
                 <ul>
-                    <li><a href="#">IITs</a></li>
-                    <li><a href="#">NITs</a></li>
-                    <li><a href="#">IIITs</a></li>
-                    <li><a href="#">GFTIs</a></li>
-                    <li><a href="#">Privates</a></li>
+                    <li onmouseover="changecolor()" onmouseout="changecolor_2()"><a href="#">Home</a></li>
+                    <li onmouseover="changecolor()" onmouseout="changecolor_2()"><a href="#">IITs</a></li>
+                    <li onmouseover="changecolor()" onmouseout="changecolor_2()"><a href="#">NITs</a></li>
+                    <li><a href="#" id="active">IIITs</a></li>
+                    <li onmouseover="changecolor()" onmouseout="changecolor_2()"><a href="#">GFTIs</a></li>
+                    <li onmouseover="changecolor()" onmouseout="changecolor_2()"><a href="#">Privates</a></li>
                 </ul>
             </div>
             <div class="nav_list_mob">
@@ -49,6 +50,7 @@
                     <button id="close" onclick="cross()"><img src="./Images/close_black_24dp.svg" alt="close"></button>
                 </div>
                 <ul>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">IITs</a></li>
                     <li><a href="#">NITs</a></li>
                     <li><a href="#">IIITs</a></li>
@@ -571,9 +573,18 @@
         }
 
         function close_search_bar() {
-            let temp = document.getElementById('search_bar')
+            let temp = document.getElementById('search_bar');
             temp.style.height = "0px";
             temp.style.border = "none";
+        }
+
+        function changecolor() {
+            let temp = document.getElementById('active');
+            temp.style.color = "black";
+        }
+        function changecolor_2() {
+            let temp = document.getElementById('active');
+            temp.style.color = "white";
         }
     </script>
 
