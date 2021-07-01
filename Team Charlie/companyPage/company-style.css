@@ -4,6 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* body{
+  margin: 0;
+  padding: 0;
+} */
+
 /* Pre-Loader */
 .spinner {
   width: 80px;
@@ -136,6 +141,8 @@ html {
   position: absolute;
   z-index: 2;
   background: #f5f5f5;
+  text-align: right;
+
 }
 
 
@@ -425,184 +432,139 @@ html {
 
 /* section 2 */
 
-#second {
-  position: relative;
-  padding: 2% 5% 5%;
-  border-top: white 10px solid;
-  background-color: #f1c40f;
+#about{
+    height: 110vh;
+    /* border-bottom: blue 2px solid; */
+    background-color: blanchedalmond;
 }
 
-#main1 {
-  padding-bottom: 3%;
+
+.first-div
+{
+    /* float: right; */
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+    z-index: 100;
+    width: 400px;
+    min-height: 300px;
+    background: linear-gradient(to top right, #f12711, #f5af19, #ff781f);
+    border-bottom-left-radius: 100%;
 }
 
-.h2 h2 {
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  padding-bottom: 10px;
+.second-div{
+    position: absolute;
+    /* display: inline; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow:15px 15px 40px grey; 
+    min-height: 550px;
+    width: 650px;
+    z-index: 300;
+    top: 50.25rem;
+    left:27.25rem;
+    bottom: 0;
+    /* overflow: hidden; */
 }
 
-.image1 img {
-  border-radius: 100%;
-  height: 180px;
-  width: 180px;
-  border-bottom: #39424e 10px solid;
-  border-bottom-left-radius: 10px;
-}
-.image2 img {
-  border-radius: 100%;
-  height: 180px;
-  width: 180px;
-  border-bottom-right-radius: 10px;
-  border-bottom: #39424e 10px solid;
-}
-.image3 img {
-  border-radius: 100%;
-  height: 180px;
-  width: 180px;
-  border-bottom: #39424e 10px solid;
-  border-bottom-left-radius: 10px;
-}
-
-.info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-}
-.image1,
-.image2,
-.image3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+.second-div .first{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    /* top: 3rem; */
+    margin-top: 30px;
+    /* margin-top: 10px; */
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: -1px 1px 0 orange,
+				  1px 1px 0 orange,
+				 1px -1px 0 orange,
+				-1px -1px 0 orange;
+    /* text-shadow: -1px 1px 0 black,
+				  1px 1px 0 black,
+				 1px -1px 0 black,
+				-1px -1px 0 black; */
+    /* text-shadow: 2px 2px black; */
+    text-shadow: 2px 2px 8px darkorange;
 }
 
-#second p {
-  border-radius: 20px;
-  background-color: #ecf0f1;
-  
+.second-div .third-div{
+    position: absolute;
+    left: 3.25rem;
+    margin: 45px auto;
 }
 
-.image1,
-.image2,
-.image3 {
-  position: relative;
-  padding: 3%;
-  /* width: 50%; */
-}
-.div1, .div2, .div3{
-  display: flexbox;
-  padding: 0% 5%;
-  margin: -4% 0%;
-}
-@media screen and (min-device-width: 991px){
-  
-  .div1, .div2, .div3{
-    display: flexbox;
-    padding: 1% 5%;
-  }
-  }
-@media screen and (max-device-width: 991px){
-  
-.div1, .div2, .div3{
-  display: flexbox;
-  padding: 5% 5%;
-}
-}
-@media screen and (max-device-width: 575px){
-  .image1, .image3{
-      order: -1;
-  } 
+.second-h2, .third-h2{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
-.txtoverlay {
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-  right: 0;
-  /* height: 180px;
-    width: 180px; */
-  background: linear-gradient(to right, #f37335);
-  border-radius: 100%;
-  border-bottom-left-radius: 10px;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: 0.5s ease;
+.second-div .para{
+    color: #073898;
+    position: absolute;
+    bottom: 7.25rem;
+    left: 3.25rem;
+    right: 1.25rem;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
 }
 
-.txtoverlay1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 100%;
-  border-bottom-left-radius: 10px;
-  background: linear-gradient(to right, #f37335);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: 0.5s ease;
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    /* margin: 5px; */
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 4.25rem;
+    right: 2.25rem;
+    cursor: pointer;
+    border: none;
 }
 
-/* .image1:hover .txtoverlay {
-  width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 70px;
-} */
-
-.image2:hover .txtoverlay1 {
-  width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 70px;
+.btn a:hover{
+    color: blue;
+    border: blue 2px solid;
+    background-color: white;
 }
 
-.image3:hover .txtoverlay {
-  width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 70px;
+.fourth-div{
+    display: inline-block;
+    position: absolute;
+    min-height: 800px;
+    width: 300px;
+    z-index: 500;
+    top: 55.25rem;
+    left: 13.25rem;
 }
 
-/* .image1:hover img {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-} */
-
-.image2:hover img {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+.fourth-div img{
+    min-height: 400px;
+    width: 250px;
 }
 
-.image3:hover img {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-}
-
-.text {
-  color: #fff;
-  font-size: 23px;
-  font-weight: bolder;
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
+.fifth-div
+{
+    /* float: right; */
+    position: absolute;
+    width: 400px;
+    min-height: 300px;
+    background: linear-gradient(to bottom right, #f2994a, #f2c94c);
+    border-top-right-radius: 100%;
+    display: flex;
+    left: 0;
+    /* top: 50%; */
+    /* bottom: 0; */
+    top: 174.5vh;
 }
 
 /* section 3 - cards */
