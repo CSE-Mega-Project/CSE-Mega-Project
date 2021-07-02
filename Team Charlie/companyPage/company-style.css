@@ -1,20 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
 html {
   margin-right: 0px;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-/* body{
-  margin: 0;
-  padding: 0;
-} */
-
 /* Pre-Loader */
 .spinner {
   width: 80px;
   height: 80px;
   border: 6px solid #f3f3f3;
-  border-top: 6px solid red;
+  border-top: 6px solid #FF5300;
   border-radius: 100%;
   position: absolute;
   top: 0;
@@ -107,439 +108,204 @@ html {
     }
 }
 
-#top{
-  height: 115vh;
-  background-color: #ff781f;
-}
-
-*{
-  font-family: 'Inter', sans-serif;
+#Layer_1{
+    width: 2rem;
 }
 
 /* navbar css */
 
-
 .navbar-brand {
-  /* padding: 0 55% 0 2%; */
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.1rem;
 }
-@media screen and (min-device-width:484px) {
-  .navbar-brand{
-    padding: 0 51% 0 2%;
+
+
+@media screen and (min-device-width: 484px) {
+  .navbar-brand {
+    padding: 0 55% 0 0%;
   }
 }
-@media screen and (max-device-width:484px) {
-  .navbar-brand{
-    padding: 0 20% 0 2%;
+
+@media screen and (max-device-width: 484px) {
+  .navbar-brand {
+    padding: 0 20% 0 0%;
   }
 }
 
 .nav-top {
-  /* color: white; */
-  position: absolute;
-  z-index: 2;
-  background: #f5f5f5;
-  text-align: right;
+  margin-top: 0;
+  background: #fff;
 }
 
-
-#comp-name{
+/* top section */
+#top {
   position: relative;
+  height: 150%;
+  background-color: #FF5300;
+  margin-top: 0;
+}
+
+#comp-name {
   text-shadow: 6px 2px 4px #00000059;
-  top: 150px;
-  /* left: 5%; */
-  font-size: 120px;
+  font-size: 10vw;
+  padding: 10% 0 0 3%;
+  text-size-adjust: inherit;
   font-weight: 600;
   color: white;
 }
-#text{
-  position: relative;
-  top: 180px;
-  left: 35%;
+
+.sect1 {
+  padding-top: 3vh;
+}
+
+.sect2 {
+  padding: 0vh 5vw;
+}
+
+#text {
+  padding: 5% 0 0 15%;
   text-shadow: 6px 2px 4px #00000059;
-  font-size: 50px;
+  font-size: 4vw;
   color: white;
 }
-#comp-logo{
-  position: relative;
-  top: 60px;
-  left: 20%;
+#comp-logo {
+  padding-top: 0;
+  width: 40vw;
 }
 
-#quote{
-  position: relative;
-  top: 60px;
-  font-size: 32px;
+#quote {
+  font-size: 2.8vw;
   color: #fff;
   text-shadow: 3px 2px 4px #00000059;
-  padding: 2%;
 }
 
-#quote-author{
-  position: relative;
-  top: 50px;
-  font-size: 32px;
+#quote-author {
+  font-size: 2.8vw;
   color: #fff;
   padding-left: 75%;
   text-shadow: 3px 2px 4px #00000059;
 }
 
-
-@media (max-width:1000px){
-  #top{
-      height:102vh;
-  }
-  #comp-name{
-      position: relative;
-      top: 150px;
-      font-size: 90px;
-      font-weight: 600;
-      color: white;
-      padding-left:10px;
-  }
-  #text{
-      position: relative;
-      top: 180px;
-      left: 100px;
-      font-size: 40px;
-      color: white;
-  }
-  #comp-logo{
-      position: relative;
-      top: 60px;
-      left: 10%;
-      width: 320px;
-  }
-  
-  #quote{
-      position: relative;
-      top: 100px;
-      font-size: 25px;
-      color: #fff;
-      padding: 0 25px;
-  }
-  
-  #quote-author{
-      position: relative;
-      top: 90px;
-      font-size: 25px;
-      color: #fff;
-      padding-left: 73%;
-  }
-}
-
-@media (max-width:800px){
-  #top{
-      height:106vh;
-  }
-
-  #comp-name{
-      position: relative;
-      top: 150px;
-      font-size: 90px;
-      font-weight: 600;
-      color: white;
-  }
-  #text{
-      position: relative;
-      top: 180px;
-      font-size: 30px;
-      color: white;
-  }
-  #comp-logo{
-      position: relative;
-      top: 80px;
-      /* left: 30%; */
-      width: 300px;
-  }
-  
-  #quote{
-      font-size: 25px;
-      color: #fff;
-      position: relative;
-      top: 90px;
-  }
-  
-  #quote-author{
-      font-size: 25px;
-      color: #fff;
-      padding-left: 73%;
-      position: relative;
-      top: 90px;
-  }
-}
-
-@media (max-width:750px){
-  #top{
-      height:105vh;
-  }
-  #comp-name{
-      position: relative;
-      top: 150px;
-      font-size: 80px;
-      font-weight: 600;
-      color: white;
-  }
-  #text{
-      position: relative;
-      top: 180px;
-      font-size: 30px;
-      color: white;
-  }
-  #comp-logo{
-      position: relative;
-      top: 90px;
-      left: 17%;
-      width: 240px;
-  }
-  
-  #quote{
-      font-size: 25px;
-      color: #fff;
-      position: relative;
-      top: 140px;
-      padding-left:15px;
-  }
-  
-  #quote-author{
-      position: relative;
-      top: 130px;
-      font-size: 25px;
-      color: #fff;
-      padding-left: 70%;
-  }
-}
-
-@media (max-width:570px){
-  #top{
-      height:100vh;
-  }
-  #comp-name{
-      position: relative;
-      top: 160px;
-      font-size: 70px;
-      font-weight: 600;
-      color: white;
-  }
-  #text{
-      position: relative;
-      top: 180px;
-      font-size: 30px;
-      color: white;
-      left:20%;
-  }
-  #comp-logo{
-      position: relative;
-      top: 100px;
-      left: 5%;
-      width: 240px;
-  }
-  
-  #quote{
-      font-size: 20px;
-      color: #fff;
-      position: relative;
-      top: 130px;
-      padding-left:10px;
-  }
-  
-  #quote-author{
-      position: relative;
-      top: 130px;
-      font-size: 20px;
-      color: #fff;
-      padding-left: 63%;
-  }
-}
-
-@media (max-width:530px){
-  #top{
-    height:100vh;
-}
-  #comp-name{
-      position: relative;
-      top: 160px;
-      font-size: 60px;
-      font-weight: 600;
-      color: white;
-  }
-  #text{
-      position: relative;
-      top: 180px;
-      font-size: 25px;
-      color: white;
-      left:50px;
-  }
-  #comp-logo{
-      position: relative;
-      top: 110px;
-      left: 5%;
-      width: 190px;
-  }
-  
-  #quote{
-      font-size: 20px;
-      color: #fff;
-      position: relative;
-      top: 170px;
-      left: 10px;
-  }
-  
-  #quote-author{
-      position: relative;
-      top: 170px;
-      font-size: 20px;
-      color: #fff;
-      padding-left: 70%;
-  }
-}
-
-@media (max-width:430px){
-  #top{
-      height:95vh;
-  }
-  #comp-name{
-      position: relative;
-      top: 170px;
-      font-size: 40px;
-      font-weight: 600;
-      color: white;
-  }
-  #text{
-      position: relative;
-      top: 190px;
-      font-size: 18px;
-      color: white;
-      left:30px;
-  }
-  #comp-logo{
-      position: relative;
-      top: 130px;
-      left: 5%;
-      width: 150px;
-  }
-  
-  #quote{
-      font-size: 14px;
-      color: #fff;
-      position: relative;
-      top: 180px;
-      left: 0px;
-  }
-  
-  #quote-author{
-      position: relative;
-      top: 180px;
-      font-size: 15px;
-      color: #fff;
-      padding-left: 60%;
-  }
-}
-
 /* section 2 */
 
 #mid{
-    height: 100vh;
-    background-color: blanchedalmond;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
 }
 
 #mid div:nth-of-type(1){
-    background-color: #ff781f;
-    border-bottom-left-radius: 100%;
-    width: 300px;
-    height: 300px;
-    float: right;
+  background-color: #FF5300;
+  border-bottom-left-radius: 100%;
+  width: 30vw;
+  height: 30vw;
+  float: right;
 }
 
 #mid div:nth-of-type(2){
-    width: 300px;
-    height: 500px;
-    display: flex;
-    position: relative;
-    top: 8.25rem;
-    left: 23.5%;
-    bottom: 0;
+  width: 30vw;
+  height: 37vw;
+  display: flex;
+  position: relative;
+  top: 8vw;
+  left: 23vw;
+  bottom: 0;
 }
 
-#mid div:nth-of-type(2) img{
-    width: 250px;
-    height: 400px;
-    position: relative;
-    z-index: 50;
-    /* top: 10.25rem; */
+#ceo{
+  width: 20vw;
+  height: 30vw;
+  position: relative;
+  z-index: 50;
+  left: -9vw;
+  top: 9vw;
+  border-radius: 3%;
+  /* top: 10.25rem; */
 }
 
 #mid div:nth-of-type(3){
-    width: 600px;
-    height: 700px;
-    display: flex;
-    position: relative;
-    float: right;
-    right: 15%;
-    /* margin: 0 auto; */
-    bottom: 26.25rem;
-    /* top: 6.25rem; */
-    /* display: flex; */
+  width: 50vw;
+  height: 70vh;
+  display: flex;
+  position: relative;
+  float: right;
+  right: 15%;
+  bottom: 35vw;
 }
 
 #mid div:nth-of-type(3) .info{
-    background-color: white;
-    border-radius: 3px;
-    width: 500px;
-    height: 550px;
-    /* display: flex; */
-    position: relative;
-    padding: 30px;
+  background-color: white;
+  border-radius: 3%;
+  width: 50vw;
+  height: 50vw;
+  position: relative;
+  /* z-index: 1; */
+  top: 5vw;
+  left: -5vw;
+  padding: 3.5vw 2vw 5vw 9vw;
 }
 
 #mid div:nth-of-type(3) .info .first{
-    text-align: center;
-    margin: 20px auto;
-    color: white;
-    font-size: 80px;
-    font-weight: 700;
-    text-shadow: 2px 2px 8px darkorange;
+  text-align: center;
+  /* margin: 20px auto; */
+  color: #FF5300;
+  font-size: 4vw;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px darkorange;
+  margin: 0vw 10vw 3vw 0vw;
+}
+
+
+.second-h2 , .third-h2{
+font-size: 3vw;
+font-weight: 700;
 }
 
 #mid div:nth-of-type(3) .info .para{
-    margin: 30px auto;
-    color: #073898;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
+  /* margin: 30px auto; */
+  color: #073898;
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 2.9vw;
+  margin-top: 1.5vw;
+}
+
+.btn{
+margin-left: 50%;
 }
 
 .btn a{
-    text-decoration: none;
-    color: white;
-    background-color: blue;
-    padding: 5px;
-    /* margin: 5px; */
-    font-size: 15px;
-    font-weight: bolder;
-    font-family: 'Inter', sans-serif;
-    border-radius: 20px;
-    position: relative;
-    display: flex;
-    cursor: pointer;
-    border: none;
+text-decoration: none;
+color: #073898;
+background-color: white;
+padding: 5px;
+/* margin: 5px; */
+font-size: 1.5vw;
+font-weight: bold;
+font-family: 'Inter', sans-serif;
+border-radius: 20px;
+position: relative;
+display: flex;
+cursor: pointer;
+border: none;
+border: #073898 2px solid;
+margin-top: 1vw;
 }
 
 .btn a:hover{
-    color: blue;
-    border: blue 2px solid;
-    background-color: white;
+  color: white;
+  /* border: blue 2px solid; */
+  background-color: #073898;
 }
 
 #mid div:nth-of-type(4){
-    background-color: #ff781f;
-    border-top-right-radius: 100%;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    bottom: 9.00rem;
+  background-color: #FF5300;
+  border-top-right-radius: 100%;
+  width: 30vw;
+  height: 30vw;
+  position: relative;
+  /* bottom: 9.00rem; */
 }
 
 
