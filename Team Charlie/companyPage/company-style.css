@@ -4,6 +4,11 @@
   font-family: "Inter", sans-serif;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 html {
   margin-right: 0px;
   overflow-x: hidden;
@@ -136,6 +141,11 @@ html {
 .nav-top {
   margin-top: 0;
   background: #fff;
+  
+}
+
+.navbar-nav .nav-items{
+z-index: 9999;
 }
 
 /* top section */
@@ -144,6 +154,7 @@ html {
   height: 150%;
   background-color: #FF5300;
   margin-top: 0;
+  z-index: 50;
 }
 
 #comp-name {
@@ -191,12 +202,13 @@ html {
 
 #mid{
   height: 100%;
-  background-color: #fff;
+  background-color: blanchedalmond;
   position: relative;
 }
 
 #mid div:nth-of-type(1){
   background-color: #FF5300;
+  /* background: linear-gradient(to top right, #fc4a1a, #f7b733); */
   border-bottom-left-radius: 100%;
   width: 30vw;
   height: 30vw;
@@ -215,12 +227,12 @@ html {
 
 #ceo{
   width: 20vw;
-  height: 30vw;
+  height: 35vw;
   position: relative;
   z-index: 50;
   left: -9vw;
-  top: 9vw;
-  border-radius: 3%;
+  top: 5vw;
+  /* border-radius: 3%; */
   /* top: 10.25rem; */
 }
 
@@ -249,10 +261,12 @@ html {
 #mid div:nth-of-type(3) .info .first{
   text-align: center;
   /* margin: 20px auto; */
-  color: #FF5300;
-  font-size: 4vw;
+  color: white;
+  font-size: 6vw;
+  -webkit-text-stroke: 2px darkorange;
   font-weight: 700;
-  text-shadow: 2px 2px 4px darkorange;
+  /* -webkit-text-fill-color: white; */
+  text-shadow: 4px 4px 6px black;
   margin: 0vw 10vw 3vw 0vw;
 }
 
@@ -268,18 +282,18 @@ font-weight: 700;
   font-size: 2vw;
   font-weight: 400;
   line-height: 2.9vw;
-  margin-top: 1.5vw;
+  margin-top: 2vw;
 }
 
 .btn{
-margin-left: 50%;
+margin-left: 60%;
 }
 
 .btn a{
 text-decoration: none;
 color: #073898;
 background-color: white;
-padding: 5px;
+padding: 0.5vw;
 /* margin: 5px; */
 font-size: 1.5vw;
 font-weight: bold;
@@ -300,7 +314,8 @@ margin-top: 1vw;
 }
 
 #mid div:nth-of-type(4){
-  background-color: #FF5300;
+  /* background-color: #FF5300; */
+  background: linear-gradient(to top right, #ffe259, #ffa751);
   border-top-right-radius: 100%;
   width: 30vw;
   height: 30vw;
@@ -332,12 +347,14 @@ p {
   position: relative;
   justify-content: center;
   align-items: center;
+  left: 30vw;
   top: 40px;
 }
 .head2 h2 {
   color: #202938;
   font-size: 40px;
   font-family: "Poppins", sans-serif;
+  /* text-align: center; */
 }
 
 /* Cards */
@@ -497,7 +514,7 @@ p {
 
 #last {
   background-color: #34495e;
-  width: 98.75vw;
+  width: 100vw;
 }
 
 .footer {
