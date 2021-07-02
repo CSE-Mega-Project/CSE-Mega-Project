@@ -1,0 +1,169 @@
+/* CARDS ND ANIMANTION CSS */
+
+/* CARDS CSS */
+
+.white {
+  /* background: white; */
+  background: url('./whitesection.jpg');
+
+  perspective: 800px;
+  margin: auto;
+  height: 110vh;
+}
+
+.black {
+  background: black;
+  /* background: url('./blacksection.jpg'); */
+
+  perspective: 800px;
+  /* margin-top:-80px ; */
+  margin: auto;
+
+  height: 110vh;
+}
+
+.carousel .carousel-item {
+  width: 280px;
+  cursor: pointer;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  border-radius: 50px 50px 50px 50px;
+  height: 290px;
+  object-fit: cover;
+}
+
+.black img{
+  border: 2px solid white;
+  box-shadow: 5px 5px 15px white;
+}
+.white img{
+  border: 2px solid black;
+  box-shadow: 7px 7px 17px black;
+}
+
+.white .carousel-item h3 {
+  margin: 0%;
+  margin-top: -100px;
+  font-weight: bold;
+  background: rgb(0, 0, 0);
+  padding: 100px 5px;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 9px 9px 19px black;
+}
+.black .carousel-item h3 {
+  margin: 0%;
+  margin-top: -100px;
+  font-weight: bold;
+  background: rgb(255, 255, 255);
+  padding: 100px 5px;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 5px 5px 15px white;
+}
+
+.social {
+  text-align: center;
+  margin-top: -80px;
+}
+
+.social a {
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.black .social a {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  padding: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+/*  TEXT HEADING animation */
+
+.bottom-container,
+.top-container {
+  background-color: white;
+  /* width: 29px; */
+  width: 37vw;
+  height: 34vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: -5vh;
+  left: 28vw;
+  padding: 1vw;
+  font-size: 9vh;
+}
+
+.bottom-container {
+  color: #232323;
+}
+
+.top-container {
+  background-color: red;
+  color: white;
+  clip-path: circle(13% at 85% 50%);
+  animation: circleMove 10s ease-in-out infinite;
+}
+
+@keyframes circleMove {
+  0%,
+  100% {
+    clip-path: circle(13% at 85% 50%);
+  }
+  50% {
+    clip-path: circle(13% at 15% 50%);
+  }
+}
+
+@media only screen and (max-width:520px) {
+  .carousel .carousel-item{
+    width: 250px;
+  }
+}
+@media only screen and (max-width:450px) {
+  .carousel .carousel-item{
+    width: 220px;
+  }
+
+  img{
+    height: 240px;
+  }
+}
+@media only screen and (max-width:390px) {
+  .carousel .carousel-item{
+    width: 200px;
+  }
+
+  img{
+    height: 210px;
+  }
+
+  .carousel .carousel-item h3{
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width:350px) {
+  .carousel .carousel-item{
+    width: 190px;
+  }
+
+  img{
+    height: 200px;
+  }
+
+  .carousel .carousel-item h3{
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#644bff ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+li a{
+    color:#1f00e9 ;
+}
+
+#upperPart{
+    padding: 0 20px;
+}
+.wrapper{
+    max-width: 450px;
+    margin:150px auto 120px auto;
+}
+
+.wrapper .search-input{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+    position: relative;
+}
+
+.search-input input{
+    height:55px;
+    width:100%;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    padding:0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+.search-input .icon{
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: center;
+    font-size: 20px;
+    color: #644bff;
+    cursor: pointer;
+}
+
+.search-input .autocom-box{
+    padding:0;
+    max-height: 280px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-input.active .autocom-box{
+    padding:10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.autocom-box li{
+    list-style: none;
+    padding: 8px 12px;
+    width:100%;
+    cursor: default;
+    border-radius: 3px;
+    display: none;
+}
+.search-input.active .autocom-box li{
+    display: block;
+}
+
+.autocom-box li:hover{
+    background-color: #efefef;
+}
+
+/* company cards */
+.companyCard{
+    width:150px;
+    height:150px;
+    background-color: #fff;
+    margin:20px 0;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+.companyCard:hover{
+    transform: scale(1.3);
+    color:black;
+}
+
+/* pagination */
+.page-link{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+.page-link:hover{
+    transform: scale(1.1);
+}
+.previous{
+    border-radius: 5px 0 0 5px;
+}
+.next{
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* footer */
+#footer {
+    background-color: #202938;
+    color: rgba(255, 255, 255, 0.26);
+    padding: 2%;
+    text-align: center;
+    margin:0;
+}
+
+.media-icon {
+    margin: 10px 20px;
+}
+
+/* card customization */
+#Amazon{
+    background-image: url("images/Amazon.jpg");
+    background-size: 100%;
+}
+#AmazonWebServices-AWS{
+    background-image: url("images/AmazonWebServices\(AWS\).png");
+    background-size: 100%;
+}
+#Adobe{
+    background-image: url("images/Adobe.png");
+    background-size: 100%;
+}
+#Avizva{
+    background-image: url("images/Avizva.png");
+    background-size: 100%;
+}
+#AXA-XL{
+    background-image: url("images/AXA-XL.png");
+    background-size: 100%;
+}
+#Apelo{
+    background-image: url("images/");
+    background-size: 100%;
+}
+#Argil-DX{
+    background-image: url("images/Argil-DX.png");
+    background-size: 100%;
+}
+#Alpha-AI{
+    background-image: url("images/Alpha-AI.png");
+    background-size: 100%;
+}
+#Aditya-Birla-Capital-Limited{
+    background-image: url("images/Aditya-Birla-Capital-Limited.png");
+    background-size: 100%;
+}
+#Accolite-Digital{
+    background-image: url("images/Accolite-Digital.jpg");
+    background-size: 100% 100%;
+}
+#Apple{
+    background-image: url("images/Apple.jpg");
+    background-size: 100% 100%;
+}
+#Abhidya-Tech{
+    background-image: url("images/");
+    background-size: 100% 100%;
+}
+#Abyeti{
+    background-image: url("images/Abyeti.png");
+    background-size: 100% 100%;
+}
+#Byjus{
+    background-image: url("images/Byjus.png");
+    background-size: 100% 100%;
+}
+#Bizmetric{
+    background-image: url("images/Bizmetric.png");
+    background-size: 100% 100%;
+}
+#BlogVault{
+    background-image: url("images/BlogVault.jpg");
+    background-size: 100% 100%;
+}
+#Board-Infinity{
+    background-image: url("images/Board-Infinity.png");
+    background-size: 100% 100%;
+}
+#Bravura{
+    background-image: url("images/");
+    background-size: 100% 100%;
+}
+#Buyhatke{
+    background-image: url("images/Buyhatke.png");
+    background-size: 100% 100%;
+}
+#Bharti-Airtel{
+    background-image: url("images/Bharti-Airtel.jpg");
+    background-size: 100% 100%;
+}
+#Cadence{
+    background-image: url("images/Cadence.png");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+}
+#CawStudios{
+    background-image: url("images/CawStudios.png");
+    background-size: 100%;
+}
+#Ceasefire{
+    background-image: url("images/Ceasefire.png");
+    background-size: 100%;
+}
+#Chegg-India{
+    background-image: url("images/Chegg-India.jpg");
+    background-size: 100%;
+}
+#Classplus{
+    background-image: url("images/Classplus.jpg");
+    background-size: 100%;
+}
+#Clear-Trail{
+    background-image: url("images/Clear-Trail.jpg");
+    background-size: 100%;
+}
+#Colt-Tech{
+    background-image: url("images/Colt-Tech.jpg");
+    background-size: 100%;
+}
+#CPA-Global{
+    background-image: url("images/CPA-Global.png");
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+}
+#Crowe-Horwath{
+    background-image: url("images/Crowe-Horwath.jpg");
+    background-size: 100%;
+}
+#Cognizant{
+    background-image: url("images/Cognizant.png");
+    background-size: 100%;
+}
+#Delhivery{
+    background-image: url("images/Delhivery.png");
+    background-size: 100%;
+}
+#DE-Shaw{
+    background-image: url("images/DE-Shaw.jpg");
+    background-size: 100%;
+}
+#Deloitte{
+    background-image: url("images/Deloitte.png");
+    background-size: 100%;
+}
+#Darwinbox{
+    background-image: url("images/Darwinbox.png");
+    background-size: 100%;
+}
+#Dentalkart{
+    background-image: url("images/Dentalkart.jpg");
+    background-size: 100%;
+}
+#Ericsson-Global{
+    background-image: url("images/Ericsson-Global.jpg");
+    background-size: 100%;
+}
+#Eagleview{
+    background-image: url("images/Eagleview.png");
+    background-size: 100%;
+}
+#EkAnek{
+    background-image: url("images/EkAnek.png");
+    background-size: 100%;
+}
+#Facebook{
+    background-image: url("images/Facebook.jpg");
+    background-size: 100%;
+}
+#FabAlley{
+    background-image: url("images/FabAlley.jpg");
+    background-size: 100%;
+}
+#FarEye{
+    background-image: url("images/FarEye.png");
+    background-size: 100%;
+}
+#Flipkart{
+    background-image: url("images/Flipkart.jpg");
+    background-size: 100%;
+}
+#Fico{
+    background-image: url("images/Fico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Finsol-Tech{
+    background-image: url("images/Finsol-Tech.png");
+    background-size: 100% 100%;
+}
+#Future-First{
+    background-image: url("images/Future-First.jpg");
+    background-size: 100%;
+}
+#Genpact{
+    background-image: url("images/Genpact.png");
+    background-size: 100%;
+}
+#Goldman-Sachs{
+    background-image: url("images/Goldman-Sachs.jpg");
+    background-size: 100%;
+}
+#Google-India{
+    background-image: url("images/Google-India.png");
+    background-size: 100%;
+}
+#Gradeup{
+    background-image: url("images/Gradeup.png");
+    background-size: 100%;
+}
+#Grail-Insights{
+    background-image: url("images/Grail-Insights.png");
+background-size: 100%;
+}
+#Grofers{
+    background-image: url("images/Grofers.png");
+    background-size: 100%;
+}
+#GreyB{
+    background-image: url("images/GreyB.jpg");
+    background-size: 100%;
+}
+#Growman-Research-Group{
+    background-image: url("images/Growman-Research-Group.png");
+    background-size: 100%;
+}
+#GenX{
+    background-image: url("images/GenX.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#GeeksforGeeks{
+    background-image: url("images/GeeksforGeeks.png");
+    background-size: 100%;
+}
+#Galytix{
+    background-image: url("images/Galytix.jpg");
+    background-size: 100%;
+}
+#Hashedin{
+    background-image: url("images/Hashedin.jpg");
+    background-size: 100%;
+}
+#Hevodata{
+    background-image: url("images/Hevodata.png");
+    background-size: 100%;
+}
+#Hitachi{
+    background-image: url("images/Hitachi.png");
+    background-size: 100%;
+}
+#Hike{
+    background-image: url("images/Hike.png");
+    background-size: 100%;
+}
+#Hyperdart{
+   background-image: url("images/Hyperdart.jpg");
+    background-size: 100%; 
+}
+#IBM{
+  background-image: url("images/IBM.jpg");
+    background-size: 100%;  
+}
+#IIM-Jobs{
+    background-image: url("images/IIM-Jobs.png");
+    background-size: 100%;
+}
+#Indus-OS{
+    background-image: url("images/Indus-OS.jpg");
+    background-size: 100%;
+}
+#Infosys{
+    background-image: url("images/Infosys.png");
+    background-size: 100%;
+}
+#Internshala{
+    background-image: url("images/Internshala.png");
+    background-size: 100%;
+}
+#Interview-Bit{
+    background-image: url("images/Interview-Bit.jpg");
+    background-size: 100%;
+}
+#Jaro-Toppscholars{
+    background-image: url("images/Jaro-Toppscholars.jpg");
+    background-size: 100%;
+}
+#JTG{
+    background-image: url("images/JTG.jpg");
+    background-size: 100%;
+}
+#KareXpert{
+    background-image: url("images/KareXpert.jpg");
+    background-size: 100% 100%;
+}
+#KPIT-Technologies{
+    background-image: url("images/KPIT-Technologies.jpg");
+    background-size: 100%;
+}
+#Kratikal-Tech{
+    background-image: url("images/Kratikal-Tech.png");
+    background-size: 100%;
+}
+#Kritikal-Vision{
+    background-image: url("images/Kritikal-Vision.jpg");
+    background-size: 100%;
+}
+#Kronos{
+    background-image: url("images/Kronos.png");
+    background-size: 100%;
+}
+#Kuliza{
+    background-image: url("images/Kuliza.png");
+    background-size: 100%;
+}
+#Lumiq{
+    background-image: url("images/Lumiq.png");
+    background-size: 100% 100%;
+}
+#LG{
+    background-image: url("images/LG.png");
+    background-size: 100%;
+}
+#Lambda-Test{
+    background-image: url("images/Lambda-Test.png");
+    background-size: 100%;
+}
+#Leadsquared{
+    background-image: url("images/Leadsquared.jpg");
+    background-size: 100%;
+}
+#LnT-Infotech{
+    background-image: url("images/LnT-Infotech.jpg");
+    background-size: 100% 100%;
+}
+#Lido{
+    background-image: url("images/Lido.jpg");
+    background-size: 100%;
+}
+#Lucideus-Tech{
+    background-image: url("images/Lucideus-Tech.jpg");
+    background-size: 100%;
+}
+#Magicpin{
+    background-image: url("images/Magicpin.png");
+    background-size: 100%;
+}
+#MckinleynRice{
+    background-image: url("images/MckinleynRice.png");
+    background-size: 100%;
+}
+#Mtree{
+    background-image: url("images/Mtree.png");
+    background-size: 100% 100%;
+}
+#Microsoft{
+    background-image: url("images/Microsoft.png");
+    background-size: 100%;
+}
+#Morgan-Stanley{
+    background-image: url("images/Morgan-Stanley.png");
+    background-size: 100%;
+}
+#Netflix{
+    background-image: url("images/Netflix.png");
+    background-size: 100%;
+}
+#Nestle-India{
+    background-image: url("images/Nestle-India.jpg");
+    background-size: 100%;
+}
+#Neurosensum{
+    background-image: url("images/Neurosensum.png");
+    background-size: 100%;
+}
+#Newage-TECSCI-Research{
+    background-image: url("images/Newage-TECSCI-Research.jpg");
+    background-size: 100%;
+}
+#NIIT-Tech-nowCOFORGE{
+    background-image: url("images/NIIT-Tech-nowCOFORGE.png");
+    background-size: 100% 100%;
+}
+#Oracle{
+    background-image: url("images/Oracle.png");
+    background-size: 100%;
+}
+#One-Direct{
+    background-image: url("images/One-Direct.png");
+    background-size: 100%;
+}
+#Origa{
+    background-image: url("images/Origa.png");
+    background-size: 100% 100%;
+}
+#OLA{
+    background-image: url("images/OLA.jpg");
+    background-size: 100%;
+}
+#OptumUHG{
+    background-image: url("images/OptumUHG.jpg");
+    background-size: 100%;
+}
+#Optimum{
+    background-image: url("images/Optimum.jpg");
+    background-size: 100%;
+}
+#Octro{
+    background-image: url("images/Octro.png");
+    background-size: 100%;
+}
+#OriServe{
+    background-image: url("images/OriServe.png");
+    background-size: 100%;
+}
+#Procol{
+    background-image: url("images/Procol.png");
+    background-size: 100%;
+}
+#Poora{
+    background-image: url("images/Poora.jpg");
+    background-size: 100%;
+}
+#PnS-Market-Reasearch{
+    background-image: url("images/PnS-Market-Reasearch.jpg");
+    background-size: 100%;
+}
+#Phillips{
+    background-image: url("images/Phillips.jpg");
+    background-size: 100%;
+}
+#Piggy{
+    background-image: url("images/Piggy.png");
+    background-size: 100%;
+}
+#PlaySimple{
+    background-image: url("images/PlaySimple.jpg");
+    background-size: 100%;
+}
+#Prime-Seller-Hub{
+    background-image: url("images/Prime-Seller-Hub.png");
+    background-size: 100% 100%;
+}
+#Phonepe{
+    background-image: url("images/Phonepe.jpg");
+    background-size: 100%;
+}
+#Protiviti{
+    background-image: url("images/Protiviti.jpg");
+    background-size: 100%;
+}
+#Publicis-sapient{
+    background-image: url("images/Publicis-sapient.jpg");
+    background-size: 100%;
+}
+#Qualcomm{
+    background-image: url("images/Qualcomm.png");
+    background-size: 100%;
+}
+#Rubrik{
+    background-image: url("images/Rubrik.jpg");
+    background-size: 100%;
+}
+#RohdenSchwarz{
+    background-image: url("images/RohdenSchwarz.jpg");
+    background-size: 100%;
+}
+#Reliance-JIO{
+    background-image: url("images/Reliance-JIO.png");
+    background-size: 100%;
+}
+#Rockwell{
+    background-image: url("images/Rockwell.png");
+    background-size: 100%;
+}
+#R-System{
+    background-image: url("images/R-System.png");
+    background-size: 100% 100%;
+}
+#RTDS{
+    background-image: url("images/RTDS.png");
+    background-size: 100% 100%;
+}
+#RxLogix{
+    background-image: url("images/RxLogix.png");
+    background-size: 100% 100%;
+}
+#Source-Fuse{
+    background-image: url("images/Source-Fuse.jpg");
+    background-size: 100%;
+}
+#Samsung{
+    background-image: url("images/Samsung.jpg");
+    background-size: 100%;
+}
+#Squad{
+    background-image: url("images/Squad.png");
+    background-size: 100%;
+}
+#Sanmar-Group{
+    background-image: url("images/Sanmar-Group.jpg");
+    background-size: 100%;
+}
+#Schindler{
+    background-image: url("images/Schindler.jpg");
+    background-size: 100%;
+}
+#School-of-Inspirational-Leadership{
+    background-image: url("images/School-of-Inspirational-Leadership.png");
+    background-size: 100%;
+}
+#ST-Microelectronics{
+    background-image: url("images/ST-Microelectronics.jpg");
+    background-size: 100%;
+}
+#Techmahindra{
+    background-image: url("images/Techmahindra.jpg");
+    background-size: 100%;
+}
+#Tower-Recharge-Capital{
+    background-image: url("images/Tower-Recharge-Capital.png");
+    background-size: 100%;
+}
+#Tresvista{
+    background-image: url("images/Tresvista.gif");
+    background-size: 100%;
+}
+#ThoughtWorks{
+    background-image: url("images/ThoughtWorks.jpg");
+    background-size: 100% 100%;
+}
+#TCS{
+    background-image: url("images/TCS.jpg");
+    background-size: 100%;
+}
+#Test-Book{
+    background-image: url("images/Test-Book.jpg");
+    background-size: 100%;
+}
+#Unacademy{
+    background-image: url("images/Unacademy.png");
+    background-size: 100%;
+}
+#Vitrana{
+    background-image: url("images/Vitrana.png");
+    background-size: 100%;
+}
+#Vivo-Mobile-India{
+    background-image: url("images/Vivo-Mobile-India.png");
+    background-size: 100%;
+}
+#VodafoneIdea{
+    background-image: url("images/VodafoneIdea.jpg");
+    background-size: 100%;
+}
+#Wipro{
+    background-image: url("images/Wipro.png");
+    background-size: 100%;
+}
+#Whirlpool{
+    background-image: url("images/Whirlpool.png");
+    background-size: 100%;
+}
+#WhitehatJR{
+    background-image: url("images/WhitehatJR.png");
+    background-size: 100%;
+}
+#Yamaha-Motors{
+    background-image: url("images/Yamaha-Motors.png");
+    background-size: 100%;
+}
+#Yahoo{
+    background-image: url("images/Yahoo.jpg");
+    background-size: 100% 100%;
+}
+#ZinEdu{
+    background-image: url("images/ZinEdu.png");
+    background-size: 100% 100%;
+}
+#ZIP-loan{
+    background-image: url("images/ZIP-loan.png");
+    background-size: 100% 100%;
+}
+#Zyla-Healthcare{
+    background-image: url("images/Zyla-Healthcare.png");
+    background-size: 100%;
+}
+#ZS-Associates{
+    background-image: url("images/ZS-Associates.jpg");
+    background-size: 100%;
+}
+#Zycus{
+    background-image: url("images/Zycus.jpg");
+    background-size: 100%;
+}
