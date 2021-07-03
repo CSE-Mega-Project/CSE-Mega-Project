@@ -152,6 +152,7 @@ z-index: 9999;
 #top {
   position: relative;
   height: 150%;
+  width: 100vw;
   background-color: #FF5300;
   margin-top: 0;
   z-index: 50;
@@ -202,8 +203,9 @@ z-index: 9999;
 
 #mid{
   height: 100%;
-  background-color: blanchedalmond;
+  background-color: #ECF0F1;
   position: relative;
+  width: 100vw;
 }
 
 #mid div:nth-of-type(1){
@@ -329,8 +331,12 @@ margin-top: 1vw;
 /* section 3 - cards */
 
 #third {
-  width: 98.75vw;
+  width: 100vw;
+
+  background-color: #ECF0F1;
 }
+
+
 
 #third .row {
   margin-bottom: 0px;
@@ -348,13 +354,19 @@ p {
   justify-content: center;
   align-items: center;
   left: 30vw;
-  top: 40px;
+  top: 20px;
+  z-index: 100;
+  /* width: 60vw !important; */
 }
 .head2 h2 {
-  color: #202938;
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
-  /* text-align: center; */
+  color: #1B1B16;
+  text-shadow: 5px 5px grey;
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  z-index: 300;
+  text-align: center;
+  width: 60vw;
 }
 
 /* Cards */
@@ -368,18 +380,19 @@ p {
   width: 246px;
   position: relative;
   z-index: 2;
-  top: -30px;
+  top: -15px;
   margin: 20px;
   /* margin: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 80%;
+  /* border-radius: 80%; */
   /* border: 4px solid; */
 }
 
 .image {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -427,7 +440,7 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 300px;
+  height: 330px;
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.2s ease-in-out;
 }
@@ -449,14 +462,22 @@ p {
 }
 
 .contain .card:hover {
-  height: 400px;
+  height: 420px;
   transition: 0.2s ease;
   border-radius: 5%;
-  background: #39424e;
+  
+  background: #15606D;
 }
 
 .card-title {
   color: #29b35b;
+}
+
+.card-text{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 5px;
 }
 
 .contain .card .content {
@@ -476,6 +497,15 @@ p {
   transition-delay: 0.3s;
   /* top:-30px; */
   width: 100%;
+}
+
+.contain .card:hover .card-title{
+  color: #FAF7CB;
+  font-size: 20px;
+}
+
+.contain .card:hover .card-text{
+  visibility: hidden;
 }
 
 .contain .card:hover .card-img-top {
@@ -500,7 +530,9 @@ p {
   position: relative;
   justify-content: center;
   align-items: center;
+  /* width: 20vw; */
 }
+
 
 .card-link img {
   border-radius: 100%;
@@ -611,4 +643,5 @@ p {
   color: rgba(255, 255, 255, 0.26);
   padding: 1.5%;
   text-align: center;
+  width: 100vw;
 }
