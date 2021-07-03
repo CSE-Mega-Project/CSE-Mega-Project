@@ -128,13 +128,24 @@ html {
 
 @media screen and (min-device-width: 484px) {
   .navbar-brand {
-    padding: 0 55% 0 0%;
+    padding: 0 45% 0 0%;
   }
 }
 
-@media screen and (max-device-width: 484px) {
+@media screen and (min-device-width: 340px) and (max-device-width: 484px) {
   .navbar-brand {
     padding: 0 20% 0 0%;
+  }
+}
+@media screen and (min-device-width: 307px) and (max-device-width: 340px) {
+  .navbar-brand {
+    padding: 0 10% 0 0%;
+  }
+}
+@media screen and (max-device-width: 307px) {
+  .navbar-brand {
+    padding: 0 5% 0 0%;
+    font-size: 1.3rem;
   }
 }
 
