@@ -32,32 +32,40 @@ html {
 
 /* Search-Box */
 
-li {
+/* li {
     display: block;
-}
-
+} */
+/* 
 a {
     text-decoration: none;
-}
+} */
 
 .dropdown {
     margin-top: 2%;
     display: none;
     position: relative;
     background-color: #fff;
-}
-
-.showsearch {
-    display: block;
     border-radius: 10px;
     transform: scale(1.1);
-    /* box-shadow: 1px 2px 10px rgb(0, 102, 255); */
     font-family: 'Libre Baskerville', serif;
 }
 
-.dropdown a {
-    color: black;
+/* .showsearch {
     display: block;
+    border-radius: 10px;
+    transform: scale(1.1);
+
+    font-family: 'Libre Baskerville', serif;
+} */
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+li{
+    list-style: none;
 }
 
 .searchArea {
