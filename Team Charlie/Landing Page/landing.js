@@ -50,10 +50,14 @@ setInterval(newQuote, 4500);
 // ***************Search Bar
 
 function showlist() {
-    document.getElementById("myUL").classList.toggle("showsearch");
-  }
+    document.getElementsByClassName("dropdown")[0].style.display="block";
+}
 
-  function filterFunction() {
+function hidelist(){
+    document.getElementsByClassName("dropdown")[0].style.display="none";
+}
+
+ function filterFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -68,4 +72,4 @@ function showlist() {
         li[i].style.display = "none";
       }
     }
-  }
+}
