@@ -212,9 +212,11 @@ z-index: 9999;
   background-color: #FF5300;
   /* background: linear-gradient(to top right, #fc4a1a, #f7b733); */
   border-bottom-left-radius: 100%;
-  width: 30vw;
-  height: 30vw;
+  width: 38vw;
+  height: 34vw;
   float: right;
+  /* margin-top: -10%;
+  margin-right: -15%; */
 }
 
 #mid div:nth-of-type(2){
@@ -239,8 +241,6 @@ z-index: 9999;
 }
 
 #mid div:nth-of-type(3){
-  width: 50vw;
-  height: 70vh;
   display: flex;
   position: relative;
   float: right;
@@ -255,7 +255,7 @@ z-index: 9999;
   height: 50vw;
   position: relative;
   /* z-index: 1; */
-  top: 5vw;
+  top: 9vw;
   left: -5vw;
   padding: 3.5vw 2vw 5vw 9vw;
 }
@@ -332,10 +332,31 @@ margin-top: 1vw;
 
 #third {
   width: 100vw;
-
   background-color: #ECF0F1;
 }
-
+.thirdsecdivupper{
+  background-color: #FF5300;
+  background: linear-gradient(to top right, #ffe259, #ffa751);
+  border-bottom-right-radius: 70%;
+  border-bottom-left-radius: 25%;
+  /* border-top-right-radius: 5%; */
+  width: 30vw;
+  height: 16vw;
+  float: left;
+}
+.thirdsecdivlower{
+background-color: #FF5300;
+border-radius: 100%;
+width: 30vw;
+height: 30vw;
+position: relative;
+z-index: 0;
+ margin-left: 80%;
+ /* margin-right: 0%; */
+ /* margin-top: -10%; */
+ margin-bottom: -12%;
+ /* margin-top: -12%; */
+}
 
 
 #third .row {
@@ -353,7 +374,7 @@ p {
   position: relative;
   justify-content: center;
   align-items: center;
-  left: 30vw;
+  left: 15vw;
   top: 20px;
   z-index: 100;
   /* width: 60vw !important; */
@@ -373,6 +394,7 @@ p {
 
 .card {
   border-radius: 10%;
+  z-index: 3;
 }
 
 .card-img-top {
@@ -547,6 +569,8 @@ p {
 #last {
   background-color: #34495e;
   width: 100vw;
+  position: relative;
+  z-index: 5;
 }
 
 .footer {
