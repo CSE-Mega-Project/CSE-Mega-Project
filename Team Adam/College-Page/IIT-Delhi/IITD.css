@@ -786,12 +786,10 @@ header
 }
 
 #cutoff .btn-dark:hover{
-  background-color: white;
-  color: #000;
+  background-color: rgb(228, 11, 11);
 }
 #cutoff .btn-primary:hover{
-  background-color: white;
-  color: blue;
+  background-color: rgb(228, 11, 11);
 }
 
 .btn-primary a , .btn-dark a{
