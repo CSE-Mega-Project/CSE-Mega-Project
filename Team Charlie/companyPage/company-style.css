@@ -522,7 +522,7 @@ p {
     align-items: center; */
   /* width: 255px; */
   /* flex-wrap: wrap; */
-  padding: 20px 0px;
+  padding: 8px 0px;
   /* margin: 30px; */
 }
 
@@ -540,7 +540,7 @@ p {
 .contain .card:hover {
   height: 40vw;
   width: 30vw;
-  transition: 0.2s ease;
+  transition: 0.1s ease;
   border-radius: 5%;
   
   background: #15606D;
@@ -630,13 +630,6 @@ p {
   margin-left: 6.5%;
 }
 
-@media (max-width:500px){
-  .card-link + .card-link {
-    margin-left: -3rem;
-  }
-}
-
-
 
 .card-link img {
   display: inline;
@@ -720,7 +713,7 @@ p {
   border-radius: 50%;
   padding: 2%;
   margin: 1%;
-  font-size: 2.2vw;
+  font-size: 2.5vw;
   text-decoration: none;
   /* color: rgba(0, 0, 0, 0.2); */
 }
@@ -801,6 +794,101 @@ p {
 .fa-twitter:hover {
   background-color: #3b5998;
   padding: 4%;
+}
+
+
+
+@media (max-width: 680px){
+
+  .contain .card{
+    height: 35vw;
+    width: 35vw;
+  }
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  width: 94.8vw;
+  margin-left: 6.5%;
+}
+  #card-1:hover{
+      position: relative;
+      width: 67vw;
+      height: 55vw;
+      /* left: 150px; */
+      transition: 0.1s ease;
+    }
+  #card-2:hover{
+      position: relative;
+      width: 67vw;
+      height: 55vw;
+      transition: 0.1s ease;
+    }
+  #card-3:hover{
+      position: relative;
+      width: 67vw;
+      height: 55vw;
+      /* right: 150px; */
+      
+      transition: 0.1s ease;
+    }
+
+    .card-link img {
+      display: inline;
+      border-radius: 100%;
+      width: 7vw;
+      height: 7vw;
+      /* padding: 1%; */
+      margin-bottom: 0%;
+    }
+    abbr a img {
+      display: flex;
+      justify-items: center;
+      margin:0px 12px;
+  }
+    
+    .card-link img:hover{
+      width: 10vw;
+      height: 10vw;
+    }
+    .contain .card:hover .card-title{
+      color: #FAF7CB;
+      font-size: 3.5vw;
+    }
+
+    .contain .card:hover .card-img-top {
+      /* max-width: 100%; */
+      position: relative;
+      top: 1px;
+      height: 18vw;
+      width: 18vw;
+      /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); */
+      transition: 0.1s ease-in-out;
+      /* padding: 10px; */
+      margin: 5px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+    }
+
+    .fa {
+      border-radius: 50%;
+      padding: 5%;
+      margin: 1%;
+      font-size: 4vw;
+      text-decoration: none;
+      /* color: rgba(0, 0, 0, 0.2); */
+    }
+}
+
+@media (max-width:680px){
+  .card-link + .card-link {
+    margin-left: -3rem;
+  }
 }
 
 
