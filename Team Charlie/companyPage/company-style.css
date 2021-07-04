@@ -344,14 +344,14 @@ position: relative;
 display: flex;
 cursor: pointer;
 border: none;
-border: #073898 2px solid;
+/* border: #073898 2px solid; */
 margin-top: -0.2vw;
 }
 
 .btn a:hover{
   color: #073898;
   border: #073898 2px solid;
-  background-color: #fff;
+  background-color: white;
 }
 @media (max-width: 420px) {
     .btn{
@@ -405,6 +405,8 @@ margin-top: -0.2vw;
   width: 100vw;
   background-color: #ECF0F1;
 }
+
+
 .thirdsecdivupper{
   background-color: #FF5300;
   background: linear-gradient(to top right, #ffe259, #ffa751);
@@ -415,20 +417,6 @@ margin-top: -0.2vw;
   height: 16vw;
   float: left;
 }
-.thirdsecdivlower{
-background-color: #FF5300;
-border-radius: 100%;
-width: 30vw;
-height: 30vw;
-position: relative;
-z-index: 0;
- margin-left: 80%;
- /* margin-right: 0%; */
- /* margin-top: -10%; */
- margin-bottom: -12%;
- /* margin-top: -12%; */
-}
-
 
 #third .row {
   margin-bottom: 3.25rem;
@@ -795,8 +783,8 @@ p {
   background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
   padding: 4%;
 }
-.fa-youtube-play:hover {
-  background-color: rgb(230, 0, 35);
+.fa-github:hover {
+  background-color: #333;
   padding: 4%;
 }
 .fa-twitter:hover {
@@ -936,8 +924,6 @@ p {
 .foot-div{
   display: flex;
   justify-content: space-evenly;
-}
-
-#footer-logo{
-  margin-right: 2%;
+  margin: 3px;
+  
 }
