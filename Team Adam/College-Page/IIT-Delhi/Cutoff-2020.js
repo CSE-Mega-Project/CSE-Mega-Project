@@ -1,20 +1,20 @@
-const menuToggle = document.querySelector('.toggle');
-const showcase = document.querySelector('.showcase');
+// const menuToggle = document.querySelector('.toggle');
+// const showcase = document.querySelector('.showcase');
 
-menuToggle.addEventListener('click', () => {
-    menuToggle.classList.toggle('active');
-    showcase.classList.toggle('active');
-})
+// menuToggle.addEventListener('click', () => {
+//     menuToggle.classList.toggle('active');
+//     showcase.classList.toggle('active');
+// })
 
 var btn = document.getElementsByClassName('btns')
-var gen = document.getElementById('gen')
-var ews = document.getElementById('ews')
-var obc = document.getElementById('obc')
-var sc = document.getElementById('sc')
-var st = document.getElementById('st')
-var text = document.getElementsByTagName('td')
+var gen = document.getElementById('gen_20')
+var ews = document.getElementById('ews_20')
+var obc = document.getElementById('obc_20')
+var sc = document.getElementById('sc_20')
+var st = document.getElementById('st_20')
+var text = document.querySelectorAll("#cutoff-2020 td");
 
-function general(){
+function general_20(){
     text[1].innerHTML = "8090"
     text[2].innerHTML = "4317"
     text[4].innerHTML = "5520"
@@ -52,7 +52,7 @@ function general(){
     st.style.background = "white"
     st.style.color = "gray"
   }
-function ewsc(){
+function ewsc_20(){
     text[1].innerHTML = "2441"
     text[2].innerHTML = "1056"
     text[4].innerHTML = "1369"
@@ -90,7 +90,7 @@ function ewsc(){
     st.style.background = "white"
     st.style.color = "gray"
   }
-function obcc(){
+function obcc_20(){
     text[1].innerHTML = "6226"
     text[2].innerHTML = "2862"
     text[4].innerHTML = "3558"
@@ -128,7 +128,7 @@ function obcc(){
     st.style.background = "white"
     st.style.color = "gray"
   }
-function scc(){
+function scc_20(){
     text[1].innerHTML = "2301"
     text[2].innerHTML = "1727"
     text[4].innerHTML = "1667"
@@ -167,7 +167,7 @@ function scc(){
     st.style.background = "white"
     st.style.color = "gray"
   }
-function stc(){
+function stc_20(){
     text[1].innerHTML = "887"
     text[2].innerHTML = "-"
     text[4].innerHTML = "407"
