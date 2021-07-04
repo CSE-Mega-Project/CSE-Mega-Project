@@ -301,12 +301,13 @@ text-align: center;
 #mid div:nth-of-type(3) .info .first{
   text-align: center;
   /* margin: 20px auto; */
-  color: white;
+  color: darkorange;
   font-size: 6vw;
-  -webkit-text-stroke: 2px darkorange;
+  /* -webkit-text-stroke: 2px darkorange; */
   font-weight: 700;
   /* -webkit-text-fill-color: white; */
-  text-shadow: 4px 4px 6px black;
+  /* text-shadow: 4px 4px 6px black; */
+  text-shadow: 6px 2px 4px #00000059;
   margin: 0vw 10vw 3vw 0vw;
 }
 
@@ -494,7 +495,7 @@ p {
   padding: 1px;
 }
 .prof5 {
-  background-color: rgb(230, 0, 35);
+  background-color: #333;
   padding: 1px;
 }
 .prof3 {
@@ -748,7 +749,7 @@ p {
 
   .logo-details > i{
     font-size: small;
-    margin-left: 20vw;
+    margin-left: 1vw;
   }
 
 }
@@ -926,4 +927,11 @@ p {
   justify-content: space-evenly;
   margin: 3px;
   
+}
+
+@media only screen and (max-width: 767px) {
+  .foot{
+    display: none;
+    /* height: 0; */
+  }
 }
