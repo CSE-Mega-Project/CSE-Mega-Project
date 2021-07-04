@@ -117,6 +117,10 @@ html {
     width: 2rem;
 }
 
+abbr a img{
+  margin-right: 10px;
+}
+
 /* navbar css */
 
 .navbar-brand {
@@ -124,6 +128,11 @@ html {
   font-weight: 600;
   letter-spacing: 0.1rem;
 }
+
+.navbar-toggler{
+  float: right;
+}
+
 @media screen and (min-device-width: 1500px) {
   .navbar-brand {
     padding: 0 65% 0 0%;
@@ -173,6 +182,7 @@ html {
 
 .navbar-nav .nav-items{
 z-index: 9999;
+text-align: center;
 }
 
 /* top section */
@@ -600,6 +610,8 @@ p {
   }
 }
 
+
+
 .card-link img {
   display: inline;
   border-radius: 100%;
@@ -637,6 +649,7 @@ p {
 .foot a {
   text-decoration: none !important;
   color: white;
+  font-weight: 400;
 }
 
 .footer > .row {
@@ -674,24 +687,25 @@ p {
 
 .foot-link {
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .fa {
   border-radius: 50%;
   padding: 2%;
   margin: 1%;
-  font-size: 3vw;
+  font-size: 2vw;
   text-decoration: none;
   /* color: rgba(0, 0, 0, 0.2); */
 }
 
-.fa-facebook{
+/* .fa-facebook{
   width: 3.5vw;
-}
+} */
 .fa-facebook:hover {
   background-image: linear-gradient(to right, #00c6ff, #0072ff);
   padding: 4%;
-  width: 4.5vw;
+  /* width: 4.5vw; */
 }
 
 .fa-linkedin:hover {
@@ -725,3 +739,14 @@ p {
   text-align: center;
   width: 100vw;
 }
+
+.logo-details{
+  width: 7.25rem;
+  height: 6.25rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 2.25rem;
+  font-size: xx-large;
+}
+
