@@ -359,6 +359,32 @@ margin-top: -0.2vw;
     }
 }
 
+@media (max-width: 437px) {
+    .btn{
+      width: 76px;
+      margin-top: -10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn{
+      font-size: 2vw;
+      width: 72px;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn{
+      margin-top: -20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .btn{
+      margin-top: -20px;
+    }
+}
+
 #mid div:nth-of-type(4){
   /* background-color: #FF5300; */
   background: linear-gradient(to top right, #ffe259, #ffa751);
@@ -404,7 +430,7 @@ z-index: 0;
 
 
 #third .row {
-  margin-bottom: 0px;
+  margin-bottom: 3.25rem;
   width: 98.75vw;
 }
 
@@ -694,9 +720,60 @@ p {
   border-radius: 50%;
   padding: 2%;
   margin: 1%;
-  font-size: 2vw;
+  font-size: 2.2vw;
   text-decoration: none;
   /* color: rgba(0, 0, 0, 0.2); */
+}
+
+@media only screen and (max-width: 360px) {
+  .fa{
+    font-size: 3.5vw;
+  }
+  #third .row{
+    bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .foot-div >div{
+    font-size: smaller;
+  }  
+  .fa{
+    font-size: 4.5vw;
+  }
+  .h5 h5{
+    font-size: medium;
+  }
+
+  .logo-details{
+    max-height: 2.25rem;
+    
+  }
+
+  .logo-details > span{
+    /* margin: 1.25rem; */
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .logo-details > i{
+    font-size: large;
+    margin-left: 20vw;
+  }
+
+}
+
+@media only screen and (max-width: 580px){
+  .fa{
+    font-size: 4.25vw;
+  }
+}
+
+@media only screen and (min-width: 580px){
+  .foot-div >span{
+    font-size: 2.25rem;
+  }
 }
 
 /* .fa-facebook{
@@ -726,8 +803,6 @@ p {
   padding: 4%;
 }
 
-/* media queries */
-
 
 
 /* Footer */
@@ -746,7 +821,11 @@ p {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-left: 2.25rem;
+  margin-left: 1.0rem;
   font-size: xx-large;
 }
 
+.foot-div{
+  display: flex;
+  justify-content: space-evenly;
+}
