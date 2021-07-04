@@ -56,7 +56,7 @@ function display_19()
 
   if(temp.style.height == "0px")
   {
-    temp.style.height = "766px";
+    temp.style.height = "auto";
     temp2.style.height = "0px";
   }
   else
@@ -71,7 +71,7 @@ function display_20()
 
   if(temp.style.height == "0px")
   {
-    temp.style.height = "764px";
+    temp.style.height = "auto";
     temp2.style.height = "0px";
   }
   else
