@@ -55,7 +55,7 @@
     width: 200px;
     height: 200px;
     background: var(--primary);
-    background: linear-gradient(45deg, var(--primary) 0%, var(--primary) 50%, var(--primary-light) 50%, var(--primary-light) 100%);
+    background: linear-gradient( 45deg, var(--primary) 0%, var(--primary) 50%, var(--primary-light) 50%, var(--primary-light) 100%);
     transform-style: preserve-3d;
     -webkit-animation: ground 3s linear forwards infinite;
     animation: ground 3s linear forwards infinite;
@@ -799,7 +799,7 @@ small {
     font-size: 12px;
     line-height: 19px;
     z-index: 1;
-    color: #6C7486;
+    color: #6c7486;
 }
 
 @media (min-width: 481px) {

@@ -16,7 +16,7 @@ html {
 }
 
 .navbar-brand {
-    padding: 0 70% 0 2%;
+    padding: 0 60% 0 2%;
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -36,9 +36,12 @@ html {
 
 /* Search-Box */
 
+
 /* li {
     display: block;
 } */
+
+
 /* 
 a {
     text-decoration: none;
@@ -54,6 +57,7 @@ a {
     font-family: 'Libre Baskerville', serif;
 }
 
+
 /* .showsearch {
     display: block;
     border-radius: 10px;
@@ -68,7 +72,7 @@ a {
     width: 100%;
 }
 
-li{
+li {
     list-style: none;
 }
 
