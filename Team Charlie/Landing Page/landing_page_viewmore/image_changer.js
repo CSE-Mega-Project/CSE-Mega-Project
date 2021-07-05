@@ -1,4 +1,4 @@
-let companies =[
+let companies = [
     "Amazon",
     "Amazon Web Services (AWS)",
     "Adobe",
@@ -129,6 +129,7 @@ let companies =[
     "Tresvista",
     "ThoughtWorks",
     "TCS",
+    "Twitter",
     "Test Book",
     "Unacademy",
     "Vitrana",
@@ -147,9 +148,9 @@ let companies =[
 ];
 document.getElementById("Amazon").style.backgroundImage = 'url("images/Amazon.jpg")';
 
-for(let k=0;k<1;k++){
+for (let k = 0; k < 1; k++) {
 
-    let final_name='"'+"url('images/"+companies[k]+".jpg')"+'"';
+    let final_name = '"' + "url('images/" + companies[k] + ".jpg')" + '"';
     console.log(final_name);
 
 }

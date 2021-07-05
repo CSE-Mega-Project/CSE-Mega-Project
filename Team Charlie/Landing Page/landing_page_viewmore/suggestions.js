@@ -1,4 +1,4 @@
-let suggestions =[
+let suggestions = [
     "Amazon",
     "Amazon Web Services (AWS)",
     "Adobe",
@@ -129,6 +129,7 @@ let suggestions =[
     "Tresvista",
     "ThoughtWorks",
     "TCS",
+    "Twitter",
     "Test Book",
     "Unacademy",
     "Vitrana",
