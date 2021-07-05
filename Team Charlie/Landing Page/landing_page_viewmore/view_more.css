@@ -621,10 +621,6 @@ li a {
     background-size: 100%;
 }
 
-#Origa {
-    background-image: url("images/Origa.png");
-    background-size: 100% 100%;
-}
 
 #OLA {
     background-image: url("images/OLA.jpg");
@@ -853,11 +849,6 @@ li a {
 
 #Yahoo {
     background-image: url("images/Yahoo.jpg");
-    background-size: 100% 100%;
-}
-
-#ZinEdu {
-    background-image: url("images/ZinEdu.png");
     background-size: 100% 100%;
 }
 
