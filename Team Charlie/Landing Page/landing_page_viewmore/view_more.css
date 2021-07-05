@@ -231,9 +231,14 @@ li a {
     background-image: url("images/Board-Infinity.png");
     background-size: 100% 100%;
 }
+<<<<<<< HEAD
 
 #Bravura {
     background-image: url("images/");
+=======
+#Bravura{
+    background-image: url("images/Bravura.jpg");
+>>>>>>> main
     background-size: 100% 100%;
 }
 
@@ -425,10 +430,16 @@ li a {
     background-image: url("images/GeeksforGeeks.png");
     background-size: 100%;
 }
+<<<<<<< HEAD
 
 #Galytix {
     background-image: url("images/Galytix.jpg");
     background-size: 100%;
+=======
+#Galytix{
+    background-image: url("images/Galytix.png");
+    background-size: 100% 100%;
+>>>>>>> main
 }
 
 #Hashedin {
@@ -513,7 +524,7 @@ li a {
 
 #Kritikal-Vision {
     background-image: url("images/Kritikal-Vision.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #Kronos {
@@ -578,7 +589,7 @@ li a {
 
 #Microsoft {
     background-image: url("images/Microsoft.png");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #Morgan-Stanley {
@@ -593,7 +604,7 @@ li a {
 
 #Nestle-India {
     background-image: url("images/Nestle-India.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #Neurosensum {
@@ -603,7 +614,7 @@ li a {
 
 #Newage-TECSCI-Research {
     background-image: url("images/Newage-TECSCI-Research.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #NIIT-Tech-nowCOFORGE {
@@ -628,7 +639,7 @@ li a {
 
 #OLA {
     background-image: url("images/OLA.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #OptumUHG {
@@ -643,7 +654,7 @@ li a {
 
 #Octro {
     background-image: url("images/Octro.png");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #OriServe {
@@ -653,7 +664,7 @@ li a {
 
 #Procol {
     background-image: url("images/Procol.png");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #Poora {
@@ -663,12 +674,18 @@ li a {
 
 #PnS-Market-Reasearch {
     background-image: url("images/PnS-Market-Reasearch.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
+<<<<<<< HEAD
 
 #Phillips {
     background-image: url("images/Phillips.jpg");
     background-size: 100%;
+=======
+#Phillips{
+    background-image: url("images/Phillips.png");
+    background-size: 100% 100%;
+>>>>>>> main
 }
 
 #Piggy {
@@ -798,7 +815,7 @@ li a {
 
 #TCS {
     background-image: url("images/TCS.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #Test-Book {

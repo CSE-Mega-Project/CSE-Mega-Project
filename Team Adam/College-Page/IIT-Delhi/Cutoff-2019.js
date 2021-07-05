@@ -1,8 +1,8 @@
-var gen = document.getElementById('gen_19')
-var ews = document.getElementById('ews_19')
-var obc = document.getElementById('obc_19')
-var sc = document.getElementById('sc_19')
-var st = document.getElementById('st_19')
+var gen_19 = document.getElementById('gen_19')
+var ews_19 = document.getElementById('ews_19')
+var obc_19 = document.getElementById('obc_19')
+var sc_19 = document.getElementById('sc_19')
+var st_19 = document.getElementById('st_19')
 var text_19 = document.querySelectorAll("#cutoff-2019 td");
 
 function general_19(){
@@ -32,16 +32,16 @@ function general_19(){
     text_19[35].innerHTML = "3253"
     text_19[37].innerHTML = "9677"
     text_19[38].innerHTML = "6549"
-    gen.style.color = "white"
-    gen.style.background = "gray"
-    ews.style.background = "white"
-    ews.style.color = "gray"
-    obc.style.background = "white"
-    obc.style.color = "gray"
-    sc.style.background = "white"
-    sc.style.color = "gray"
-    st.style.background = "white"
-    st.style.color = "gray"
+    gen_19.style.color = "white"
+    gen_19.style.background = "gray"
+    ews_19.style.background = "white"
+    ews_19.style.color = "gray"
+    obc_19.style.background = "white"
+    obc_19.style.color = "gray"
+    sc_19.style.background = "white"
+    sc_19.style.color = "gray"
+    st_19.style.background = "white"
+    st_19.style.color = "gray"
   }
 function ewsc_19(){
     text_19[1].innerHTML = "1081"
@@ -70,16 +70,16 @@ function ewsc_19(){
     text_19[35].innerHTML = "435"
     text_19[37].innerHTML = "1727"
     text_19[38].innerHTML = "694"
-    ews.style.color = "white"
-    ews.style.background = "gray"
-    gen.style.background = "white"
-    gen.style.color = "gray"
-    obc.style.background = "white"
-    obc.style.color = "gray"
-    sc.style.background = "white"
-    sc.style.color = "gray"
-    st.style.background = "white"
-    st.style.color = "gray"
+    ews_19.style.color = "white"
+    ews_19.style.background = "gray"
+    gen_19.style.background = "white"
+    gen_19.style.color = "gray"
+    obc_19.style.background = "white"
+    obc_19.style.color = "gray"
+    sc_19.style.background = "white"
+    sc_19.style.color = "gray"
+    st_19.style.background = "white"
+    st_19.style.color = "gray"
   }
 function obcc_19(){
     text_19[1].innerHTML = "5690"
@@ -108,16 +108,16 @@ function obcc_19(){
     text_19[35].innerHTML = "247"
     text_19[37].innerHTML = "2481"
     text_19[38].innerHTML = "606"
-    obc.style.color = "white"
-    obc.style.background = "gray"
-    ews.style.background = "white"
-    ews.style.color = "gray"
-    gen.style.background = "white"
-    gen.style.color = "gray"
-    sc.style.background = "white"
-    sc.style.color = "gray"
-    st.style.background = "white"
-    st.style.color = "gray"
+    obc_19.style.color = "white"
+    obc_19.style.background = "gray"
+    ews_19.style.background = "white"
+    ews_19.style.color = "gray"
+    gen_19.style.background = "white"
+    gen_19.style.color = "gray"
+    sc_19.style.background = "white"
+    sc_19.style.color = "gray"
+    st_19.style.background = "white"
+    st_19.style.color = "gray"
   }
 function scc_19(){
     text_19[1].innerHTML = "2587"
@@ -147,16 +147,16 @@ function scc_19(){
     text_19[37].innerHTML = "2605"
     text_19[38].innerHTML = "2162"
    
-    sc.style.color = "white"
-    sc.style.background = "gray"
-    ews.style.background = "white"
-    ews.style.color = "gray"
-    obc.style.background = "white"
-    obc.style.color = "gray"
-    gen.style.background = "white"
-    gen.style.color = "gray"
-    st.style.background = "white"
-    st.style.color = "gray"
+    sc_19.style.color = "white"
+    sc_19.style.background = "gray"
+    ews_19.style.background = "white"
+    ews_19.style.color = "gray"
+    obc_19.style.background = "white"
+    obc_19.style.color = "gray"
+    gen_19.style.background = "white"
+    gen_19.style.color = "gray"
+    st_19.style.background = "white"
+    st_19.style.color = "gray"
   }
 function stc_19(){
     text_19[1].innerHTML = "-"
@@ -185,14 +185,14 @@ function stc_19(){
     text_19[35].innerHTML = "660"
     text_19[37].innerHTML = "-"
     text_19[38].innerHTML = "1020"
-    st.style.color = "white"
-    st.style.background = "gray"
-    ews.style.background = "white"
-    ews.style.color = "gray"
-    obc.style.background = "white"
-    obc.style.color = "gray"
-    gen.style.background = "white"
-    gen.style.color = "gray"
-    sc.style.background = "white"
-    sc.style.color = "gray"
+    st_19.style.color = "white"
+    st_19.style.background = "gray"
+    ews_19.style.background = "white"
+    ews_19.style.color = "gray"
+    obc_19.style.background = "white"
+    obc_19.style.color = "gray"
+    gen_19.style.background = "white"
+    gen_19.style.color = "gray"
+    sc_19.style.background = "white"
+    sc_19.style.color = "gray"
   }
