@@ -273,7 +273,7 @@ li {
         font-size: 14px;
     }
     #middle {
-        padding-bottom: 20%;
+        padding-bottom: 10%;
     }
     .comp {
         margin-bottom: 3.0rem;
@@ -505,6 +505,10 @@ p {
         opacity: 1;
         transform: scale(1.2);
     }
+}
+
+.view-more {
+    margin: 8vh 0vh 0vh 80vw;
 }
 
 
