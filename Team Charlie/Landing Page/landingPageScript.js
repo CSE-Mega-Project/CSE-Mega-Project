@@ -16,7 +16,7 @@ inputBox.onkeyup = (e) => {
         console.log(emptyArray);
         emptyArray = emptyArray.map((data) => {
             return (data =
-                '<a href="../../companyPages/' +
+                '<a href="../companyPages/' +
                 data +
                 '.html" target="_blank"><li>' +
                 data +

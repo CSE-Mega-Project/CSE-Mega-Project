@@ -282,6 +282,10 @@ li a {
     background-image: url("images/Colt-Tech.jpg");
     background-size: 100%;
 }
+#Coforge {
+    background-image: url("images/Coforge.png");
+    background-size: 100% 100%;
+}
 
 #CPA-Global {
     background-image: url("images/CPA-Global.png");
@@ -410,16 +414,6 @@ li a {
     background-size: 100%;
 }
 
-#Growman-Research-Group {
-    background-image: url("images/Growman-Research-Group.png");
-    background-size: 100%;
-}
-
-#GenX {
-    background-image: url("images/GenX.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 
 #GeeksforGeeks {
     background-image: url("images/GeeksforGeeks.png");
@@ -571,11 +565,6 @@ li a {
     background-size: 100%;
 }
 
-#Mtree {
-    background-image: url("images/Mtree.png");
-    background-size: 100% 100%;
-}
-
 #Microsoft {
     background-image: url("images/Microsoft.png");
     background-size: 100% 100%;
@@ -606,10 +595,6 @@ li a {
     background-size: 100% 100%;
 }
 
-#NIIT-Tech-nowCOFORGE {
-    background-image: url("images/NIIT-Tech-nowCOFORGE.png");
-    background-size: 100% 100%;
-}
 
 #Oracle {
     background-image: url("images/Oracle.png");
@@ -839,6 +824,10 @@ li a {
 
 #WhitehatJR {
     background-image: url("images/WhitehatJR.png");
+    background-size: 100%;
+}
+#Wingify {
+    background-image: url("images/Wingify.png");
     background-size: 100%;
 }
 
