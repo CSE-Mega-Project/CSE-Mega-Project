@@ -75,7 +75,11 @@ html {
       font-size: 1.3rem;
     }
   }
-
+@media screen and (max-device-width: 991px){
+    .comp-1{
+        display: none;
+    }
+}
 .nav-top {
     color: white;
     position: absolute;
