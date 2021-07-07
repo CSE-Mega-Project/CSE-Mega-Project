@@ -173,8 +173,9 @@ li a {
 }
 
 #Apelo {
-    background-image: url("images/");
-    background-size: 100%;
+    background-color: black;
+    background-image: url("images/Apelo.png");
+    background-size: 100% 100%;
 }
 
 #Argil-DX {
@@ -638,8 +639,8 @@ li a {
 }
 
 #Poora {
-    background-image: url("images/Poora.jpg");
-    background-size: 100%;
+    background-image: url("images/Pooraa.png");
+    background-size: 100% 100%;
 }
 
 #PnS-Market-Reasearch {
@@ -654,7 +655,7 @@ li a {
 
 #Piggy {
     background-image: url("images/Piggy.png");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #PlaySimple {
