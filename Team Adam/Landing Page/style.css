@@ -58,12 +58,6 @@ header
   justify-content: space-between;
   align-items: center;
 }
-header .logo
-{
-  color: #fff;
-  text-transform: uppercase;
-  cursor: pointer;
-}
 .toggle
 {
   position: relative;
