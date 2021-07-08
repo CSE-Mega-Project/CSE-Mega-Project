@@ -1,0 +1,26 @@
+.cutoff_section .buttons {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.cutoff_section .buttons .btn {
+  width: 20%;
+}
+.cutoff_section {
+  background-color: rgba(180, 175, 175, 0.179);
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.cutoff_section h3 {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.cutoff_section .container .buttons .btn:hover {
+  color: white !important;
+  background-color: gray !important;
+}
