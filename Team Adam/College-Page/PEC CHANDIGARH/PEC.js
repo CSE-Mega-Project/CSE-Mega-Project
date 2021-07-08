@@ -12,22 +12,22 @@ var n = document.getElementById("n");
 var text_p = document.querySelectorAll("#placement h4");
 
 function twenty() {
-  text_p[0].innerHTML = "Percentage  -  60%+";
-  text_p[1].innerHTML = "Number of Recruiters  -  120";
-  text_p[2].innerHTML = "Number of Offers  -  831";
-  text_p[3].innerHTML = "Highest CTC  -  49.76LPA";
-  text_p[4].innerHTML = "Average CTC  -  11.76LPA";
+  text_p[0].innerHTML = "Percentage  -  80%+";
+  text_p[1].innerHTML = "Number of Recruiters  -  95+";
+  // text_p[2].innerHTML = "";
+  text_p[2].innerHTML = "Highest CTC  -  42LPA";
+  text_p[3].innerHTML = "Average CTC  -  10.20LPA";
   t.style.color = "white";
   t.style.background = "gray";
   n.style.background = "white";
   n.style.color = "gray";
 }
 function nine() {
-  text_p[0].innerHTML = "Percentage  -  63%+";
-  text_p[1].innerHTML = "";
-  text_p[2].innerHTML = "";
-  text_p[3].innerHTML = "Highest CTC  -  40.63LPA";
-  text_p[4].innerHTML = "Average CTC  -  10.56LPA";
+  text_p[0].innerHTML = "Percentage  -  80%+";
+  text_p[1].innerHTML = "Number of Recruiters  -  100+";
+  // text_p[2].innerHTML = "";
+  text_p[2].innerHTML = "Highest CTC  -  42LPA";
+  text_p[3].innerHTML = "Average CTC  -  9.40LPA";
   n.style.background = "gray";
   n.style.color = "white";
   t.style.color = "gray";
