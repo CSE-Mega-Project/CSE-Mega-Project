@@ -14,8 +14,9 @@ html {
 .searchArea {
     position: absolute;
     top: 20%;
-    left: 20vw;
-    width:60vw;
+    left: 14vw;
+    width:70vw;
+    z-index: 5;
 }
 .autocom-box a {
     text-decoration: none;
@@ -843,5 +844,13 @@ footer {
       color: transparent;
       -webkit-text-stroke: 2px #f40303;
     }
+  }
+
+
+  @media (max-width:992px) {
+      .reliance , .twitter{
+          visibility:collapse;
+          height: 0px;
+      }
   }
   
