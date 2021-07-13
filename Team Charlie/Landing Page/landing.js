@@ -73,3 +73,10 @@ function hidelist(){
       }
     }
 }
+
+
+
+var navbar = document.getElementById("navbar");
+setTimeout(() => {
+   navbar.classList.add("fixed-top"); 
+}, 3000);
