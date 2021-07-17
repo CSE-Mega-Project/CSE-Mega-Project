@@ -9,6 +9,10 @@ html {
     padding: 0%;
 }
 
+.nav-link:hover{
+    text-decoration:underline;
+}
+
 /* search box css start */
 
 .searchArea {
