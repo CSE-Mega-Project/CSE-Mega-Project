@@ -18,7 +18,7 @@ inputBox.onkeyup = (e) => {
             return (data =
                 '<a href="../../companyPages/' +
                 data +
-                '.html"><li>' +
+                '.html" target="_blank"><li>' +
                 data +
                 "</li></a>");
         });

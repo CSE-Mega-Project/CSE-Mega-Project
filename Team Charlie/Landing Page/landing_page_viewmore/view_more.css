@@ -26,8 +26,19 @@ li a {
 
 .wrapper {
     max-width: 450px;
-    margin: 150px auto 120px auto;
+    margin: 150px auto 80px auto;
 }
+
+@media(max-width:780px){
+    .wrapper {
+        max-width: 450px;
+        margin: 150px auto 40px auto;
+    }
+
+    .text{
+        font-size: 5vw;
+    }
+} 
 
 .wrapper .search-input {
     background-color: #fff;
@@ -173,8 +184,9 @@ li a {
 }
 
 #Apelo {
-    background-image: url("images/");
-    background-size: 100%;
+    background-color: black;
+    background-image: url("images/Apelo.png");
+    background-size: 100% 100%;
 }
 
 #Argil-DX {
@@ -281,6 +293,10 @@ li a {
 #Colt-Tech {
     background-image: url("images/Colt-Tech.jpg");
     background-size: 100%;
+}
+#Coforge {
+    background-image: url("images/Coforge.png");
+    background-size: 100% 100%;
 }
 
 #CPA-Global {
@@ -410,16 +426,6 @@ li a {
     background-size: 100%;
 }
 
-#Growman-Research-Group {
-    background-image: url("images/Growman-Research-Group.png");
-    background-size: 100%;
-}
-
-#GenX {
-    background-image: url("images/GenX.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 
 #GeeksforGeeks {
     background-image: url("images/GeeksforGeeks.png");
@@ -571,11 +577,6 @@ li a {
     background-size: 100%;
 }
 
-#Mtree {
-    background-image: url("images/Mtree.png");
-    background-size: 100% 100%;
-}
-
 #Microsoft {
     background-image: url("images/Microsoft.png");
     background-size: 100% 100%;
@@ -606,10 +607,6 @@ li a {
     background-size: 100% 100%;
 }
 
-#NIIT-Tech-nowCOFORGE {
-    background-image: url("images/NIIT-Tech-nowCOFORGE.png");
-    background-size: 100% 100%;
-}
 
 #Oracle {
     background-image: url("images/Oracle.png");
@@ -653,8 +650,8 @@ li a {
 }
 
 #Poora {
-    background-image: url("images/Poora.jpg");
-    background-size: 100%;
+    background-image: url("images/Pooraa.png");
+    background-size: 100% 100%;
 }
 
 #PnS-Market-Reasearch {
@@ -669,7 +666,7 @@ li a {
 
 #Piggy {
     background-image: url("images/Piggy.png");
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #PlaySimple {
@@ -839,6 +836,10 @@ li a {
 
 #WhitehatJR {
     background-image: url("images/WhitehatJR.png");
+    background-size: 100%;
+}
+#Wingify {
+    background-image: url("images/Wingify.png");
     background-size: 100%;
 }
 

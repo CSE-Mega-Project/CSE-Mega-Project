@@ -137,6 +137,7 @@ let suggestions = [
     "Wipro",
     "Whirlpool",
     "WhitehatJR",
+    "Wingify",
     "Yamaha Motors",
     "Yahoo",
     "ZIP loan",
