@@ -1,0 +1,8 @@
+.c-sharp {
+  /* background-image: url(../images/bg2.jpg); */
+  background-image: url(../images/core-bg-2.jpg);
+
+  background-color: rgb(5, 5, 5);
+  background-size: cover;
+  color: rgb(217, 182, 228);
+}

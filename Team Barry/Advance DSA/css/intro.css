@@ -1,0 +1,43 @@
+.intro{
+    background-color: black;
+    /* background-image: url('https://ncube-digest.com/wp-content/uploads/2019/11/5-Most-Popular-AI-Programming-Languages.jpg'); */
+    background-size: cover;
+    height: 100vh;
+}
+.headervdo {
+    position: relative;
+    z-index: -999;
+  }
+  video {
+    z-index: -999;
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    object-fit: cover;
+  }
+.intro h2{
+    padding-top: 8%;
+    text-shadow: 5px 5px black;
+}
+.logo img{
+    height: 75px;
+    border-radius: 20px;
+}
+.logo{
+    position: absolute;
+    /* float: left; */
+    left: 2vh;
+    top: 0px;
+    /* border-radius: 19px; */
+    /* overflow: hidden; */
+    margin-top: 2vh;
+    /* box-shadow: 2px 2px black; */
+}
+
+@media only screen and (max-width: 1025px) {
+    .logo img{
+        height: 50px;
+        border-radius: 10px;
+    }
+    
+}

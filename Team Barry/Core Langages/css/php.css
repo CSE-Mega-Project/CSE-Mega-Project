@@ -1,0 +1,8 @@
+.php {
+  background-color: black;
+  /* background-image: url(../images/bg5.jpg); */
+  background-image: url(../images/core-bg-2.jpg);
+
+  background-size: cover;
+  color: rgb(247, 250, 74);
+}

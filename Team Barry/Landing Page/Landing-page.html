@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- personnal css file -->
+    <link rel="stylesheet" href="landing-page.css" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="glass.css">
+    
+
+    <!-- aos link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Landing Page</title>
+</head>
+<body>
+  <div class="preloader">
+    <div class="loader">
+      <div>
+        <ul>
+          <li>
+            <svg viewBox="0 0 90 120" fill="currentColor">
+              <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 90 120" fill="currentColor">
+              <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 90 120" fill="currentColor">
+              <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 90 120" fill="currentColor">
+              <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 90 120" fill="currentColor">
+              <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+            </svg>
+          </li>
+          <li>
+            <svg viewBox="0 0 90 120" fill="currentColor">
+              <path d="M90,0 L90,120 L11,120 C4.92486775,120 0,115.075132 0,109 L0,11 C0,4.92486775 4.92486775,0 11,0 L90,0 Z M71.5,81 L18.5,81 C17.1192881,81 16,82.1192881 16,83.5 C16,84.8254834 17.0315359,85.9100387 18.3356243,85.9946823 L18.5,86 L71.5,86 C72.8807119,86 74,84.8807119 74,83.5 C74,82.1745166 72.9684641,81.0899613 71.6643757,81.0053177 L71.5,81 Z M71.5,57 L18.5,57 C17.1192881,57 16,58.1192881 16,59.5 C16,60.8254834 17.0315359,61.9100387 18.3356243,61.9946823 L18.5,62 L71.5,62 C72.8807119,62 74,60.8807119 74,59.5 C74,58.1192881 72.8807119,57 71.5,57 Z M71.5,33 L18.5,33 C17.1192881,33 16,34.1192881 16,35.5 C16,36.8254834 17.0315359,37.9100387 18.3356243,37.9946823 L18.5,38 L71.5,38 C72.8807119,38 74,36.8807119 74,35.5 C74,34.1192881 72.8807119,33 71.5,33 Z"></path>
+            </svg>
+          </li>
+        </ul>
+      </div><span>Loading</span>
+    </div><a class="dribbble" href="https://dribbble.com/shots/7425055-Book-Loader" target="_blank"><img src="https://dribbble.com/assets/logo-small-2x-9fe74d2ad7b25fba0f50168523c15fda4c35534f9ea0b1011179275383035439.png"/></a>
+       
+</div>
+    <div class="homepage">
+        <div class="header">
+          <div class=" p-1 navi position-fixed end-0 mt-2  bg-transparent">
+            <nav class="navbar nav_beforepreload navbar-expand-lg navbar-light">
+              <div class=" justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item mt-1 mt-lg-0 mx-1">
+                      <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                          <a class="dropdown-item" href="#">Core Languages</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">CS Subjects</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">CS Skiils</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Competitive</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Projects</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Contests</a>
+                        </li>
+                        
+                      </ul>
+                    </li>
+                    <li class="nav-item mx-1">
+                      <a class="nav-link px-3" href="ourteam/team.html">Our Team</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="headervdo .headervdo_afterpreload">
+            <video autoplay muted loop >
+              <source src="./video/Video Inside A Library.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="tagline d-flex align-items-center">
+            <div class="container-1">
+              <div class="Iam">
+                <p>GET</p>
+                <b>
+                  <div class="innerIam">
+                    LANGUAGES LINKS<br />
+                    DOCUMENTATIONS<br />
+                    TRENDING COURSES<br />
+                    CONTEST LINKS<br />
+                    AND MUCH MORE!!!
+                  </div>
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <!-- header part end here -->  
+
+    <!-- main body content start from here -->
+    <div class=" midbody min-vh-100 py-3" style= "background: linear-gradient(to bottom, white 0%, black 0%);">
+      <div id="scrollPath"></div>
+      <div id="progressbar"></div>
+
+      <!-- Internal navbar -->
+      <div class="fullnav">
+        <div class="floating"
+     style="height: 50px; width: 50px; background: transparent;">
+     <div id="toggle">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+</div>
+          <div class="floating"
+          style="height: auto; width: auto; background: transparent">
+        <div class="container-navbar">
+        <ul class="block-menu">
+          <li><a href="#core">Languages</a></li>
+          <li><a href="#subject">Subjects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#competitivepro">Competitive Programming</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contest">Competitive Contest</a></li>
+        </ul>        
+        </div>
+      </div>
+      </div>
+
+      <!-- quote starting -->
+      <div class="floating"
+     style="height: auto; width: auto; background: transparent;">
+     <section style="margin-top: 4vh; margin-left: 30vw">
+      <div class="conta">
+        <h1 data-text="LET'S BE SKILLED">LET'S BE SKILLED</h1>
+      </div>
+    </section>
+   
+</div>
+   
+      <div class="qoute " data-aos="fade" data-aos-offset="400"  data-aos-delay="150" data-aos-duration="5000"  data-aos-mirror="true">
+        <main class="container-q" style="padding-left: 0%; padding-right: 0%;">
+       
+          <article class="floating"  >
+            <h1>Dream</h1>
+            <p>"Don’t think about the 1 million reasons why it won’t work out, think about the ONE REASON it WILL!”</p>
+            <p><span class="name">― Langston Hughes</span></p>
+          </article>
+          
+        </main>
+      </div>
+     
+      <div class="cont-1" id="core">
+        <div class="image-1">
+          <img src="./images/c++-c.jpg" class="image-1-image" alt="img-1">
+        </div>
+        <div class="card-1 cardno-1" data-aos="slide-left">
+          <div class="card">
+            <div class="box">
+              <div class="content">
+                <h2>💻</h2>
+                <h3>Core Languages</h3>
+                <p>
+                  Data Structure,Digital Electronics, DBMS, Wed designing,
+                  Appliation Programming,Microprocessor, System Designing
+                </p>
+                <a href="#">Find More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont-2" id="subject">
+        <div class="book">
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="page turn"></span>
+          <span class="cover"></span>
+          <span class="page"></span>
+          <!-- <span class="cover turn"></span> -->
+        </div>
+        <div class="card-1 cardno-2" data-aos="slide-right">
+          <div class="card" style=" box-shadow: inset 5px 5px 5px rgb(0 0 0 / 20%),
+                inset -5px -5px 15px rgb(255 255 255 / 10%),
+                5px 5px 15px rgb(112 101 134), -5px -5px 15px rgb(111 66 193);";>
+            <div class="box">
+              <div class="content">
+                <h2>💻</h2>
+                <h3>CS SUBJECTS</h3>
+                <p>
+                  Get All Your Subjects Books,Pdf,Documentation And Courses So
+                  That You Can Score High
+                </p>
+                <a href="#">Find More</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="cont-3" id="skills">
+        <div class="image-3">
+          <img src="./images/pngegg (16).png" class="image-3-image" alt="" />
+        </div>
+        <div class="card-1 cardno-3" data-aos="slide-left" style="margin-right: 1vw" >
+          <div
+            class="card"
+            style="box-shadow: inset 5px 5px 5px rgb(0 0 0 / 20%),
+                inset -5px -5px 15px rgb(255 255 255 / 10%),
+                5px 5px 15px rgb(96 125 139), -5px -5px 15px rgb(96 125 139);" >
+            <div class="box">
+              <div class="content">
+                <h2>💻</h2>
+                <h3>ADDITIONAL SKILLS</h3>
+                <p>
+                  Step Up Your Career By Learning Additonal Skills And Them To
+                  Your Resume
+                </p>
+                <a href="#">Find More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont-4"id="competitivepro">
+        <div class="image-4">
+          <img src="./images/com-cro.jpg" class="image-4-image" alt="" />
+        </div>
+        <div class="card-1 cardno-4" data-aos="slide-right">
+          <div class="card" style=" box-shadow: inset 5px 5px 5px rgb(0 0 0 / 20%),
+                inset -5px -5px 15px rgb(255 255 255 / 10%),
+                5px 5px 15px rgb(81 4 6), -5px -5px 15px rgb(237 80 143);" >
+            <div class="box">
+              <div class="content">
+                <h2>💻</h2>
+                <h3>COMPETITIVE PROGRAMMING</h3>
+                <p>GET ALL STUFF REQUIRED FOR COMPETITVE CODING</p>
+                <a href="#">Find More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont-5 py-5 my-4" id="project">
+        <div class="image-5">
+          <img src="./images/pngegg (12).png" class="image-5-image" alt="" />
+        </div>
+        <div class="card-1 cardno-5" data-aos="slide-left" style="margin-right: 8vw">
+          <div class="card" style="box-shadow: inset 5px 5px 5px rgb(0 0 0 / 20%),
+                inset -5px -5px 15px rgb(255 255 255 / 10%),
+                5px 5px 15px rgb(62 164 206), -5px -5px 15px rgb(152 152 164);">
+            <div class="box">
+              <div class="content">
+                <h2>💻</h2>
+                <h3>CS PROJECTS</h3>
+                <p>Learn From Real World Projects</p>
+                <a href="#">Find More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cont-6" id="contest">
+        <div class="image-6">
+          <img src="./images/77.png" class="image-6-image" alt="" />
+        </div>
+        <div class="card-1 cardno-6" data-aos="slide-right" style="margin-top: 3vh;">
+          <div class="card" style=" box-shadow: inset 5px 5px 5px rgb(0 0 0 / 20%),
+                inset -5px -5px 15px rgb(255 255 255 / 10%),
+                5px 5px 15px rgb(81 4 6), -5px -5px 15px rgb(237 80 143);" >
+            <div class="box">
+              <div class="content">
+                <h2>💻</h2>
+                <h3>COMPETITIVE PROGRAMMING</h3>
+                <p>GET ALL STUFF REQUIRED FOR COMPETITVE CODING</p>
+                <a href="#">Find More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="qoute " data-aos="fade
+      " data-aos-offset="400"  data-aos-delay="150" data-aos-duration="5000"  data-aos-mirror="true">
+        
+         
+            <main class="container-q" style="margin-top: 100px;background: url(./images/wol.jpg);background-position: center;background-size: cover;" padding-left:="" 0%;="" padding-right:="" 0%;""="">
+      
+              <article class="floating">
+                <h1>Quote of the Day</h1>
+                <p>It is much better to walk alone, in the right direction, than to follow the herd, walking in the wrong direction.</p>
+                <p><span class="name">Norman Wisdom</span></p>
+              </article>
+              
+            </main>
+            
+        
+      </div>
+    
+
+
+     
+    </div>
+  
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <i class="fab fa-slack"></i>
+            <span class="logo_name">CLGMANIA</span>
+          </div>
+         
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">COLLEGE INFO</li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">College Rankings</a></li>
+            <li><a href="../IIT/IIT.html">IITs</a></li>
+            <li><a href="../NIT/nitexp.html">NITs</a></li>
+            <li><a href="../IIIT Page/index.html">IIITS</a></li>
+            <li><a href="#">GFTIs</a></li>
+            <li><a href="../Private/private.html">Private Institutions</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">STUDY MATERIAL</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Programming Languages</a></li>
+            <li><a href="#">CS Subjects</a></li>
+            <li><a href="#">Additional CS Skills</a></li>
+            <li><a href="#">Competitive Programming</a></li>
+            <li><a href="#">Sample Projects</a></li>
+            <li><a href="#">Competitive Contest</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">PLACEMENTS</li>
+            <li><a href="../../Team Charlie/Landing Page/landing.html">Home</a></li>
+            <li><a href="#">Colleges</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Get started</a></li>
+          </ul>
+          
+         
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- <script src="./navbar.js"></script> -->
+    <!-- <script src="jquery-1.6.1.js"></script> -->
+    <script src="./navbar.js"></script>
+    <script src="./landing-page.js"></script>
+    <!-- <script src="./p.js"></script> -->
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+</body>
+</html>
