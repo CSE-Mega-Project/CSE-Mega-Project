@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <link rel="stylesheet" href="./css/vertical_scroll.css" />
+    <link rel="stylesheet" href="./css/intro.css" />
+    <link rel="stylesheet" href="./css/c-plus.css" />
+    <link rel="stylesheet" href="./css/c-sharp.css" />
+    <link rel="stylesheet" href="./css/javascript.css" />
+    <link rel="stylesheet" href="./css/kotlin.css" />
+    <link rel="stylesheet" href="./css/php.css" />
+    <link rel="stylesheet" href="./css/python.css" />
+    <link rel="stylesheet" href="./css/flip_card.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font end -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>CS Subjests</title>
+  </head>
+
+  <body>
+    <div class="myslider">
+      <div class="item intro">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+        <script>
+          $(".item").ripples({
+            waterbody: 0.04,
+            resolution: 300,
+          });
+        </script> -->
+
+        <div id="background-wrap">
+          <div class="bubble x1"></div>
+          <div class="bubble x2"></div>
+          <div class="bubble x3"></div>
+          <div class="bubble x4"></div>
+          <div class="bubble x5"></div>
+          <div class="bubble x6"></div>
+          <div class="bubble x7"></div>
+          <div class="bubble x8"></div>
+          <div class="bubble x9"></div>
+          <div class="bubble x10"></div>
+        </div>
+        <div class="p-1 navi end-0 mt-2 bg-transparent">
+          <nav
+            class="navbar nav_beforepreload navbar-expand-lg navbar-light"
+            style="justify-content: flex-end"
+          >
+            <div class="justify-content-end">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse flex-row justify-content-end"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item mt-1 mt-lg-0 mx-1">
+                    <a class="nav-link active px-3" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+
+                  <!-- <li class="nav-item mx-1">
+                  <a class="nav-link px-3" href="aboutus/aboutus.html"
+                    >About Us</a>
+                </li> -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">Core Languages</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">CS Subjects</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">CS Skiils</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Competitive</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Projects</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Contests</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Subjects
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">DS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Electronics(AE&DE)</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">DBMS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">OOPS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">System Design</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Operating System</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item mx-1">
+                    <a class="nav-link px-3" href="ourteam/team.html"
+                      >Our Team</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="logo">
+          <a href="#">
+            <img src="./images/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <h2>Cs subjects <br /></h2>
+        <!-- <div class="arrow">
+          <img src="./images/arrow.png" />
+        </div> -->
+      </div>
+      <div class="item c-plus">
+        <div class="display">
+          <div class="info">
+            <h3>DS</h3>
+            <iframe
+              height="400"
+              width="870"
+              src="https://www.youtube.com/embed/2mOgMkSFLiA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+              allowfullscreen
+              >>
+            </iframe>
+            <p>
+              A data structure is a Specific way to store and organize data in a
+              computer's memory so that these data can be used efficiently
+              later.
+
+              <br />
+              For more info &nbsp;
+              <a
+                href="https://www.w3schools.in/data-structures-tutorial/intro/"
+                target="_blank"
+                >Click Here</a
+              >
+            </p>
+          </div>
+          <div class="sources">
+            <div class="courses">
+              <h1>Courses</h1>
+              <div class="boxes">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                      />
+                      <!-- <h4>1</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/datastructurescncpp/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Books">
+              <h1>Books</h1>
+
+              <!-- Books Sections -->
+
+              <main id="app">
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-repeat-x: no-repeat;
+                        background-image: url('./images/ds\ book1.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-repeat-x: no-repeat;
+                        background-image: url('./images/book\ ds.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://ptgmedia.pearsoncmg.com/images/9780321992789/samplepages/9780321992789.pdf"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/DS\ book2.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/DS\ book2.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.cet.edu.in/noticefiles/280_DS%20Complete.pdf"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/DS\ book3\ front.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/DS\ book3\ back.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/3hyoXQL">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="documentation">
+              <h1>Documentation</h1>
+              <a
+                target="_blank"
+                href="https://www.programiz.com/dsa"
+                class="button"
+              >
+                <img
+                  src="https://img.icons8.com/clouds/2x/google-docs.png"
+                  alt=""
+                />
+                <h3>Official Docs</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item python">
+        <div class="display">
+          <div class="info">
+            <h3>ELECTRONICS</h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-QD8ODo7AFs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Digital electronics is a field of electronics involving the study
+              of digital signals and the engineering of devices that use or
+              produce them. ... Digital electronic circuits are usually made
+              from large assemblies of logic gates, often packaged in integrated
+              circuits.
+
+              <br />
+              For more info &nbsp;
+              <a
+                href="https://www.javatpoint.com/digital-electronics"
+                target="_blank"
+                >Click Here</a
+              >
+            </p>
+          </div>
+          <div class="sources">
+            <div class="courses" >
+              <h1>Courses</h1>
+              <div class="boxes">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                      />
+                      <!-- <h4>1</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/analog-electronics-basic-concepts/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                        alt=""
+                      />
+                      <!-- <h4>3</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/professional-digital-electronics/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Books">
+              <h1>Books</h1>
+      
+              <main id="app">
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-repeat-x: no-repeat;
+                        background-image: url('./images/DE\ book1\ front.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-repeat-x: no-repeat;
+                        background-image: url('./images/DE\ book1\ back.png');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a
+                        target="_blank"
+                        href="http://www.rtna.ac.th/departments/elect/Data/EE306/Electronic%20Devices%20and%20Circuit%20Theory.pdf"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/de-f.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/de-b.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/3huh270">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/DE\ book3.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/DE\ book3.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/3xgN3Gw">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="documentation">
+              <h1>Documentation</h1>
+              <a target="_blank" href="https://bit.ly/3idUY2O" class="button">
+                <img
+                  src="https://img.icons8.com/clouds/2x/google-docs.png"
+                  alt=""
+                />
+                <h3>Official Docs</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item javascript">
+        <div class="display">
+          <div class="info">
+            <h3>DBMS</h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/FR4QIeZaPeM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Database Management Systems (DBMS) refer to the technology
+              solution used to optimize and manage the storage and retrieval of
+              data from databases.
+              <br />
+              For more info &nbsp;
+              <a
+                href="https://www.w3schools.com/sql/sql_intro.asp"
+                target="_blank"
+                >Click Here</a
+              >
+            </p>
+          </div>
+          <div class="sources">
+            <div class="courses">
+              <h1>Courses</h1>
+              <div class="boxes">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                      />
+                      <!-- <h4>1</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/database-management-systems/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                        alt=""
+                      />
+                      <!-- <h4>3</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/database-management-system-course/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Books">
+              <h1>Books</h1>
+              <!-- <div class="boxes">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://www.krasnoevents.com/uploads/1/1/6/6/116679777/books3.jpeg" alt="" />
+                    <!-- <h4>1</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://static.scientificamerican.com/sciam/cache/file/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.jpg?w=590&h=800&D80F3D79-4382-49FA-BE4B4D0C62A5C3ED" alt="" />
+
+                    <!-- <h4>2</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFZH6wwNBBHQp_n1DVAhdZ4J1YZpke90nrw&usqp=CAU" alt="" />
+                    <!-- <h4>3</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+              <main id="app">
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/dbms\ book1.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-repeat-x: no-repeat;
+                        background-image: url('./images/dbms-back.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/3ccy5Zu">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/DBMS\ book2.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/DBMS\ book2.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/3phygZ0">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="documentation">
+              <h1>Documentation</h1>
+              <a target="_blank" href="https://bit.ly/3g4DgMn" class="button">
+                <img
+                  src="https://img.icons8.com/clouds/2x/google-docs.png"
+                  alt=""
+                />
+                <h3>Official Docs</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item kotlin">
+        <div class="display">
+          <div class="info">
+            <h3>OOPS</h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/xoL6WvCARJY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Object-oriented programming System(OOPs) is a programming paradigm
+              based on the concept of “objects” that contain data and methods
+              <br />
+              For more info &nbsp;
+              <a
+                href="https://www.w3schools.com/cpp/cpp_oop.asp"
+                target="_blank"
+                >Click Here</a
+              >
+            </p>
+          </div>
+          <div class="sources">
+            <div class="courses">
+              <h1>Courses</h1>
+              <div class="boxes">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                      />
+                      <!-- <h4>1</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/python-beyond-the-basics-object-oriented-programming/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/watch?v=wN0x9eZLix4"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                        alt=""
+                      />
+                      <!-- <h4>3</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/c-programming-oops-concepts/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Books">
+              <h1>Books</h1>
+              <!-- <div class="boxes">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://www.krasnoevents.com/uploads/1/1/6/6/116679777/books3.jpeg" alt="" />
+                    <!-- <h4>1</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://static.scientificamerican.com/sciam/cache/file/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.jpg?w=590&h=800&D80F3D79-4382-49FA-BE4B4D0C62A5C3ED" alt="" />
+
+                    <!-- <h4>2</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFZH6wwNBBHQp_n1DVAhdZ4J1YZpke90nrw&usqp=CAU" alt="" />
+                    <!-- <h4>3</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+              <main id="app">
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/OOPS\ book1.webp');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/OOPS\ book1.webp');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a
+                        target="_blank"
+                        href="http://wavelino.coffeecup.com/pdf/OOP%20C++.pdf"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/OOPS\ book2.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/OOPS\ book2.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.tutorialspoint.com/object_oriented_python/object_oriented_python_tutorial.pdf"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="documentation">
+              <h1>Documentation</h1>
+              <a target="_blank" href="https://bit.ly/3jEr3RZ" class="button">
+                <img
+                  src="https://img.icons8.com/clouds/2x/google-docs.png"
+                  alt=""
+                />
+                <h3>Official Docs</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item php">
+        <div class="display">
+          <div class="info">
+            <h3>SYSTEM DESIGN</h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/SsPSJvH2mew"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              System design is the process of defining the components, modules,
+              interfaces, and data for a system to satisfy specified
+              requirements. System development is the process of creating or
+              altering systems, along with the processes, practices, models, and
+              methodologies used to develop them.
+              <br />
+              For more info &nbsp;
+              <a
+                href="https://www.tutorialspoint.com/system_analysis_and_design/index.htm"
+                target="_blank"
+                >Click Here</a
+              >
+            </p>
+          </div>
+          <div class="sources">
+            <div class="courses">
+              <h1>Courses</h1>
+              <div class="boxes">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                      />
+                      <!-- <h4>1</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/pragmatic-system-design/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                        alt=""
+                      />
+                      <!-- <h4>3</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/the-complete-design-interview-course/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Books">
+              <h1>Books</h1>
+              <!-- <div class="boxes">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://www.krasnoevents.com/uploads/1/1/6/6/116679777/books3.jpeg" alt="" />
+                    <!-- <h4>1</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://static.scientificamerican.com/sciam/cache/file/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.jpg?w=590&h=800&D80F3D79-4382-49FA-BE4B4D0C62A5C3ED" alt="" />
+
+                    <!-- <h4>2</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFZH6wwNBBHQp_n1DVAhdZ4J1YZpke90nrw&usqp=CAU" alt="" />
+                    <!-- <h4>3</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+              <main id="app">
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/system\ design\ book2.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/system\ design\ book2.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/3jyoctH">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/system\ design\ book3.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/system\ design\ book3.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/3qDtllM">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="documentation">
+              <h1>Documentation</h1>
+              <a target="_blank" href="https://bit.ly/3cdkdOS" class="button">
+                <img
+                  src="https://img.icons8.com/clouds/2x/google-docs.png"
+                  alt=""
+                />
+                <h3>Official Docs</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item c-sharp">
+        <div class="display">
+          <div class="info">
+            <h3>OPERATING SYSTEM</h3>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/26QPDBe-NB8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              An operating system (OS) is system software that manages computer
+              hardware, software resources, and provides common services for
+              computer programs.
+              <br />
+              For more info &nbsp;
+              <a href="https://bit.ly/34I8dR7" target="_blank">Click Here</a>
+            </p>
+          </div>
+          <div class="sources">
+            <div class="courses">
+              <h1>Courses</h1>
+              <div class="boxes">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://techloverenterprises.com/wp-content/uploads/2020/10/udemy.png"
+                        alt=""
+                      />
+                      <!-- <h4>3</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.udemy.com/course/operating-systems-from-scratch-part1/"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.thepottershouse.org/wp-content/uploads/youtube-icon.png"
+                        alt=""
+                      />
+                      <!-- <h4>2</h4> -->
+                    </div>
+                    <div class="flip-card-back">
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Books">
+              <h1>Books</h1>
+              <!-- <div class="boxes">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://www.krasnoevents.com/uploads/1/1/6/6/116679777/books3.jpeg" alt="" />
+                    <!-- <h4>1</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://static.scientificamerican.com/sciam/cache/file/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.jpg?w=590&h=800&D80F3D79-4382-49FA-BE4B4D0C62A5C3ED" alt="" />
+
+                    <!-- <h4>2</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMFZH6wwNBBHQp_n1DVAhdZ4J1YZpke90nrw&usqp=CAU" alt="" />
+                    <!-- <h4>3</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="#"> Visit </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+              <main id="app">
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/opera-1-f.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/oper-1-b.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a target="_blank" href="https://bit.ly/2SQVx7W">
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/OS\ book2.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/OS\ book2.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://repository.dinus.ac.id/docs/ajar/Operating_System.pdf"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="book" v-for="book in books">
+                  <div class="book-inner">
+                    <div
+                      style="
+                        background-image: url('./images/OS\ book3.jpg');
+                        background-size: contain;
+                      "
+                      class="front face"
+                    ></div>
+                    <div
+                      v-bind:style="{ backgroundImage: 'url(' + book.img + ')' }"
+                      class="side"
+                    ></div>
+                    <div
+                      style="
+                        background-image: url('./images/OS\ book3.jpg');
+                        background-size: contain;
+                        border-radius: 0%;
+                      "
+                      class="flip-card-back"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.tutorialspoint.com/operating_system/operating_system_tutorial.pdf"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="documentation">
+              <h1>Documentation</h1>
+              <a target="_blank" href="https://bit.ly/34I8dR7" class="button">
+                <img
+                  src="https://img.icons8.com/clouds/2x/google-docs.png"
+                  alt=""
+                />
+                <h3>Official Docs</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item footer-slide">
+        <footer>
+          <div class="content">
+            <div class="top">
+              <div class="logo-details">
+                <i class="fab fa-slack"></i>
+                <span class="logo_name">CLGMANIA</span>
+              </div>
+              <!-- <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div> -->
+            </div>
+            <div class="link-boxes">
+              <ul class="box">
+                <li class="link_name">PLACEMENTS</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Colleges</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Get started</a></li>
+              </ul>
+              <ul class="box">
+                <li class="link_name">STUDY MATERIAL</li>
+                <li><a href="#">App design</a></li>
+                <li><a href="#">Web design</a></li>
+                <li><a href="#">Application</a></li>
+                <li><a href="#">Banner design</a></li>
+              </ul>
+              <ul class="box" id="box_3">
+                <li class="link_name">COLLEGE INFO</li>
+                <div id="box3_links">
+                  <li><a href="#">Profile</a></li>
+                  <li><a href="#">My account</a></li>
+                  <li><a href="#">IITS</a></li>
+                  <li><a href="#">Purchase</a></li>
+                </div>
+              </ul>
+              <!-- <ul class="box">
+                <li class="link_name">Courses</li>
+                <li><a href="#">HTML & CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">Photoshop</a></li>
+              </ul> -->
+              <!-- <ul class="box input-box">
+                <li class="link_name">Subscribe</li>
+                <li><input type="text" placeholder="Enter your email"></li>
+                <li><input type="button" value="Subscribe"></li>
+              </ul> -->
+            </div>
+          </div>
+          <div class="bottom-details">
+            <div class="bottom_text">
+              <span class="copyright_text"
+                >Copyright © 2021 <a href="#">Logo.</a>All rights reserved</span
+              >
+              <span class="policy_terms">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms & condition</a>
+              </span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+        <script>
+          $(".intro, .c-plus,.python,.javascript,.kotlin,.php").ripples({
+            waterbody: 0.04,
+            resolution: 300,
+          });
+        </script>
+        <script>
+          $(".python").ripples({
+            waterbody: 0.04,
+            resolution: 300,
+          });
+        </script>
+        <script>
+          $(".javascript").ripples({
+            waterbody: 0.04,
+            resolution: 300,
+          });
+        </script>
+        <script>
+          $(".kotlin").ripples({
+            waterbody: 0.04,
+            resolution: 300,
+          });
+        </script>
+        <script>
+          $(".php").ripples({
+            waterbody: 0.04,
+            resolution: 300,
+          });
+        </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div class="js_import">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+      <script src="./js/vertical_scroll.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          offset: 300, // offset (in px) from the original trigger point
+          duration: 2000, // values from 0 to 3000, with step 50ms
+        });
+      </script>
+    </div>
+  </body>
+</html>

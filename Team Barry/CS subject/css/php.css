@@ -1,0 +1,8 @@
+.php{
+    background-color: black;
+    /* background-image: url(../images/bg5.jpg); */
+    background-image: url(../images/2.jpg);
+
+    background-size: cover;
+    color: wheat;
+}

@@ -1,0 +1,8 @@
+.kotlin{
+    background-color: rgb(68, 67, 67);
+    /* background-image: url(../images/bg4.jpg); */
+    background-image: url(../images/2.jpg);
+
+    background-size: cover;
+    color: wheat;
+}

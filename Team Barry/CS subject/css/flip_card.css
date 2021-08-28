@@ -1,0 +1,98 @@
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+*{
+  box-sizing: border-box;
+}
+.flip-card {
+  background-color: transparent;
+  width: 24%;
+  height: 80%;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+  /* overflow: hidden; */
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(179, 179, 179);
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card-front img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.flip-card-back a{
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(0 0 0 / 50%);
+  color: beige;
+  padding: 10px;
+  width: 60%;
+  
+  border-radius: 15px;
+  text-align: center;
+}
+
+.flip-card-front h4{
+  position: relative;
+  top: -90%;
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 5rem;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  margin-left: 0%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.courses .flip-card-front h4{
+  color: rgba(27, 27, 27, 0.397);
+}
+@media only screen and (max-width:1025px){
+  .flip-card-front h4 {
+  font-size: 3rem;
+  }
+  .flip-card-back a {
+  font-size: 1rem;  
+  width: 90%;
+  }
+
+}

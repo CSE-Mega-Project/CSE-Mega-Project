@@ -1,0 +1,69 @@
+.intro {
+  background-color: black;
+  /* background-image: url('./core-intro-bg.jpg'); */
+  /*background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRlY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  /* background-image: url("https://zdblogs.zohocorp.com/creator/decode/sites/creator/decode/files/2020-12/VPL-04%20%281%29.jpg"); */
+  background-size: cover;
+  height: 100vh;
+}
+.headervdo {
+  position: relative;
+  z-index: -999;
+}
+video {
+  z-index: -999;
+  height: 100vh;
+  width: 100%;
+  background-position: absolute;
+  object-fit: cover;
+}
+
+  .intro h2 {
+    padding-top: 8%;
+    text-shadow: 5px 5px rgb(0 0 0);
+    color: rgb(255 255 255) !important;
+    font-weight: 900 !important;
+
+}
+.logo img {
+  height: 75px;
+  border-radius: 20px;
+}
+.logo {
+  position: absolute;
+  /* float: left; */
+  left: 2vh;
+  top: 0px;
+  /* border-radius: 19px; */
+  /* overflow: hidden; */
+  margin-top: 2vh;
+  /* box-shadow: 2px 2px black; */
+}
+
+@media only screen and (max-width: 1025px) {
+  .logo img {
+    height: 50px;
+    border-radius: 10px;
+  }
+}
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+

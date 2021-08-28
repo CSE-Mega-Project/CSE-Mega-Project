@@ -1,0 +1,30 @@
+.intro {
+  background-color: black;
+  background-image: url("../images/study-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.intro h2 {
+  padding-top: 8%;
+  text-shadow: 5px 5px black;
+}
+.logo img {
+  height: 75px;
+  border-radius: 20px;
+}
+.logo {
+  position: absolute;
+  /* float: left; */
+  left: 2vh;
+  top: 0px;
+  /* border-radius: 19px; */
+  /* overflow: hidden; */
+  margin-top: 2vh;
+  /* box-shadow: 2px 2px black; */
+}
+@media only screen and (max-width: 1025px) {
+  .logo img {
+    height: 50px;
+    border-radius: 10px;
+  }
+}
